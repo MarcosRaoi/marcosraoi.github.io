@@ -1,0 +1,13 @@
+- Organizar os jogos por data que foi feito
+
+- Ou organizar por ordem alfabética
+
+- Ou ainda organizar por ordem de nota, aí teria que ter um sistema de votação etc ^^'
+
+====
+
+Na parte do "Sobre Mim", se as caixinhas fossem móveis, e a pessoa colocasse onde ela quisesse, ia ser massa, mas não sei se dá pra fazer kk.
+
+====
+
+botão de ligar e desligar a opacidade dos jogos, esse acho que é de boa fazer com javascript hm

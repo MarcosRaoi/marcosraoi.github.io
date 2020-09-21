@@ -1,0 +1,293 @@
+@font-face
+{
+    font-family: Early GameBoy;
+    src:url(../fonts/Early-GameBoy.ttf);
+}
+
+#topper
+{
+    background-color: #bacff4;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 8vh;
+    
+    overflow: hidden;
+}
+
+#home
+{
+    background-image: url(../img/bluelightning_logohand.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#home:hover,#jogos:hover, #blog:hover, #contato:hover, #sobremim:hover, .redessociais:hover
+{
+    background-color: #b79ddd;
+}
+
+#home,#jogos,#blog,#contato,#sobremim
+{
+    height: 100%;
+    width: 12.5vw;
+    float: left;
+    text-align: center;
+    line-height: 8vh;
+}
+
+a
+{
+    color: #000;
+}
+
+#page_index
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-image: url(../img/NewLogo_BL_page.png);
+}
+
+.page
+{    
+    margin-right: -8px;
+    margin-left: -8px;
+    height: 88vh;
+    
+    background-color: azure;
+}
+#page_jogos
+{
+    margin-right: -8px;
+    margin-left: -8px;    
+    background-color: azure;
+    
+    display: table; /* acho que o Display:table resolveu meu problema, mas é uma gambiarra né X_x */
+    
+}
+
+
+#bemvindo
+{
+    height: 75vh;
+    width: 30vw;    
+    background-color: rgba(183,157,221,0.5);
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    border-radius: 3vw;
+}
+
+
+#bemvindo:hover
+{
+    background-color: #b79ddd;
+}
+
+#bemvindotxt
+{
+    opacity: 1;
+    font-size: 2.7vw;
+    padding: 1.9vw;
+    text-align: center;
+    font-family: fantasy;
+    font-family: Early Gameboy;
+    
+}
+
+#portfolio
+{
+    text-decoration: none;
+    color: #ff0000;
+}
+
+#portfolio:visited
+{  
+    color: #c10000;    
+}
+
+body
+{
+    background-color: #000;
+}
+
+#body_index, #body_contato, #body_sobremim
+{
+    overflow-y:hidden; /* isso aqui é pra esconder as barrinha ^^ só o Y dava né? */
+    overflow-x:hidden;
+}
+
+#bottom
+{
+    color: #FFF;
+    background-color: #000;  
+    height: 4vh;
+    width: 100%;
+    margin-left: -8px;
+    margin-right: -8px;
+    text-align: center;
+    line-height: 4vh;
+    overflow: auto;
+    
+}
+
+.celula
+{
+    background-color: #fff;
+    border: 1px solid #000;
+    /*height: 38vh;
+    width: 29.5vw;*/
+    margin-left: 5vh;
+    margin-top: 5vh;
+    float: left;
+    
+    width: 570px;
+    height: 360px;
+    
+    border-radius: 50px;
+    overflow: hidden;
+    
+    /* tou achando que é melhor eu colocar 570x360 as caixas, porque aí elas podem cair pra baixo de acordo com o tamanho da janela né? hmm */  
+}
+
+.celula:hover
+{
+    border-radius: 0px;
+    
+}
+
+#celula_ultima
+{
+    margin-bottom: 5vh;
+    
+    /* gambiarrinha pra última celula empurrar o footer pra baixo ^^', enfim */
+}
+
+.banner
+{
+    width: 570px;
+    height: 288px;
+}
+
+.info
+{
+    padding: 10px;
+    background-color: #fff;
+    font-size: 15pt;
+    text-align: justify;
+}
+
+#aleatorium
+{
+    background-image: url(../img/banner_aleatorium.jpg);
+    background-size: cover;
+}
+#vitaminator
+{
+    background-image: url(../img/banner_vitaminator.jpg);
+    background-size: cover;
+
+}
+
+#projetomonster
+{
+    background-image: url(../img/projetomonster.png);
+    background-size: cover;
+}
+
+#tolgarrunner
+{
+    background-image: url(../img/tolgarrunner_gameplay2.png);
+    background-size: cover;
+}
+
+#forcaBL
+{
+    background-image: url(../img/forca_banner.png);
+}
+#cobrinha
+{
+    background-image: url(../img/cobrinha_banner.png);
+    background-size: contain;
+}
+#pshot
+{
+    background-image: url(../img/pshot_banner3.png);
+    background-size: cover;
+}
+
+#kuroneko
+{
+    background-image: url(../img/hitthekuroneko_banner.png);
+    background-size: cover;
+}
+
+#gamebook
+{
+    background-image: url(../img/gamebook_banner.png);
+    background-size: cover;
+}
+
+#aleatorium,#vitaminator,#projetomonster,#tolgarrunner, #forcaBL, #cobrinha, #pshot, #kuroneko, #gamebook
+{
+    opacity: 0.3;
+}
+
+#aleatorium:hover, #vitaminator:hover,#projetomonster:hover, #tolgarrunner:hover, #forcaBL:hover, #cobrinha:hover, #pshot:hover, #kuroneko:hover, #gamebook:hover
+{
+    opacity: 1.0;
+}
+
+.redessociais
+{
+    margin: auto;
+    background-color: #bacff4;
+    width: 30vw;
+    margin-bottom: 5vh;
+    height: 10vh;
+    
+    position: relative;
+    top: 25%;
+}
+
+.img_r_s
+{
+    width: 10vh;
+    position: relative;
+    float: left;
+    height: 100%;
+}
+
+.txt_r_s
+{
+    position: relative;
+    left: 3%;
+    top: 20%;
+}
+
+#facebook
+{
+    background-image: url(../img/facebook.png);
+    background-size: cover;
+}
+
+#instagram
+{
+    background-image: url(../img/instagram.png);
+    background-size: cover;
+}
+
+#linkedin
+{
+    background-image: url(../img/linkedin.png);
+    background-size: cover;    
+}
+
+#eunabig
+{
+    position: relative;
+    top: 10%;
+    left: 77%;
+    height: 70vh;  
+    width: 19.2vw;
+}
