@@ -1,0 +1,22 @@
+#antgame
+{
+    border: 1px solid #fff;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left:-182px; 
+    margin-top:-322px;
+}
+
+body
+{
+    background-image: url(imgs/bluelightning.png);
+    background-color: #888888;
+    background-size: 50%;
+}
+
+#antgame
+{
+    background-image: url(imgs/tileset.png);
+}

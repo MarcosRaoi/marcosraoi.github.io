@@ -1,0 +1,67 @@
+#jogo, #pontos
+{
+                
+    /*width: 600px;
+    height: 600px;*/
+                
+    border: 1px solid #000;
+    margin: auto;
+    display: block; /* temos que colocar isso, afinal ele não centraliza naturalmente */
+                
+    background-color: #fff;
+    
+}
+            
+body
+{
+    background-image: url(img/bluelightning.png);
+    background-color: #ececec;
+}
+
+#pontos
+{
+
+    /*width: 600px;
+    height: 50px;*/
+    
+    margin-bottom: 5px;
+
+    
+
+}
+
+#main
+{
+    margin: auto;
+    width: 620px;
+
+    background-color: #ff0;
+    
+    margin-top: 40px;
+    padding: 20px 10px 20px 10px;
+    
+    background-image: url(img/tilebrick.png);
+}
+
+#jogo
+{
+    background-image: url(img/tilegrass6.png);
+}
+
+#pontos
+{
+    background-color: #606060;
+}
+
+#pause
+{
+    font-size: 90pt;
+    font-family: Impact;
+
+    
+    position: absolute;
+    left: 38.5%;
+    top: 33%;
+    
+    display: none;
+}
