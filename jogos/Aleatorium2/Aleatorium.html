@@ -1,1 +1,67 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>Aleatorium! 2.0</title> 
+        <!-- fiz todos os 19 exercícios no dia 25 e 26. Mas infelizmente me atrasei nesse aqui, porque queria fazer algo bonitinho como um gameboy, pra ficar um jogo mais legal e apresentável! :D -->
+        <link rel="stylesheet" href="styledGameboy.css" type="text/css">
+        <script src="scriptFromAleatorium.js"></script>
+        
+        <!-- vamos colocar agora os scripts da segunda versão? rs -->
+        <script src="updatesAleatorium.js"></script>
+    </head>
+    <!--<neck></neck>-->
+    <body>
+        <div id="gameboy">
+            <div id="logotipo"><img id="logo" src="img/logo.png"></div>
+            <div id="detalhedovisor1">
+                <div id="visor1">  </div>
+                    <span id="regras">
+                        Olá. Vamos explicar brevemente<br>
+                        como funciona o Aleatorium! :D<br>
+                        Nós geramos um valor aleatório<br>
+                        entre 0 e 99. O botão ( 00 ~ 99 )<br>
+                        reinicia esse valor. O Botão Play<br>
+                        ( ► ) testa o número desejado e <br>
+                        contabiliza o tanto de tentativas,<br>
+                        além de lhe informar no visor se<br>
+                        a resposta é maior ou menor que<br>
+                        o número que você tentou. EX:<br>
+                        Você tentou 25, e a resposta é 78<br>
+                        No visor aparecerá: MAIOR (>).
+                        <!-- hackzinho, parece que tá no visor 2, mas tá no um rsrsrsrsrsrsrsrs -->
+                        <br><br><br>Ah, o número embaixo do chute<br>
+                        são quantas vezes você tentou. :D
+                    </span></div>
+            <div id="detalhedovisor2"><div id="visor2"></div></div>
+            <div id="gameplay">
+                
+                <div id="reset"><button id="resetar" type="button"></button></div>
+                
+                <div id="meiuca">
+                    <div id="numero"><input id="chute" maxlength="2" type="text"></div>
+                    <div id="tentativas">0</div>
+                    <div id="botoesnum">
+                        
+                        <button id="1" class="btnnum" type="button">1</button>
+                        <button id="2" class="btnnum" type="button">2</button>
+                        <button id="3" class="btnnum" type="button">3</button>
+                        <button id="4" class="btnnum" type="button">4</button>
+                        <button id="5" class="btnnum" type="button">5</button>
+                        
+                        <button id="6" class="btnnum" type="button">6</button>
+                        <button id="7" class="btnnum" type="button">7</button>
+                        <button id="8" class="btnnum" type="button">8</button>
+                        <button id="9" class="btnnum" type="button">9</button>
+                        <button id="0" class="btnnum" type="button">0</button>
+                        
+                    </div>
+                </div>
+                
+                <div id="play"><button id="jogar" type="button"></button></div>
+            
+            <div id="eu">Marcos "Raoi" Cavalcante - Aleatorium 1.0</div>
+            </div>
+        </div>
+    </body>
+</html>
