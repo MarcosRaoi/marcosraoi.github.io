@@ -222,6 +222,12 @@ body
     background-size: cover;
 }
 
+#kuroneko
+{
+    background-image: url(../img/hitthekuroneko_phaser_banner.png);
+    background-size: cover;
+}
+
 #gamebook
 {
     background-image: url(../img/gamebook_banner.png);

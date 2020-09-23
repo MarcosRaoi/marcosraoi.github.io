@@ -1,0 +1,17 @@
+#jogo
+{
+    border: 1px solid #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left:-402px; /* esses dois pixels a mais são por causa da borda, enfim. */
+    margin-top:-302px; /* a mais não né, a menos rs */
+}
+
+body
+{
+    background-image: url(images/bluelightning.png);
+    background-color: #ff9700;
+}
+
+
