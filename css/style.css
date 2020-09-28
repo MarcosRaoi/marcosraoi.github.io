@@ -234,12 +234,19 @@ body
     background-size: cover;
 }
 
-#aleatorium,#vitaminator,#projetomonster,#tolgarrunner, #forcaBL, #cobrinha, #pshot, #kuroneko, #gamebook, #kuronekophaser
+#protectarthur
+{
+    background-image: url(../img/banner_protectarthur.jpg);
+    background-size: cover;
+}
+
+
+#aleatorium,#vitaminator,#projetomonster,#tolgarrunner, #forcaBL, #cobrinha, #pshot, #kuroneko, #gamebook, #kuronekophaser, #protectarthur
 {
     opacity: 0.3;
 }
 
-#aleatorium:hover, #vitaminator:hover,#projetomonster:hover, #tolgarrunner:hover, #forcaBL:hover, #cobrinha:hover, #pshot:hover, #kuroneko:hover, #gamebook:hover , #kuronekophaser:hover
+#aleatorium:hover, #vitaminator:hover,#projetomonster:hover, #tolgarrunner:hover, #forcaBL:hover, #cobrinha:hover, #pshot:hover, #kuroneko:hover, #gamebook:hover , #kuronekophaser:hover, #protectarthur:hover
 {
     opacity: 1.0;
 }
