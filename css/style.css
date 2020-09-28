@@ -191,40 +191,40 @@ body
 
 #projetomonster
 {
-    background-image: url(../img/projetomonster.png);
+    background-image: url(../img/banner_projetomonster.png);
     background-size: cover;
 }
 
 #tolgarrunner
 {
-    background-image: url(../img/tolgarrunner_gameplay2.png);
+    background-image: url(../img/banner_tolgarrunner.png);
     background-size: cover;
 }
 
 #forcaBL
 {
-    background-image: url(../img/forca_banner.png);
+    background-image: url(../img/banner_forca.png);
 }
 #cobrinha
 {
-    background-image: url(../img/cobrinha_banner.png);
+    background-image: url(../img/banner_cobrinha.png);
     background-size: contain;
 }
 #pshot
 {
-    background-image: url(../img/pshot_banner3.png);
+    background-image: url(../img/banner_pshot.png);
     background-size: cover;
 }
 
 #kuroneko
 {
-    background-image: url(../img/hitthekuroneko_banner.png);
+    background-image: url(../img/banner_hitthekuroneko.png);
     background-size: cover;
 }
 
 #kuronekophaser
 {
-    background-image: url(../img/hitthekuroneko_phaser_banner.png);
+    background-image: url(../img/banner_hitthekuronekophaser.png);
     background-size: cover;
 }
 
