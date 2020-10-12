@@ -304,3 +304,14 @@ body
     height: 70vh;  
     width: 19.2vw;
 }
+
+#txt_sobremim
+{
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    height: 70vh;  
+    width: 66vw;
+    font-size:2vw;
+    text-align: justify;
+}
