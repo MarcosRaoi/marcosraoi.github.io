@@ -240,6 +240,11 @@ body
     background-size: cover;
 }
 
+#romabingo
+{
+    background-image: url(../img/banner_RomaBingo2.png);
+    background-size: cover;
+}
 
 #aleatorium,#vitaminator,#projetomonster,#tolgarrunner, #forcaBL, #cobrinha, #pshot, #kuroneko, #gamebook, #kuronekophaser, #protectarthur
 {
