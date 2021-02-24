@@ -246,12 +246,12 @@ body
     background-size: cover;
 }
 
-#aleatorium,#vitaminator,#projetomonster,#tolgarrunner, #forcaBL, #cobrinha, #pshot, #kuroneko, #gamebook, #kuronekophaser, #protectarthur
+#aleatorium,#vitaminator,#projetomonster,#tolgarrunner, #forcaBL, #cobrinha, #pshot, #kuroneko, #gamebook, #kuronekophaser, #protectarthur, #romabingo
 {
     opacity: 0.3;
 }
 
-#aleatorium:hover, #vitaminator:hover,#projetomonster:hover, #tolgarrunner:hover, #forcaBL:hover, #cobrinha:hover, #pshot:hover, #kuroneko:hover, #gamebook:hover , #kuronekophaser:hover, #protectarthur:hover
+#aleatorium:hover, #vitaminator:hover,#projetomonster:hover, #tolgarrunner:hover, #forcaBL:hover, #cobrinha:hover, #pshot:hover, #kuroneko:hover, #gamebook:hover , #kuronekophaser:hover, #protectarthur:hover, #romabingo:hover
 {
     opacity: 1.0;
 }
