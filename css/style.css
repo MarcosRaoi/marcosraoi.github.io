@@ -246,12 +246,18 @@ body
     background-size: cover;
 }
 
-#aleatorium,#vitaminator,#projetomonster,#tolgarrunner, #forcaBL, #cobrinha, #pshot, #kuroneko, #gamebook, #kuronekophaser, #protectarthur, #romabingo
+#perninhaHGJ2016
+{
+    background-image: url(../img/banner_Perninha.png);
+    background-size: cover;
+}
+
+#aleatorium,#vitaminator,#projetomonster,#tolgarrunner, #forcaBL, #cobrinha, #pshot, #kuroneko, #gamebook, #kuronekophaser, #protectarthur, #romabingo, #perninhaHGJ2016
 {
     opacity: 0.3;
 }
 
-#aleatorium:hover, #vitaminator:hover,#projetomonster:hover, #tolgarrunner:hover, #forcaBL:hover, #cobrinha:hover, #pshot:hover, #kuroneko:hover, #gamebook:hover , #kuronekophaser:hover, #protectarthur:hover, #romabingo:hover
+#aleatorium:hover, #vitaminator:hover,#projetomonster:hover, #tolgarrunner:hover, #forcaBL:hover, #cobrinha:hover, #pshot:hover, #kuroneko:hover, #gamebook:hover , #kuronekophaser:hover, #protectarthur:hover, #romabingo:hover, #perninhaHGJ2016:hover
 {
     opacity: 1.0;
 }
