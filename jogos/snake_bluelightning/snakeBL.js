@@ -426,7 +426,8 @@ function getColor(phrase) {
         case "k":
         case "black":
         case "preto":
-            response = "fff";
+        case "negro":
+            response = "000";
             break;
         case "c":
         case "cyan":
