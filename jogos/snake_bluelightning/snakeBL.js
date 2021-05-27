@@ -475,6 +475,11 @@ function getColor(phrase) {
         case "hard":
         case "fundo":
         case "background":
+        case "dificil":
+        case "difícil":
+        case "divizo":
+        case "difisso":
+        case "divizu":
             response = "94e146";
             break;
     }
