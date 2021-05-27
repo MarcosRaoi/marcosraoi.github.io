@@ -22,10 +22,17 @@ const difficultSpeedMultiplier = 0.68       // velocidade = 60 (88 * 0.68)
 const delayAppearMultiplier = 1.33          // aparece_ratin = 4000
 const delayDisappearMultiplier = 0.75       // simbora_ratin = 3000
 //Hacks
-const f8KeyCode = 119;
-const pKeyCode = 80;
-const cKeyCode = 67;
+const hackPhrase = "Available Extra Hacks Keys: (F8) (P) (C) (M) - Digit1 / 2 / 3 / 4 in keyboard it works too";
+console.log(hackPhrase);
+const mKeyCode = 77;    //Movement Customization
+const f8KeyCode = 119;  //Set Speed Customization
+const pKeyCode = 80;    //Pause Hack
+const cKeyCode = 67;    //Color Customization
 const delayDespause = 10;
+const _1KeyCode = 49;
+const _2KeyCode = 50;
+const _3KeyCode = 51;
+const _4KeyCode = 52;
 //Pinta pontuação
 const scoreString = "SCORE:                                                         ";
 const scoreColor = "#ff0";
@@ -55,7 +62,6 @@ const arrowUpKeyCode = 38; let _UP = arrowUpKeyCode;
 const arrowLeftKeyCode = 37; let _LEFT = arrowLeftKeyCode;
 const arrowDownKeyCode = 40; let _DOWN = arrowDownKeyCode;
 const arrowRightKeyCode = 39; let _RIGHT = arrowRightKeyCode;
-const mKeyCode = 77;
 let customUP = 104;     //Numpad8
 let customLEFT = 100;   //Numpad4
 let customDOWN = 98;    //Numpad2
@@ -80,10 +86,10 @@ function farewellMessage() {
 // Eu não ia fazer, mas deixei só quatro strings no código
 let DIRECTIONS = { // Ah é, não tou no TypeScript pra fazer enum
     UP: "UP",
-    DOWN: "DOWN",    
+    DOWN: "DOWN",
     LEFT: "LEFT",
     RIGHT: "RIGHT",
- }
+}
 
 let difficult = prompt(difficultPhrase);
 let velocidade = basePlayerSpeed;
@@ -112,13 +118,12 @@ function setDifficulty() {
 document.addEventListener("keydown", function () {
     let tecla = event.keyCode;
 
-    if (tecla == f8KeyCode) {           // Pequeno Hack / Glitch, se aperta F8, o cara consegue mudar a Velocidade ^^' 
+    if (tecla == f8KeyCode || tecla == _1KeyCode) {           // Pequeno Hack / Glitch, se aperta F8, o cara consegue mudar a Velocidade ^^' 
         velocidade = parseInt(prompt(congratsHackerPhrase));
         clearInterval(game);
         game = setInterval(draw, velocidade);
     }
-
-    if (tecla == pKeyCode) {            // Se o cara aperta P, pausa o jogo.    
+    if (tecla == pKeyCode || tecla == _2KeyCode) {            // Se o cara aperta P, pausa o jogo.    
         let pause = document.getElementById(pauseDivId);
         pause.style.display = "block";  //var teste = 5;        
         this.despausado = false;
@@ -129,8 +134,12 @@ document.addEventListener("keydown", function () {
             pause.style.display = "none";
         }, delayDespause);
     }
-    setColor(tecla);
-    setMovement(tecla);
+    if (tecla === cKeyCode || tecla == _3KeyCode) {
+        setColor();
+    }
+    if (tecla === mKeyCode || tecla == _4KeyCode) {
+        setMovement();
+    }
 }); // Updates, vamo ver
 
 let cvs = document.getElementById(gameDivId);   // ou var canvas... 
@@ -138,42 +147,38 @@ let ctx = cvs.getContext(_2dcontext);           // pegar o contexto ... ou var c
 let pontos = document.getElementById(scoreDivId);
 let ctx2 = pontos.getContext(_2dcontext);
 
-function setColor(key) {
-    if (key === cKeyCode) {
-        colorHead = getColor(colorHeadPhrase);
-        colorBody = getColor(colorBodyPhrase);
-        colorStroke = getColor(colorStrokePhrase);
-        this.logColors();
-    }
-}
-
 function logColors() {
     console.log(colorHeadPhrase, colorHead);
     console.log(colorBodyPhrase, colorBody);
     console.log(colorStrokePhrase, colorStroke);
 }
 
-function setMovement(key) {
-    if (key === mKeyCode) {
-        customUP = prompt(moveUpPhrase).toUpperCase();
-        customLEFT = prompt(moveLeftPhrase).toUpperCase();
-        customDOWN = prompt(moveDownPhrase).toUpperCase();
-        customRIGHT = prompt(moveRightPhrase).toUpperCase();
+function setColor() {
+    colorHead = getColor(colorHeadPhrase);
+    colorBody = getColor(colorBodyPhrase);
+    colorStroke = getColor(colorStrokePhrase);
+    this.logColors();
+}
 
-        if (Number.isNaN(parseInt(customUP))) {
-            customUP = customUP.charCodeAt(0);
-        }
-        if (Number.isNaN(parseInt(customLEFT))) {
-            customLEFT = customLEFT.charCodeAt(0);
-        }
-        if (Number.isNaN(parseInt(customDOWN))) {
-            customDOWN = customDOWN.charCodeAt(0);
-        }
-        if (Number.isNaN(parseInt(customRIGHT))) {
-            customRIGHT = customRIGHT.charCodeAt(0);
-        }
-        console.log([customUP, customLEFT, customDOWN, customRIGHT]);
+function setMovement() {
+    customUP = prompt(moveUpPhrase).toUpperCase();
+    customLEFT = prompt(moveLeftPhrase).toUpperCase();
+    customDOWN = prompt(moveDownPhrase).toUpperCase();
+    customRIGHT = prompt(moveRightPhrase).toUpperCase();
+
+    if (Number.isNaN(parseInt(customUP))) {
+        customUP = customUP.charCodeAt(0);
     }
+    if (Number.isNaN(parseInt(customLEFT))) {
+        customLEFT = customLEFT.charCodeAt(0);
+    }
+    if (Number.isNaN(parseInt(customDOWN))) {
+        customDOWN = customDOWN.charCodeAt(0);
+    }
+    if (Number.isNaN(parseInt(customRIGHT))) {
+        customRIGHT = customRIGHT.charCodeAt(0);
+    }
+    console.log([customUP, customLEFT, customDOWN, customRIGHT]);
 }
 
 function pintaPontuacao(valor = 0) { // lul, tava sendo usado esse mesmo trecho de código 3 vezes, passei o valor pro parâmetro
