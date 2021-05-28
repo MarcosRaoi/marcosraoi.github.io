@@ -397,6 +397,7 @@ function veemRatinho() {
 }
 
 function getColor(phrase) {
+    console.log(getColor);
     let response = prompt(phrase);
     switch (response.toLowerCase()) {
         case "r":
@@ -427,6 +428,7 @@ function getColor(phrase) {
         case "black":
         case "preto":
         case "negro":
+        case "2":
             response = "000";
             break;
         case "c":
@@ -469,7 +471,6 @@ function getColor(phrase) {
         case "bl":
             response = "bacff4";
             break;
-        case "2":
         case "bg":
         case "fodasse":
         case "fudeu":
@@ -483,6 +484,18 @@ function getColor(phrase) {
         case "divizu":
             response = "94e146";
             break;
+        case "black red":
+        case "vermelho escuro":
+        case "vermelho scuro":
+        case "vermeio escuro":
+        case "vermeio scuro":
+        case "quente":
+            response = "7d0f0f";
+        case "brick":
+        case "tijolo":
+        case "parede":
+        case "borda":
+            response = "dd5e33";
     }
     let color = "#" + response;
     return color;
