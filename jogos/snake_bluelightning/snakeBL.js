@@ -91,6 +91,8 @@ let DIRECTIONS = { // Ah é, não tou no TypeScript pra fazer enum
     RIGHT: "RIGHT",
 }
 
+// TODO FEATURE: Quando o cara pegar um arco íro, ficar dando cor aleatória pra ele - by Michel God, dá não, mto diferenciado.
+
 let difficult = prompt(difficultPhrase);
 let velocidade = basePlayerSpeed;
 
@@ -492,11 +494,18 @@ function getColor(phrase) {
         case "vermeio scuro":
         case "quente":
             response = "7d0f0f";
+            break;
         case "brick":
         case "tijolo":
         case "parede":
         case "borda":
             response = "dd5e33";
+            break;
+        case "rosa":
+        case "pink":
+        case "rosinha":
+            response = "f39dc3";
+            break;
     }
     let color = "#" + response;
     return color;
