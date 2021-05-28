@@ -484,6 +484,7 @@ function getColor(phrase) {
         case "divizu":
             response = "94e146";
             break;
+        case "dark red":
         case "black red":
         case "vermelho escuro":
         case "vermelho scuro":
