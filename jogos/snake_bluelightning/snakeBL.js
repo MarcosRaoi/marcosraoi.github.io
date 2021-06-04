@@ -1,3 +1,8 @@
+//JSON, let's try rs
+const requestURL = "https://raw.githubusercontent.com/MarcosRaoi/marcosraoi.github.io/master/jogos/snake_bluelightning/snakeBL.json";
+let request = new XMLHttpRequest();
+let cases; this.receiveRequests();
+
 const width = 600;
 const height = 600;
 const easyString = "easy";
@@ -22,6 +27,7 @@ const difficultSpeedMultiplier = 0.68       // velocidade = 60 (88 * 0.68)
 const delayAppearMultiplier = 1.33          // aparece_ratin = 4000
 const delayDisappearMultiplier = 0.75       // simbora_ratin = 3000
 //Hacks
+const colorsCasesPhrase = "\nAvailable Colors and Cases:";
 const hackPhrase = "Available Extra Hacks Keys: (F8) (P) (C) (M) - Digit1 / 2 / 3 / 4 in keyboard it works too";
 console.log(hackPhrase);
 const mKeyCode = 77;    //Movement Customization
@@ -400,198 +406,29 @@ function veemRatinho() {
 }
 
 function getColor(phrase) {
-    console.log(getColor);
-    let response = prompt(phrase);
-    switch (response.toLowerCase()) {
-        case "r":
-        case "red":
-        case "vermelho":
-        case "vermeio":
-        case "vermei":
-        case "vermelhor":
-        case "vermelha":
-            response = "f00";
-            break;
-        case "g":
-        case "green":
-        case "verde":
-        case "verdi":
-        case "verd":
-            response = "0f0";
-            break;
-        case "b":
-        case "blue":
-        case "azul":
-        case "azu":
-            response = "00f";
-            break;
-        case "w":
-        case "white":
-        case "branco":
-        case "todas":
-        case "all":
-        case "branca":
-            response = "fff";
-            break;
-        case "k":
-        case "black":
-        case "preto":
-        case "negro":
-        case "2": // 0, 1 and 2 are the original colors
-        case "dois":
-        case "preta":
-        case "negra":
-        case "nenhuma":
-        case "none":
-            response = "000";
-            break;
-        case "c":
-        case "cyan":
-        case "ciano":
-        case "ciana":
-            response = "0ff";
-            break;
-        case "m":
-        case "magenta":
-        case "nojenta":
-        case "majenta":
-        case "majinta":
-        case "maginta":
-            response = "f0f";
-            break;
-        case "y":
-        case "yellow":
-        case "amarelo":
-        case "amarela":
-        case "marela":
-        case "sol":
-            response = "ff0";
-            break;
-        case "cabeça original":
-        case "cabeçaoriginal":
-        case "cabecaoriginal":
-        case "blroxo":
-        case "blroxa":
-        case "roxabl":
-        case "roxobl":
-        case "roxinho":
-        case "roxo":
-        case "roxa":
-        case "purpleBLcolor":
-        case "purple":
-        case "cabeça":
-        case "cabeca":
-        case "head":
-        case "cabecinha":
-        case "0":
-        case "zero":
-            response = "b79ddd";
-            break;
-        case "corpo original":
-        case "blazul":
-        case "azulbl":
-        case "azulzinho":
-        case "azulzinha":
-        case "littleblue":
-        case "azur":
-        case "blueBLcolor":
-        case "lightblue":
-        case "body":
-        case "corpo":
-        case "corpinho":
-        case "1":
-        case "um":
-        case "bl":
-        case "corpooriginal":
-        case "corporiginal":
-            response = "bacff4";
-            break;
-        case "bg":
-        case "fodasse":
-        case "fodase":
-        case "fudeu":
-        case "hard":
-        case "fundo":
-        case "background":
-        case "dificil":
-        case "difícil":
-        case "divizo":
-        case "difisso":
-        case "divizu":
-        case "divisiu":
-        case "divisivel":
-        case "hardcore":
-        case "harcore":
-        case "hc":
-            response = "94e146";
-            break;
-        case "dark red":
-        case "black red":
-        case "vermelho escuro":
-        case "vermelho scuro":
-        case "vermeio escuro":
-        case "vermeio scuro":
-        case "quente":
-        case "blackred":
-        case "darkred":
-            response = "7d0f0f";
-            break;
-        case "brick":
-        case "tijolo":
-        case "parede":
-        case "borda":
-        case "cantos":
-        case "canto":
-        case "wall":
-        case "walls":
-        case "bounds":
-        case "bound":
-            response = "dd5e33";
-            break;
-        case "rosa":
-        case "pink":
-        case "rosinha":
-        case "littlepink":
-        case "isadoravel":
-        case "isadorável":
-        case "isadora":
-        case "amor":
-        case "love":
-        case "i":
-            response = "f39dc3";
-            break;
-        case "pietrods":
-        case "pietro":
-        case "verdin":
-            response = "00ff6c";
-            break;
-        case "michelgod":
-        case "michel":
-        case "rosaxoque":
-        case "rosachoque":
-        case "rosa xoque":
-        case "rosa choque":
-        case "rosashokkk":
-        case "rosashok":
-        case "rosashokk":
-        case "rosa shok":
-        case "rosa shokk":
-        case "rosa shokkk":
-            response = "ff0088";
-            break;
-        case "mettal":
-        case "metal":
-        case "branquinho":
-        case "cinzinha":
-        case "whitegray":
-        case "lightgray":
-        case "littlewhite":
-        case "little white":
-        case "branquinha":
-        case "cinzinho":
-            response = "ececec";
-            break;
-    }
+    let response = prompt(phrase).toLowerCase();
+    console.log("response", response);
+
+    // objectsJSON.case < case is the name of property founded in
+    // snakeBL.json cause before that it used to be a switch case lol
+    cases.forEach(objectsJSON => {
+        objectsJSON.case.forEach(color => {
+            if (color === response) {
+                response = each.response;
+            }
+        });
+    });
     let color = "#" + response;
     return color;
+}
+
+function receiveRequests() {
+    request.open("GET", requestURL);
+    request.responseType = "json";
+    request.send();
+
+    request.onload = function () {
+        cases = request.response;
+        console.log(colorsCasesPhrase, cases);
+    }
 }

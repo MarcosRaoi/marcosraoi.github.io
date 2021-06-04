@@ -235,5 +235,23 @@
             "cinzinho"
         ],
         "response": "ececec"
+    },
+    {
+        "case": [
+            "ivo",
+            "ivao",
+            "ivão",
+            "ivo monstro",
+            "ivo god",
+            "f",
+            "40",
+            "4 0",
+            "iv 0",
+            "iv0",
+            "ivopc",
+            "ivomonstro",
+            "ivogod"
+        ],
+        "response": "832ed9"
     }
 ]
