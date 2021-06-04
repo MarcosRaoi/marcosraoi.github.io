@@ -414,7 +414,7 @@ function getColor(phrase) {
     cases.forEach(objectsJSON => {
         objectsJSON.case.forEach(color => {
             if (color === response) {
-                response = each.response;
+                response = objectsJSON.response;
             }
         });
     });
