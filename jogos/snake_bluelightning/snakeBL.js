@@ -127,7 +127,7 @@ function setDifficulty() {
 document.addEventListener("keydown", function () {
     let tecla = event.keyCode;
 
-    if (tecla == f8KeyCode || tecla == _1KeyCode) {           // Pequeno Hack / Glitch, se aperta F8, o cara consegue mudar a Velocidade ^^' 
+    if (tecla == f8KeyCode || tecla == _3KeyCode) {           // Pequeno Hack / Glitch, se aperta F8, o cara consegue mudar a Velocidade ^^' 
         velocidade = parseInt(prompt(congratsHackerPhrase));
         clearInterval(game);
         game = setInterval(draw, velocidade);
@@ -143,7 +143,7 @@ document.addEventListener("keydown", function () {
             pause.style.display = "none";
         }, delayDespause);
     }
-    if (tecla === cKeyCode || tecla == _3KeyCode) {
+    if (tecla === cKeyCode || tecla == _1KeyCode) {
         setColor();
     }
     if (tecla === mKeyCode || tecla == _4KeyCode) {
@@ -412,8 +412,8 @@ function getColor(phrase) {
     // objectsJSON.case < case is the name of property founded in
     // snakeBL.json cause before that it used to be a switch case lol
     cases.forEach(objectsJSON => {
-        objectsJSON.case.forEach(color => {
-            if (color === response) {
+        objectsJSON.case.forEach(colorString => {
+            if (colorString === response) {
                 response = objectsJSON.response;
             }
         });

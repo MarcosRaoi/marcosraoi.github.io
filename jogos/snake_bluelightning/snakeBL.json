@@ -146,9 +146,11 @@
             "difisso",
             "divizu",
             "divisiu",
+            "divizio",
             "harcore",
             "hardcore",
-            "hc"
+            "hc",
+            "fundoo"
         ],
         "response": "94e146"
     },
@@ -192,7 +194,13 @@
             "isadora",
             "amor",
             "love",
-            "i"
+            "i",
+            "amo",
+            "amô",
+            "anjo",
+            "moreco",
+            "coisarara",
+            "coisa rara"
         ],
         "response": "f39dc3"
     },
@@ -253,5 +261,19 @@
             "ivogod"
         ],
         "response": "832ed9"
+    },
+    {
+        "case": [
+            "orange",
+            "laranja",
+            "aranja",
+            "laranjo",
+            "lanja",
+            "laanja",
+            "laanjo",
+            "lalanja",
+            "lalanjo"
+        ],
+        "response": "ff8000"
     }
 ]
