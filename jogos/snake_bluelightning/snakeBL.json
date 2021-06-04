@@ -1,0 +1,239 @@
+[
+    {
+        "case": [
+            "r",
+            "red",
+            "vermelho",
+            "vermeio",
+            "vermei",
+            "vermelhor",
+            "vermelha"
+        ],
+        "response": "f00"
+    },
+    {
+        "case": [
+            "g",
+            "green",
+            "verde",
+            "verdi",
+            "verd"
+        ],
+        "response": "0f0"
+    },
+    {
+        "case": [
+            "b",
+            "blue",
+            "azul",
+            "azu"
+        ],
+        "response": "00f"
+    },
+    {
+        "case": [
+            "w",
+            "white",
+            "branco",
+            "todas",
+            "all",
+            "branca"
+        ],
+        "response": "fff"
+    },
+    {
+        "case": [
+            "c",
+            "cyan",
+            "cian",
+            "ciano"
+        ],
+        "response": "0ff"
+    },
+    {
+        "case": [
+            "m",
+            "magenta",
+            "nojenta",
+            "majenta",
+            "majinta",
+            "maginta"
+        ],
+        "response": "f0f"
+    },
+    {
+        "case": [
+            "y",
+            "yellow",
+            "amarelo",
+            "amarela",
+            "marela",
+            "sol"
+        ],
+        "response": "ff0"
+    },
+    {
+        "case": [
+            "cabeça original",
+            "blroxo",
+            "roxinho",
+            "roxo",
+            "purpleBLcolor",
+            "purple",
+            "cabeça",
+            "cabeca",
+            "head",
+            "cabecinha",
+            "0",
+            "cabeçaoriginal",
+            "cabecaoriginal",
+            "roxa",
+            "blroxa",
+            "roxobl",
+            "roxabl",
+            "zero"
+        ],
+        "response": "b79ddd"
+    },
+    {
+        "case": [
+            "corpo original",
+            "blazul",
+            "azulzinho",
+            "azulzinha",
+            "littleblue",
+            "azur",
+            "blueBLcolor",
+            "lightblue",
+            "body",
+            "corpo",
+            "corpinho",
+            "1",
+            "corpooriginal",
+            "corporiginal",
+            "um"
+        ],
+        "response": "bacff4"
+    },
+    {
+        "case": [
+            "k",
+            "black",
+            "preto",
+            "preta",
+            "negro",
+            "negra",
+            "nenhuma",
+            "none",
+            "2",
+            "dois"
+        ],
+        "response": "000"
+    },
+    {
+        "case": [
+            "bg",
+            "fodasse",
+            "fudeu",
+            "fodase",
+            "hard",
+            "fundo",
+            "background",
+            "dificil",
+            "difícil",
+            "divizo",
+            "divisivel",
+            "difisso",
+            "divizu",
+            "divisiu",
+            "harcore",
+            "hardcore",
+            "hc"
+        ],
+        "response": "94e146"
+    },
+    {
+        "case": [
+            "dark red",
+            "black red",
+            "vermelho escuro",
+            "vermelho scuro",
+            "vermeio escuro",
+            "vermeio scuro",
+            "quente",
+            "darkred",
+            "blackred"
+        ],
+        "response": "7d0f0f"
+    },
+    {
+        "case": [
+            "brick",
+            "tijolo",
+            "parede",
+            "borda",
+            "cantos",
+            "canto",
+            "wall",
+            "walls",
+            "bounds",
+            "bound"
+        ],
+        "response": "dd5e33"
+    },
+    {
+        "case": [
+            "rosa",
+            "pink",
+            "rosinha",
+            "littlepink",
+            "isadoravel",
+            "isadorável",
+            "isadora",
+            "amor",
+            "love",
+            "i"
+        ],
+        "response": "f39dc3"
+    },
+    {
+        "case": [
+            "pietrods",
+            "pietro",
+            "verdin"
+        ],
+        "response": "00ff6c"
+    },
+    {
+        "case": [
+            "michelgod",
+            "michel",
+            "rosaxoque",
+            "rosachoque",
+            "rosa xoque",
+            "rosa choque",
+            "rosashokkk",
+            "rosashok",
+            "rosashokk",
+            "rosa shok",
+            "rosa shokk",
+            "rosa shokkk"
+        ],
+        "response": "ff0088"
+    },
+    {
+        "case": [
+            "mettal",
+            "metal",
+            "branquinho",
+            "cinzinha",
+            "whitegray",
+            "lightgray",
+            "littlewhite",
+            "little white",
+            "branquinha",
+            "cinzinho"
+        ],
+        "response": "ececec"
+    }
+]
