@@ -275,5 +275,16 @@
             "lalanjo"
         ],
         "response": "ff8000"
-    }
+    },
+    {
+        "case": [
+            "bege",
+            "beige",
+            "beje",
+            "beije",
+            "bej",
+            "beg"
+        ],
+        "response": "d6b075"
+    },
 ]
