@@ -208,6 +208,10 @@
         "case": [
             "pietrods",
             "pietro",
+            "pietrobixo",
+            "pietrobixounicsul",
+            "pietrounicsul",
+            "pietrounicsulbixo",
             "verdin"
         ],
         "response": "00ff6c"
@@ -287,4 +291,21 @@
         ],
         "response": "d6b075"
     },
+    {
+        "case": [
+            "carolinha",
+            "carolinejorge",
+            "carolzinha",
+            "beijoshow",
+            "caroline",
+            "veterinaria",
+            "vet",
+            "moonshine",
+            "cah",
+            "fofia",
+            "fofiha",
+            "fofinha"
+        ],
+        "response": "99004d"
+    }
 ]
