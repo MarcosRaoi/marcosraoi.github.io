@@ -21,12 +21,12 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-#home:hover,#jogos:hover, #blog:hover, #contato:hover, #sobremim:hover, .redessociais:hover
+#home:hover,#jogos:hover, #blog:hover, #contato:hover, #sobre_mim:hover, .redes_sociais:hover
 {
     background-color: #b79ddd;
 }
 
-#home,#jogos,#blog,#contato,#sobremim
+#home,#jogos,#blog,#contato,#sobre_mim
 {
     height: 100%;
     width: 12.5vw;
@@ -111,7 +111,7 @@ body
     background-color: #000;
 }
 
-#body_index, #body_contato, #body_sobremim
+#body_index, #body_contato, #body_sobre_mim
 {
     overflow-y:hidden; /* isso aqui é pra esconder as barrinha ^^ só o Y dava né? */
     overflow-x:hidden;
@@ -271,7 +271,7 @@ body
     filter: saturate(2);
 }
 
-.redessociais
+.redes_sociais
 {
     margin: auto;
     background-color: #bacff4;
@@ -283,7 +283,7 @@ body
     top: 25%;
 }
 
-.img_r_s
+.img_redes_sociais
 {
     width: 10vh;
     position: relative;
@@ -291,11 +291,12 @@ body
     height: 100%;
 }
 
-.txt_r_s
+.txt_redes_sociais
 {
     position: relative;
     left: 3%;
     top: 20%;
+    height: 100%;
 }
 
 #facebook
@@ -325,13 +326,13 @@ body
     width: 19.2vw;
 }
 
-#txt_sobremim
+#txt_sobre_mim
 {
     position: absolute;
     top: 20%;
     left: 7%;
     height: 70vh;  
     width: 66vw;
-    font-size:2vw;
+    font-size: 100%;
     text-align: justify;
 }

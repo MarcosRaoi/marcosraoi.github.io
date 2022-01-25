@@ -91,7 +91,11 @@
             "blroxa",
             "roxobl",
             "roxabl",
-            "zero"
+            "zero",
+            "original0",
+            "original_0",
+            "0original",
+            "0_original"
         ],
         "response": "b79ddd"
     },
@@ -111,7 +115,11 @@
             "1",
             "corpooriginal",
             "corporiginal",
-            "um"
+            "um",
+            "original1",
+            "original_1",
+            "1original",
+            "1_original"
         ],
         "response": "bacff4"
     },
@@ -126,7 +134,11 @@
             "nenhuma",
             "none",
             "2",
-            "dois"
+            "dois",
+            "original2",
+            "original_2",
+            "2original",
+            "2_original"
         ],
         "response": "000"
     },

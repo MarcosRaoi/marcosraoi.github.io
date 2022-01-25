@@ -40,7 +40,8 @@ const _2KeyCode = 50;
 const _3KeyCode = 51;
 const _4KeyCode = 52;
 //Pinta pontuação
-const scoreString = "SCORE:                                                         ";
+const blankSpaceScore = "                                                         ";
+const scoreString = "SCORE:" + blankSpaceScore;
 const scoreColor = "#ff0";
 const scoreFontStyle = "19pt Comic Sans MS";
 const scorePosX = 20;
