@@ -131,7 +131,7 @@ body
     
 }
 
-.celula
+.celula_de_jogo
 {
     background-color: #fff;
     border: 1px solid #000;
@@ -150,17 +150,15 @@ body
     /* tou achando que é melhor eu colocar 570x360 as caixas, porque aí elas podem cair pra baixo de acordo com o tamanho da janela né? hmm */  
 }
 
-.celula:hover
+.celula_de_jogo:hover
 {
     border-radius: 0px;
-    
 }
 
 #celula_ultima
 {
     margin-bottom: 5vh;
-    
-    /* gambiarrinha pra última celula empurrar o footer pra baixo ^^', enfim */
+    /* gambiarrinha pra última celula_de_jogo empurrar o footer pra baixo ^^', enfim */
 }
 
 .banner
@@ -262,7 +260,7 @@ body
 #kuroneko, #gamebook, #kuronekophaser, #protectarthur, #romabingo, #perninhaHGJ2016,
 #gododger
 {
-    opacity: 0.3;
+    opacity: 1.0;
 }
 
 #aleatorium:hover, #vitaminator:hover,#projetomonster:hover, #tolgarrunner:hover, 
@@ -270,7 +268,7 @@ body
 #kuronekophaser:hover, #protectarthur:hover, #romabingo:hover, #perninhaHGJ2016:hover,
 #gododger:hover
 {
-    opacity: 1.0;
+    filter: saturate(2);
 }
 
 .redessociais
