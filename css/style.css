@@ -183,26 +183,22 @@ body
 {
     background-image: url(../img/banner_vitaminator.jpg);
     background-size: cover;
-
 }
-
-#projetomonster
+#projeto_monster
 {
     background-image: url(../img/banner_projetomonster.png);
     background-size: cover;
 }
-
-#tolgarrunner
+#tolgar_runner
 {
     background-image: url(../img/banner_tolgarrunner.png);
     background-size: cover;
 }
-
-#forcaBL
+#forca_BL
 {
     background-image: url(../img/banner_forca.png);
 }
-#cobrinha
+#cobrinha_BL
 {
     background-image: url(../img/banner_cobrinha.png);
     background-size: contain;
@@ -212,44 +208,37 @@ body
     background-image: url(../img/banner_pshot.png);
     background-size: cover;
 }
-
-#kuroneko
+#canvas_kuroneko
 {
     background-image: url(../img/banner_hitthekuroneko.png);
     background-size: cover;
 }
-
-#kuronekophaser
+#phaser_kuroneko
 {
     background-image: url(../img/banner_hitthekuronekophaser.png);
     background-size: cover;
 }
-
-#gamebook
+#yc_gamebook
 {
     background-image: url(../img/banner_gamebook.png);
     background-size: cover;
 }
-
-#protectarthur
+#protect_arthur
 {
     background-image: url(../img/banner_protectarthur.jpg);
     background-size: cover;
 }
-
-#romabingo
+#roma_bingo
 {
     background-image: url(../img/banner_RomaBingo2.png);
     background-size: cover;
 }
-
-#perninhaHGJ2016
+#perninha_HGJ2016
 {
     background-image: url(../img/banner_Perninha.png);
     background-size: cover;
 }
-
-#gododger
+#go_dodger
 {
     background-image: url(../img/banner_GoDodger.png);
     background-size: cover;
