@@ -1,0 +1,31 @@
+const CREATING_EACH_PHRASE = "Created a Celula"
+
+class CelulaJogos extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+}
+
+function positionCell(nameClass, cellData) {    
+    let cell_href = cellData.link;
+    let cell_id = cellData.key;
+    let cell_info = cellData.info;
+
+    return (
+        <div class={nameClass}>
+            <a href={cell_href}>
+            <div class="banner" id={cell_id}></div></a>
+            <div class="info">
+                <InfoJogo info={cell_info} />
+            </div>
+        </div>
+    );
+}
+
+CelulaJogos = (props) => {
+    if (props.children == cells.length - 1) {
+        return positionCell("celula_de_jogo_ultima", props.cell.data);
+    } else {
+        return positionCell("celula_de_jogo", props.cell.data);
+    }
+}
