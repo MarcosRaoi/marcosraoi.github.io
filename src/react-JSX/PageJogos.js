@@ -1,10 +1,8 @@
-const CREATING_PHRASE = "creating Celulas"
 let cells_received = [];
 
 class PageJogos extends React.Component {
     constructor(props) {
         super(props);
-
         cells_received = props.children.cells;
     }
 

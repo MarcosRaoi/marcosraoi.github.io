@@ -1,12 +1,11 @@
 const ID_PAGE_JOGOS = "page_jogos";
 
-
 const requestURL = "https://raw.githubusercontent.com/MarcosRaoi/marcosraoi.github.io/master/json/game_cells.json";
 let request = new XMLHttpRequest();
 let cells; this.receiveRequests();
 
 // let data = require('../json/game_cells.json')
-// console.log("data", data)
+// console .log("data", data)
 
 function receiveRequests() {
     request.open("GET", requestURL);
