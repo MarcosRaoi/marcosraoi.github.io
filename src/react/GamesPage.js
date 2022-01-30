@@ -6,23 +6,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-import CelulaJogos from "./CelulaJogo.js";
+import GameCell from "./GameCell.js";
 
 var cells_received = [];
 
-var PageJogos = function (_React$Component) {
-    _inherits(PageJogos, _React$Component);
+var GamesPage = function (_React$Component) {
+    _inherits(GamesPage, _React$Component);
 
-    function PageJogos(props) {
-        _classCallCheck(this, PageJogos);
+    function GamesPage(props) {
+        _classCallCheck(this, GamesPage);
 
-        var _this = _possibleConstructorReturn(this, (PageJogos.__proto__ || Object.getPrototypeOf(PageJogos)).call(this, props));
+        var _this = _possibleConstructorReturn(this, (GamesPage.__proto__ || Object.getPrototypeOf(GamesPage)).call(this, props));
 
         cells_received = props.children.cells;
         return _this;
     }
 
-    _createClass(PageJogos, [{
+    _createClass(GamesPage, [{
         key: "createCelulas",
         value: function createCelulas() {
             var index = 0;
@@ -30,7 +30,7 @@ var PageJogos = function (_React$Component) {
             cells_received.forEach(function () {
                 var eachCell = cells_received[index];
                 pageWithCells.push(React.createElement(
-                    CelulaJogos,
+                    GameCell,
                     { cell: eachCell },
                     index
                 ));
@@ -47,7 +47,7 @@ var PageJogos = function (_React$Component) {
         }
     }]);
 
-    return PageJogos;
+    return GamesPage;
 }(React.Component);
 
-export default PageJogos;
+export default GamesPage;

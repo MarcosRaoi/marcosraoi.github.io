@@ -1,8 +1,8 @@
-import CelulaJogos from "./CelulaJogo.js"
+import GameCell from "./GameCell.js"
 
 let cells_received = [];
 
-class PageJogos extends React.Component {
+class GamesPage extends React.Component {
     constructor(props) {
         super(props);
         cells_received = props.children.cells
@@ -14,9 +14,9 @@ class PageJogos extends React.Component {
         cells_received.forEach(() => {
             let eachCell = cells_received[index]
             pageWithCells.push(
-                <CelulaJogos cell={eachCell}>
+                <GameCell cell={eachCell}>
                     {index}
-                </CelulaJogos>);
+                </GameCell>);
             index++;
         });
 
@@ -29,4 +29,4 @@ class PageJogos extends React.Component {
     }
 }
 
-export default PageJogos
+export default GamesPage;

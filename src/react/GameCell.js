@@ -5,47 +5,56 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 import { getDataLenght } from "../getJson.js";
-import InfoJogo from "./InfoJogo.js";
+import GameInfo from "./GameInfo.js";
 
-var CelulaJogos = function (_React$Component) {
-    _inherits(CelulaJogos, _React$Component);
+var LAST_CELL_CLASS_NAME = "celula_de_jogo_ultima";
+var NORMAL_CELL_CLASS_NAME = "celula_de_jogo";
 
-    function CelulaJogos(props) {
-        _classCallCheck(this, CelulaJogos);
+var GameCell = function (_React$Component) {
+    _inherits(GameCell, _React$Component);
 
-        return _possibleConstructorReturn(this, (CelulaJogos.__proto__ || Object.getPrototypeOf(CelulaJogos)).call(this, props));
+    function GameCell(props) {
+        _classCallCheck(this, GameCell);
+
+        return _possibleConstructorReturn(this, (GameCell.__proto__ || Object.getPrototypeOf(GameCell)).call(this, props));
     }
 
-    return CelulaJogos;
+    return GameCell;
 }(React.Component);
 
+function getLinkTarget(str_target) {
+    return str_target ? str_target : "_self";
+}
+
 function positionCell(positionClass, cellData) {
-    var cell_href = cellData.link;
-    var cell_id = cellData.key;
-    var cell_info = cellData.info;
+    // All datas are 'strings' at JSON
+    var cellHref = cellData.link;
+    var cellTarget = cellData.target;
+    var cellId = cellData.key;
+    var cellInfo = cellData.info;
 
     return React.createElement(
         "div",
         { "class": positionClass },
         React.createElement(
             "a",
-            { href: cell_href },
-            React.createElement("div", { "class": "banner", id: cell_id })
+            { href: cellHref, target: getLinkTarget(cellTarget) },
+            React.createElement("div", { "class": "banner", id: cellId })
         ),
         React.createElement(
-            "div",
-            { "class": "info" },
-            React.createElement(InfoJogo, { info: cell_info })
+            GameInfo,
+            null,
+            cellInfo
         )
     );
 }
 
-CelulaJogos = function CelulaJogos(props) {
+GameCell = function GameCell(props) {
     if (props.children == getDataLenght() - 1) {
-        return positionCell("celula_de_jogo_ultima", props.cell.data);
+        return positionCell(LAST_CELL_CLASS_NAME, props.cell.data);
     } else {
-        return positionCell("celula_de_jogo", props.cell.data);
+        return positionCell(NORMAL_CELL_CLASS_NAME, props.cell.data);
     }
 };
 
-export default CelulaJogos;
+export default GameCell;

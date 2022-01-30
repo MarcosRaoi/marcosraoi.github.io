@@ -1,13 +1,13 @@
 import { getJson } from "./getJson.js";
-import PageJogos from "./react/PageJogos.js"
+import GamesPage from "./react/GamesPage.js"
 
 let cells = getJson();
 
 const ID_PAGE_JOGOS = "page_jogos";
 
-renderPageJogos();
+renderGamesPage();
 
-function renderPageJogos() {
+function renderGamesPage() {
     let domContainer = document.getElementById(ID_PAGE_JOGOS);
-    ReactDOM.render(React.createElement(PageJogos, null, {cells}), domContainer);
+    ReactDOM.render(React.createElement(GamesPage, null, {cells}), domContainer);
 }
