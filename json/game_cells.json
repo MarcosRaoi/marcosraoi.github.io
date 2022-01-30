@@ -76,7 +76,7 @@
         "Hero- Perninha",
         "data": {
             "key":
-            "perninha_HGJ2016",
+            "perninha_hgj_2016",
             "info":
             "QUE NOSTALGIA &lt;3 - &lt;3 Um dos meus primeiros jogos, foi feito no Construct 2, para a Heroin Game Jam de 2016, feat Pearninha :3",
             "link":
@@ -88,7 +88,7 @@
         "Blue Lightning Ultimate Forca",
         "data": {
             "key":
-            "forca_BL",
+            "forca_bl",
             "info":
             "Blue Lightning Ultimate Forca foi um dos primeiros em js e jquery. Dica: São nomes dos meus jogos favoritos! rs. Boa sorte :).",
             "link":
@@ -100,7 +100,7 @@
         "Blue Lightning Snake",
         "data": {
             "key":
-            "cobrinha_BL",
+            "cobrinha_bl",
             "info":
             "Blue Lightning Snake foi um dos primeiros em Canvas/js. Esse está super divertido, até pelos efeitos sonoros, recomendo! rs :D",
             "link":
@@ -136,7 +136,7 @@
         "Kuroneko Out! - Whac-A-Mole canvas",
         "data": {
             "key":
-            "canvas_kuroneko",
+            "kuroneko_canvas",
             "info":
             "Kuroneko Out! feito em javascript (canvas). Clique no gatinho :3! Não clique no hamster rs. Obrigado Bibi Capasso pelo 'Yay' sound.",
             "link":
@@ -148,7 +148,7 @@
         "Kuroneko Out! - Phaser version",
         "data": {
             "key":
-            "phaser_kuroneko",
+            "kuroneko_phaser",
             "info":
             "Kuroneko Out! só que agora feito com o Phaser 2 para treinar para o estágio. Obrigado Bianca Capasso novamente pelo 'Yay' sound. :D",
             "link":

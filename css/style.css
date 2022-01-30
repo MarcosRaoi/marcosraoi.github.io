@@ -194,11 +194,11 @@ body
     background-image: url(../img/banner_tolgarrunner.png);
     background-size: cover;
 }
-#forca_BL
+#forca_bl
 {
     background-image: url(../img/banner_forca.png);
 }
-#cobrinha_BL
+#cobrinha_bl
 {
     background-image: url(../img/banner_cobrinha.png);
     background-size: contain;
@@ -208,12 +208,12 @@ body
     background-image: url(../img/banner_pshot.png);
     background-size: cover;
 }
-#canvas_kuroneko
+#kuroneko_canvas
 {
     background-image: url(../img/banner_hitthekuroneko.png);
     background-size: cover;
 }
-#phaser_kuroneko
+#kuroneko_phaser
 {
     background-image: url(../img/banner_hitthekuronekophaser.png);
     background-size: cover;
@@ -233,7 +233,7 @@ body
     background-image: url(../img/banner_RomaBingo2.png);
     background-size: cover;
 }
-#perninha_HGJ2016
+#perninha_hgj_2016
 {
     background-image: url(../img/banner_Perninha.png);
     background-size: cover;
@@ -244,17 +244,17 @@ body
     background-size: cover;
 }
 
-#aleatorium, #vitaminator, #projeto_monster, #tolgar_runner, #forca_BL, #cobrinha_BL,
-#pshot, #canvas_kuroneko, #yc_gamebook, #phaser_kuroneko, #protect_arthur, #roma_bingo,
-#perninha_HGJ2016, #go_dodger
+#aleatorium, #vitaminator, #projeto_monster, #tolgar_runner, #forca_bl, #cobrinha_bl,
+#pshot, #kuroneko_canvas, #yc_gamebook, #kuroneko_phaser, #protect_arthur, #roma_bingo,
+#perninha_hgj_2016, #go_dodger
 {
     opacity: 1.0;
 }
 
 #aleatorium:hover, #vitaminator:hover, #projeto_monster:hover, #tolgar_runner:hover, 
-#forca_BL:hover, #cobrinha_BL:hover, #pshot:hover, #canvas_kuroneko:hover, 
-#yc_gamebook:hover, #phaser_kuroneko:hover, #protect_arthur:hover, #roma_bingo:hover, 
-#perninha_HGJ2016:hover, #go_dodger:hover
+#forca_bl:hover, #cobrinha_bl:hover, #pshot:hover, #kuroneko_canvas:hover, 
+#yc_gamebook:hover, #kuroneko_phaser:hover, #protect_arthur:hover, #roma_bingo:hover, 
+#perninha_hgj_2016:hover, #go_dodger:hover
 {
     filter: saturate(2);
 }
