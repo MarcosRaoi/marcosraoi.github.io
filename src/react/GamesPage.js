@@ -8,7 +8,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 import GameCell from "./GameCell.js";
 
-var cells_received = [];
+var cellsReceived = [];
 
 var GamesPage = function (_React$Component) {
     _inherits(GamesPage, _React$Component);
@@ -18,17 +18,17 @@ var GamesPage = function (_React$Component) {
 
         var _this = _possibleConstructorReturn(this, (GamesPage.__proto__ || Object.getPrototypeOf(GamesPage)).call(this, props));
 
-        cells_received = props.children.cells;
+        cellsReceived = props.children.cells;
         return _this;
     }
 
     _createClass(GamesPage, [{
-        key: "createCelulas",
-        value: function createCelulas() {
+        key: "createCells",
+        value: function createCells() {
             var index = 0;
             var pageWithCells = [];
-            cells_received.forEach(function () {
-                var eachCell = cells_received[index];
+            cellsReceived.forEach(function () {
+                var eachCell = cellsReceived[index];
                 pageWithCells.push(React.createElement(
                     GameCell,
                     { cell: eachCell },
@@ -42,7 +42,7 @@ var GamesPage = function (_React$Component) {
     }, {
         key: "render",
         value: function render() {
-            var page = this.createCelulas();
+            var page = this.createCells();
             return page;
         }
     }]);

@@ -1,30 +1,28 @@
 import GameCell from "./GameCell.js"
 
-let cells_received = [];
+let cellsReceived = [];
 
 class GamesPage extends React.Component {
     constructor(props) {
         super(props);
-        cells_received = props.children.cells
+        cellsReceived = props.children.cells
     }
 
-    createCelulas() {
+    createCells() {
         let index = 0;
         let pageWithCells = [];
-        cells_received.forEach(() => {
-            let eachCell = cells_received[index]
-            pageWithCells.push(
-                <GameCell cell={eachCell}>
-                    {index}
-                </GameCell>);
-            index++;
-        });
+        cellsReceived.forEach(
+            () => {
+                let eachCell = cellsReceived[index]
+                pageWithCells.push(<GameCell cell={eachCell}>{index}</GameCell>);
+                index++;
+            });
 
         return pageWithCells;
     }
 
     render() {
-        let page = this.createCelulas();
+        let page = this.createCells();
         return(page);
     }
 }
