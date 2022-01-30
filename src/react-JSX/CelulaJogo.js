@@ -1,3 +1,6 @@
+import { getDataLenght } from "../getJson.js";
+import InfoJogo from "./InfoJogo.js";
+
 class CelulaJogos extends React.Component {
     constructor(props) {
         super(props);
@@ -21,9 +24,11 @@ function positionCell(positionClass, cellData) {
 }
 
 CelulaJogos = (props) => {
-    if (props.children == cells.length - 1) {
+    if (props.children == getDataLenght() - 1) {
         return positionCell("celula_de_jogo_ultima", props.cell.data);
     } else {
         return positionCell("celula_de_jogo", props.cell.data);
     }
 }
+
+export default CelulaJogos

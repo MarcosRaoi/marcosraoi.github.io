@@ -11,3 +11,5 @@ InfoJogo = (props) => {
         <div dangerouslySetInnerHTML={{ __html: my_info }} />
     );
 }
+
+export default InfoJogo

@@ -4,6 +4,9 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+import { getDataLenght } from "../getJson.js";
+import InfoJogo from "./InfoJogo.js";
+
 var CelulaJogos = function (_React$Component) {
     _inherits(CelulaJogos, _React$Component);
 
@@ -38,9 +41,11 @@ function positionCell(positionClass, cellData) {
 }
 
 CelulaJogos = function CelulaJogos(props) {
-    if (props.children == cells.length - 1) {
+    if (props.children == getDataLenght() - 1) {
         return positionCell("celula_de_jogo_ultima", props.cell.data);
     } else {
         return positionCell("celula_de_jogo", props.cell.data);
     }
 };
+
+export default CelulaJogos;

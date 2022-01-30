@@ -21,3 +21,5 @@ InfoJogo = function InfoJogo(props) {
 
     return React.createElement("div", { dangerouslySetInnerHTML: { __html: my_info } });
 };
+
+export default InfoJogo;

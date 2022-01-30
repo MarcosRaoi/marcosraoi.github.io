@@ -1,9 +1,11 @@
+import CelulaJogos from "./CelulaJogo.js"
+
 let cells_received = [];
 
 class PageJogos extends React.Component {
     constructor(props) {
         super(props);
-        cells_received = props.children.cells;
+        cells_received = props.children.cells
     }
 
     createCelulas() {
@@ -26,3 +28,5 @@ class PageJogos extends React.Component {
         return(page);
     }
 }
+
+export default PageJogos
