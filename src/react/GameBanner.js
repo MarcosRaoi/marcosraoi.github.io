@@ -6,51 +6,28 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-import GameCell from "./GameCell.js";
+var GameBanner = function (_React$Component) {
+    _inherits(GameBanner, _React$Component);
 
-var GamesPage = function (_React$Component) {
-    _inherits(GamesPage, _React$Component);
+    function GameBanner(_ref) {
+        var children = _ref.children;
 
-    function GamesPage(props) {
-        _classCallCheck(this, GamesPage);
+        _classCallCheck(this, GameBanner);
 
-        var _this = _possibleConstructorReturn(this, (GamesPage.__proto__ || Object.getPrototypeOf(GamesPage)).call(this, props));
+        var _this = _possibleConstructorReturn(this, (GameBanner.__proto__ || Object.getPrototypeOf(GameBanner)).call(this, { children: children }));
 
-        _this.state = {
-            cellsReceived: _this.props.children.cells
-        };
+        _this.key = children;
         return _this;
     }
 
-    _createClass(GamesPage, [{
-        key: "createCells",
-        value: function createCells() {
-            var _this2 = this;
-
-            var index = 0;
-            var pageWithCells = [];
-
-            this.state.cellsReceived.forEach(function () {
-                var eachCell = _this2.state.cellsReceived[index];
-                pageWithCells.push(React.createElement(
-                    GameCell,
-                    { cell: eachCell },
-                    index
-                ));
-                index++;
-            });
-
-            return pageWithCells;
-        }
-    }, {
+    _createClass(GameBanner, [{
         key: "render",
         value: function render() {
-            var page = this.createCells();
-            return page;
+            return React.createElement("div", { "class": "banner", id: this.key });
         }
     }]);
 
-    return GamesPage;
+    return GameBanner;
 }(React.Component);
 
-export default GamesPage;
+export default GameBanner;

@@ -1,3 +1,5 @@
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -6,6 +8,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 import { getDataLenght } from "../getJson.js";
 import GameInfo from "./GameInfo.js";
+import GameLinkedBanner from "./GameLinkedBanner.js";
 
 var LAST_CELL_CLASS_NAME = "celula_de_jogo_ultima";
 var NORMAL_CELL_CLASS_NAME = "celula_de_jogo";
@@ -19,42 +22,36 @@ var GameCell = function (_React$Component) {
         return _possibleConstructorReturn(this, (GameCell.__proto__ || Object.getPrototypeOf(GameCell)).call(this, props));
     }
 
+    _createClass(GameCell, [{
+        key: "positionCell",
+        value: function positionCell(positionClass, cellData) {
+            var cellInfo = cellData.info;
+
+            return React.createElement(
+                "div",
+                { "class": positionClass },
+                React.createElement(GameLinkedBanner, { bannerData: { cellData: cellData } }),
+                React.createElement(
+                    GameInfo,
+                    null,
+                    cellInfo
+                )
+            );
+        }
+    }, {
+        key: "render",
+        value: function render() {
+            var cellIndex = this.props.children;
+
+            if (cellIndex == getDataLenght() - 1) {
+                return this.positionCell(LAST_CELL_CLASS_NAME, this.props.cell.data);
+            } else {
+                return this.positionCell(NORMAL_CELL_CLASS_NAME, this.props.cell.data);
+            }
+        }
+    }]);
+
     return GameCell;
 }(React.Component);
-
-function getLinkTarget(str_target) {
-    return str_target ? str_target : "_self";
-}
-
-function positionCell(positionClass, cellData) {
-    // All datas are 'strings' at JSON
-    var cellHref = cellData.link;
-    var cellTarget = cellData.target;
-    var cellId = cellData.key;
-    var cellInfo = cellData.info;
-
-    return React.createElement(
-        "div",
-        { "class": positionClass },
-        React.createElement(
-            "a",
-            { href: cellHref, target: getLinkTarget(cellTarget) },
-            React.createElement("div", { "class": "banner", id: cellId })
-        ),
-        React.createElement(
-            GameInfo,
-            null,
-            cellInfo
-        )
-    );
-}
-
-GameCell = function GameCell(props) {
-    if (props.children == getDataLenght() - 1) {
-        return positionCell(LAST_CELL_CLASS_NAME, props.cell.data);
-    } else {
-        return positionCell(NORMAL_CELL_CLASS_NAME, props.cell.data);
-    }
-};
 
 export default GameCell;

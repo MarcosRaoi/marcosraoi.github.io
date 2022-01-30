@@ -6,51 +6,54 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-import GameCell from "./GameCell.js";
+import GameBanner from "./GameBanner.js";
 
-var GamesPage = function (_React$Component) {
-    _inherits(GamesPage, _React$Component);
+var GameLinkedBanner = function (_React$Component) {
+    _inherits(GameLinkedBanner, _React$Component);
 
-    function GamesPage(props) {
-        _classCallCheck(this, GamesPage);
+    function GameLinkedBanner(_ref) {
+        var bannerData = _ref.bannerData;
 
-        var _this = _possibleConstructorReturn(this, (GamesPage.__proto__ || Object.getPrototypeOf(GamesPage)).call(this, props));
+        _classCallCheck(this, GameLinkedBanner);
+
+        var _this = _possibleConstructorReturn(this, (GameLinkedBanner.__proto__ || Object.getPrototypeOf(GameLinkedBanner)).call(this, { bannerData: bannerData }));
 
         _this.state = {
-            cellsReceived: _this.props.children.cells
+            data: bannerData
         };
         return _this;
     }
 
-    _createClass(GamesPage, [{
-        key: "createCells",
-        value: function createCells() {
-            var _this2 = this;
-
-            var index = 0;
-            var pageWithCells = [];
-
-            this.state.cellsReceived.forEach(function () {
-                var eachCell = _this2.state.cellsReceived[index];
-                pageWithCells.push(React.createElement(
-                    GameCell,
-                    { cell: eachCell },
-                    index
-                ));
-                index++;
-            });
-
-            return pageWithCells;
+    _createClass(GameLinkedBanner, [{
+        key: "getLinkTarget",
+        value: function getLinkTarget(str_target) {
+            return str_target ? str_target : "_self";
         }
     }, {
         key: "render",
         value: function render() {
-            var page = this.createCells();
-            return page;
+            var myBannerData = this.state.data.cellData;
+            var cellHref = myBannerData.link;
+            var cellTarget = myBannerData.target;
+            var cellId = myBannerData.key;
+
+            return React.createElement(
+                "div",
+                null,
+                React.createElement(
+                    "a",
+                    { href: cellHref, target: this.getLinkTarget(cellTarget) },
+                    React.createElement(
+                        GameBanner,
+                        null,
+                        cellId
+                    )
+                )
+            );
         }
     }]);
 
-    return GamesPage;
+    return GameLinkedBanner;
 }(React.Component);
 
-export default GamesPage;
+export default GameLinkedBanner;

@@ -2,16 +2,16 @@ class GameInfo extends React.Component {
     constructor(props) {
         super(props);
     }
-}
 
-GameInfo = (props) => {
-    let myInfo = props.children;
+    render() {
+        let myInfo = this.props.children;
 
-    return (
-        <div class="info">
-            <div dangerouslySetInnerHTML={{ __html: myInfo }} />
-        </div>
-    );
+        return (
+            <div class="info">
+                <div dangerouslySetInnerHTML={{ __html: myInfo }} />
+            </div>
+        );
+    }
 }
 
 export default GameInfo;
