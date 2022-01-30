@@ -150,7 +150,7 @@ body
     /* tou achando que é melhor eu colocar 570x360 as caixas, porque aí elas podem cair pra baixo de acordo com o tamanho da janela né? hmm */  
 }
 
-.celula_de_jogo:hover
+.celula_de_jogo:hover, .celula_de_jogo_ultima:hover
 {
     border-radius: 0px;
 }
