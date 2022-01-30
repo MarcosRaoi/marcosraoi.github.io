@@ -42,12 +42,9 @@ var GameCell = function (_React$Component) {
         key: "render",
         value: function render() {
             var cellIndex = this.props.children;
+            var className = cellIndex == getDataLenght() - 1 ? LAST_CELL_CLASS_NAME : NORMAL_CELL_CLASS_NAME;
 
-            if (cellIndex == getDataLenght() - 1) {
-                return this.positionCell(LAST_CELL_CLASS_NAME, this.props.cell.data);
-            } else {
-                return this.positionCell(NORMAL_CELL_CLASS_NAME, this.props.cell.data);
-            }
+            return this.positionCell(className, this.props.cell.data);
         }
     }]);
 

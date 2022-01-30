@@ -23,12 +23,9 @@ class GameCell extends React.Component {
 
     render() {
         let cellIndex = this.props.children;
+        let className = (cellIndex == getDataLenght() - 1) ? LAST_CELL_CLASS_NAME : NORMAL_CELL_CLASS_NAME;
 
-        if (cellIndex == getDataLenght() - 1) {
-            return this.positionCell(LAST_CELL_CLASS_NAME, this.props.cell.data);
-        } else {
-            return this.positionCell(NORMAL_CELL_CLASS_NAME, this.props.cell.data);
-        }
+        return this.positionCell(className, this.props.cell.data);
     }
 }
 
