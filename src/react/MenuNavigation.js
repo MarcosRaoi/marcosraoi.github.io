@@ -24,14 +24,14 @@ var MenuNavigation = function (_React$Component) {
                 React.createElement(
                     "a",
                     { href: "index.html" },
-                    React.createElement("div", { id: "home" })
+                    React.createElement("div", { id: "home", "class": "menu" })
                 ),
                 React.createElement(
                     "a",
                     { href: "jogos.html" },
                     React.createElement(
                         "div",
-                        { id: "jogos" },
+                        { id: "jogos", "class": "menu" },
                         "Meus jogos"
                     )
                 ),
@@ -40,7 +40,7 @@ var MenuNavigation = function (_React$Component) {
                     { href: "https://marcosraoi.blogspot.com/", target: "_blank" },
                     React.createElement(
                         "div",
-                        { id: "blog" },
+                        { id: "blog", "class": "menu" },
                         "BLOG (devlogs)"
                     )
                 ),
@@ -49,7 +49,7 @@ var MenuNavigation = function (_React$Component) {
                     { href: "contato.html" },
                     React.createElement(
                         "div",
-                        { id: "contato" },
+                        { id: "contato", "class": "menu" },
                         "Contato / Redes Sociais"
                     )
                 ),
@@ -58,7 +58,7 @@ var MenuNavigation = function (_React$Component) {
                     { href: "sobre_mim.html" },
                     React.createElement(
                         "div",
-                        { id: "sobre_mim" },
+                        { id: "sobre_mim", "class": "menu" },
                         "Sobre mim"
                     )
                 )

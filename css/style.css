@@ -17,8 +17,6 @@
     margin-left: -8px;
     margin-right: -8px;
     height: 8vh;
-    
-    overflow: hidden;
 }
 
 #home
@@ -28,12 +26,12 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-#home:hover,#jogos:hover, #blog:hover, #contato:hover, #sobre_mim:hover, .redes_sociais:hover
+.menu:hover, .redes_sociais:hover
 {
     background-color: #b79ddd;
 }
 
-#home,#jogos,#blog,#contato,#sobre_mim
+.menu
 {
     height: 100%;
     width: 12.5vw;
