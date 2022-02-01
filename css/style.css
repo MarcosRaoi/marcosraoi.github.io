@@ -1,3 +1,57 @@
+/**** COLORS ****/
+#topper, .redes_sociais
+{
+    background-color: #bacff4;
+}
+
+#bem_vindo:hover, .menu:hover, .redes_sociais:hover
+{
+    background-color: #b79ddd;
+}
+
+#bem_vindo
+{
+    background-color: rgba(183,157,221,0.5);
+}
+
+.page
+{
+    background-color: azure;
+}
+
+a
+{
+    color: #000;
+}
+
+#portfolio
+{
+    text-decoration: none;
+    color: #ff0000;
+}
+
+#portfolio:visited
+{
+    color: #c10000;    
+}
+
+body
+{
+    background-color: #000;
+}
+
+#bottom
+{
+    color: #FFF;
+    background-color: #000;
+}
+
+.celula_de_jogo, .celula_de_jogo_ultima, .info
+{
+    background-color: #fff;
+}
+
+/**** FONTS ****/
 @font-face
 {
     font-family: Early GameBoy;
@@ -12,7 +66,6 @@
 
 #topper
 {
-    background-color: #bacff4;
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
@@ -26,10 +79,6 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-.menu:hover, .redes_sociais:hover
-{
-    background-color: #b79ddd;
-}
 
 .menu
 {
@@ -40,18 +89,11 @@
     line-height: 8vh;
 }
 
-a
-{
-    color: #000;
-}
-
 .page
 {
     margin-right: -8px;
     margin-left: -8px;
     height: 88vh;
-    
-    background-color: azure;
 }
 
 #page_index
@@ -72,16 +114,10 @@ a
 {
     height: 75vh;
     width: 30vw;
-    background-color: rgba(183,157,221,0.5);
     position: absolute;
     margin-top: 5vh;
     margin-left: 5vw;
     border-radius: 3vw;
-}
-
-#bem_vindo:hover
-{
-    background-color: #b79ddd;
 }
 
 #txt_bem_vindo
@@ -95,22 +131,6 @@ a
     font-family: Animation101;
 }
 
-#portfolio
-{
-    text-decoration: none;
-    color: #ff0000;
-}
-
-#portfolio:visited
-{
-    color: #c10000;    
-}
-
-body
-{
-    background-color: #000;
-}
-
 #body_index, #body_contato, #body_sobre_mim
 {
     overflow-y:hidden; /* isso aqui é pra esconder as barrinha ^^ só o Y dava né? */
@@ -119,8 +139,6 @@ body
 
 #bottom
 {
-    color: #FFF;
-    background-color: #000;  
     height: 4vh;
     width: 100%;
     margin-left: -8px;
@@ -132,7 +150,6 @@ body
 
 .celula_de_jogo, .celula_de_jogo_ultima
 {
-    background-color: #fff;
     border: 1px solid #000;
     /*height: 38vh;
     width: 29.5vw;*/
@@ -167,7 +184,6 @@ body
 .info
 {
     padding: 10px;
-    background-color: #fff;
     font-size: 15pt;
     text-align: justify;
 }
@@ -260,7 +276,6 @@ body
 .redes_sociais
 {
     margin: auto;
-    background-color: #bacff4;
     width: 30vw;
     margin-bottom: 5vh;
     height: 10vh;
@@ -300,7 +315,7 @@ body
 #linkedin
 {
     background-image: url(../img/linkedin.png);
-    background-size: cover;    
+    background-size: cover;
 }
 
 #eunabig
@@ -308,7 +323,7 @@ body
     position: relative;
     top: 10%;
     left: 77%;
-    height: 70vh;  
+    height: 70vh;
     width: 19.2vw;
 }
 
@@ -317,7 +332,7 @@ body
     position: absolute;
     top: 20%;
     left: 7%;
-    height: 70vh;  
+    height: 70vh;
     width: 66vw;
     font-size: 100%;
     text-align: justify;
