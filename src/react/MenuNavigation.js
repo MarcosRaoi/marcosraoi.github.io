@@ -6,6 +6,11 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+var TITLE_MY_GAMES_PAGE = "MEUS JOGOS"; // Meus jogos
+var TITLE_BLOG_PAGE = "BLOG (DEVLOGS)"; // BLOG (devlogs)
+var TITLE_CONTACT_PAGE = "CONTATO / REDES SOCIAIS"; // Contato / Redes Sociais
+var TITLE_ABOUT_ME_PAGE = "SOBRE MIM"; // Sobre mim
+
 var MenuNavigation = function (_React$Component) {
     _inherits(MenuNavigation, _React$Component);
 
@@ -32,7 +37,7 @@ var MenuNavigation = function (_React$Component) {
                     React.createElement(
                         "div",
                         { id: "jogos", "class": "menu" },
-                        "Meus jogos"
+                        TITLE_MY_GAMES_PAGE
                     )
                 ),
                 React.createElement(
@@ -41,7 +46,7 @@ var MenuNavigation = function (_React$Component) {
                     React.createElement(
                         "div",
                         { id: "blog", "class": "menu" },
-                        "BLOG (devlogs)"
+                        TITLE_BLOG_PAGE
                     )
                 ),
                 React.createElement(
@@ -50,7 +55,7 @@ var MenuNavigation = function (_React$Component) {
                     React.createElement(
                         "div",
                         { id: "contato", "class": "menu" },
-                        "Contato / Redes Sociais"
+                        TITLE_CONTACT_PAGE
                     )
                 ),
                 React.createElement(
@@ -59,7 +64,7 @@ var MenuNavigation = function (_React$Component) {
                     React.createElement(
                         "div",
                         { id: "sobre_mim", "class": "menu" },
-                        "Sobre mim"
+                        TITLE_ABOUT_ME_PAGE
                     )
                 )
             );
