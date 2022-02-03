@@ -7,6 +7,7 @@
 #bem_vindo:hover, .menu:hover, .redes_sociais:hover
 {
     background-color: #b79ddd;
+    transition: all 0.5s ease;
 }
 
 #bem_vindo
@@ -318,7 +319,7 @@ body
     background-size: cover;
 }
 
-#eunabig
+#eu_na_big
 {
     position: relative;
     top: 10%;
