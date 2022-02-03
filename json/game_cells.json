@@ -10,7 +10,9 @@
             "link":
             "https://www.playbonds.com/pt/jogos/video-bingo/descricao/3726/Roma_Bingo", "target":"_blank",
             "platform":
-            "PC"
+            "PC",
+            "language":
+            "Javascript"
         }
     },
     {
@@ -24,7 +26,9 @@
             "link":
             "https://dasaistudio.github.io/vitaminator", "target":"_blank",
             "platform":
-            "PC"
+            "PC",
+            "language":
+            "C#"
         }
     },
     {
@@ -38,7 +42,9 @@
             "link":
             "jogos/Aleatorium2/Aleatorium.html",
             "platform":
-            "PC"
+            "PC",
+            "language":
+            "Javascript"
         }
     },
     {
@@ -52,7 +58,9 @@
             "link":
             "https://drive.google.com/open?id=1se6A0aYLbv2XRd6XOfitAZeW8aEIcPa1", "target":"_blank",
             "platform":
-            "Mobile"
+            "Mobile",
+            "language":
+            "Javascript"
         }
     },
     {
@@ -66,7 +74,9 @@
             "link":
             "https://u-games-studio.itch.io/protect-arthur", "target":"_blank",
             "platform":
-            "PC"
+            "PC",
+            "language":
+            "C#"
         }
     },
     {
@@ -80,7 +90,9 @@
             "link":
             "jogos/GoDodger/GoDodger.html",
             "platform":
-            "PC"
+            "PC",
+            "language":
+            "Gdscript"
         }
     },
     {
@@ -94,7 +106,9 @@
             "link":
             "jogos/heroinGameJam2016_Perninha/index.html",
             "platform":
-            "PC"
+            "PC",
+            "language":
+            "Javascript"
         }
     },
     {
@@ -108,7 +122,9 @@
             "link":
             "jogos/ForcaBlueLightning_ex6aula6/index.html",
             "platform":
-            "PC"
+            "PC",
+            "language":
+            "Javascript"
         }
     },
     {
@@ -122,7 +138,9 @@
             "link":
             "jogos/snake_bluelightning/snakeBL.html",
             "platform":
-            "PC"
+            "PC",
+            "language":
+            "Javascript"
         }
     },
     {
@@ -136,7 +154,9 @@
             "link":
             "https://drive.google.com/open?id=1FaZpyK1FjQDglYAxeMQHYECJJ1Sx5sWt", "target":"_blank",
             "platform":
-            "Mobile"
+            "Mobile",
+            "language":
+            "Javascript"
         }
     },
     {
@@ -150,7 +170,9 @@
             "link":
             "jogos/Gamebook/index.html",
             "platform":
-            "PC"
+            "PC",
+            "language":
+            "HTML / CSS"
         }
     },
     {
@@ -164,7 +186,9 @@
             "link":
             "jogos/hamtaro_guacamole/guacamole.html",
             "platform":
-            "PC"
+            "PC",
+            "language":
+            "Javascript"
         }
     },
     {
@@ -178,7 +202,9 @@
             "link":
             "jogos/hitTheKuroneko_phaser/index.html",
             "platform":
-            "PC"
+            "PC",
+            "language":
+            "Javascript"
         }
     },
     {
@@ -192,7 +218,9 @@
             "link":
             "jogos/ProjetoMonster/antgame.html",
             "platform":
-            "PC"
+            "PC",
+            "language":
+            "Javascript"
         }
     }
 ]
