@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"label": "npm: dev",
+			"detail": "npx babel --watch src/react-JSX --out-dir src/react --presets react-app/prod"
+		},
+		{
+			"type": "npm",
+			"script": "server",
+			"problemMatcher": [],
+			"label": "npm: server",
+			"detail": "python -m http.server"
+		},
+		{
+			"label": "Portfolio",
+			"dependsOn": [
+				"npm: dev",
+				"npm: server"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
