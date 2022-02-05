@@ -386,7 +386,6 @@ body
     {
         font-size: 19px;
         top: 20px;
-        overflow: scroll;
     }
 
     .page
@@ -398,6 +397,7 @@ body
     #eu_na_big
     {
         top: 50px;
+        padding: 0 0 50px;
     }
 
     .redes_sociais
@@ -410,5 +410,22 @@ body
     .txt_redes_sociais
     {
         font-size: 14px;
+    }
+
+    #body_index, #body_contato, #body_sobre_mim
+    {
+        overflow-y:scroll;
+        overflow-x:scroll;
+    }
+
+    #bem_vindo
+    {
+        background-color: #b79ddd;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        position: relative;
+        border-radius: 8vw;
     }
 }
