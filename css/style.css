@@ -88,6 +88,7 @@ body
     float: left;
     text-align: center;
     line-height: 8vh;
+    overflow: hidden; /* Pra sumir com o (DEVLOGS, e o /REDES SOCIAIS, se não couber */
 }
 
 .page
@@ -274,6 +275,11 @@ body
     filter: saturate(2);
 }
 
+.redes_sociais, .img_redes_sociais, .txt_redes_sociais
+{
+    position: relative;
+}
+
 .redes_sociais
 {
     margin: auto;
@@ -281,21 +287,18 @@ body
     margin-bottom: 5vh;
     height: 10vh;
     
-    position: relative;
     top: 25%;
 }
 
 .img_redes_sociais
 {
     width: 10vh;
-    position: relative;
     float: left;
     height: 100%;
 }
 
 .txt_redes_sociais
 {
-    position: relative;
     left: 3%;
     top: 20%;
     height: 100%;
@@ -337,4 +340,75 @@ body
     width: 66vw;
     font-size: 100%;
     text-align: justify;
+}
+
+/***** MOBILE *****/
+
+@media screen and (max-width: 768px)
+{
+    .menu 
+    {
+        float: none;
+        width: 100%;
+        align-items: center;
+        display: inline-block;
+        height: 50px;
+        background-position: center;
+        padding: 15px 0px;
+    }
+
+    #topper
+    {
+        height: auto;
+    }
+
+    #jogos, #contato
+    {
+        background-color: #9db6e0;
+    }
+
+    .celula_de_jogo, .celula_de_jogo_ultima
+    {
+        width: 80vw;
+        background-size: cover;
+        height: 57vh;
+    }
+
+    #txt_sobre_mim, #eu_na_big
+    {
+        position: relative;
+        width: 88%;
+        height: auto;
+        left: 20px;
+    }
+
+    #txt_sobre_mim
+    {
+        font-size: 19px;
+        top: 20px;
+        overflow: scroll;
+    }
+
+    .page
+    {
+        padding: 50px 0;
+        height: auto;
+    }
+
+    #eu_na_big
+    {
+        top: 50px;
+    }
+
+    .redes_sociais
+    {
+        width: 90%;
+        margin: auto;
+        background-color: azure;
+    }
+
+    .txt_redes_sociais
+    {
+        font-size: 14px;
+    }
 }
