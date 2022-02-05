@@ -21,9 +21,14 @@ var GameBanner = function (_React$Component) {
     }
 
     _createClass(GameBanner, [{
+        key: "getStyleImage",
+        value: function getStyleImage(keyId) {
+            return { backgroundImage: "url(../img/banners/banner_" + keyId + ".png)", backgroundSize: 'cover' };
+        }
+    }, {
         key: "render",
         value: function render() {
-            return React.createElement("div", { "class": "banner", id: this.key });
+            return React.createElement("div", { "class": "banner", id: this.key, style: this.getStyleImage(this.key) });
         }
     }]);
 
