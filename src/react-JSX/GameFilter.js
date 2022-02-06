@@ -1,9 +1,7 @@
 class GameFilter extends React.Component {
     constructor(props) {
         super(props);
-        console.log("props", this.props)
-        this.filterFunc = this.props.filterFunc
-        this.state = {}
+        this.filterFunc = this.props.filterFunc;
     }
 
     render() {

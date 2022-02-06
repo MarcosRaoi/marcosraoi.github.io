@@ -14,9 +14,7 @@ var GameFilter = function (_React$Component) {
 
         var _this = _possibleConstructorReturn(this, (GameFilter.__proto__ || Object.getPrototypeOf(GameFilter)).call(this, props));
 
-        console.log("props", _this.props);
         _this.filterFunc = _this.props.filterFunc;
-        _this.state = {};
         return _this;
     }
 
