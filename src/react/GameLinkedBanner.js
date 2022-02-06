@@ -16,12 +16,7 @@ var GameLinkedBanner = function (_React$Component) {
 
         _classCallCheck(this, GameLinkedBanner);
 
-        var _this = _possibleConstructorReturn(this, (GameLinkedBanner.__proto__ || Object.getPrototypeOf(GameLinkedBanner)).call(this, { bannerData: bannerData }));
-
-        _this.state = {
-            data: bannerData
-        };
-        return _this;
+        return _possibleConstructorReturn(this, (GameLinkedBanner.__proto__ || Object.getPrototypeOf(GameLinkedBanner)).call(this, { bannerData: bannerData }));
     }
 
     _createClass(GameLinkedBanner, [{
@@ -32,7 +27,7 @@ var GameLinkedBanner = function (_React$Component) {
     }, {
         key: "render",
         value: function render() {
-            var myBannerData = this.state.data.cellData;
+            var myBannerData = this.props.bannerData.cellData;
             var cellHref = myBannerData.link;
             var cellTarget = myBannerData.target;
             var cellId = myBannerData.key;

@@ -1,7 +1,6 @@
 class GameBanner extends React.Component {
     constructor({children}) {
         super({children});
-        this.key = children;
     }
 
     getStyleImage(keyId) {
@@ -9,7 +8,8 @@ class GameBanner extends React.Component {
     }
 
     render() {
-        return (<div class="banner" id={this.key} style={this.getStyleImage(this.key)}></div>)
+        let key = this.props.children;
+        return (<div class="banner" id={key} style={this.getStyleImage(key)}></div>)
     }
 }
 

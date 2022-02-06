@@ -29,7 +29,6 @@ class GamesPage extends React.Component {
         this.state.cellsReceived.forEach(
             () => {
                 let eachCell = this.state.cellsReceived[index]
-                console.log("each Cell", eachCell.data.key)
                 this.pageWithCells.push(<GameCell cell={eachCell}>{index}</GameCell>);
                 index++;
             }
@@ -53,20 +52,14 @@ class GamesPage extends React.Component {
     }
 
     filterCells(str_filterMode) {
-        console.log("str_filterMode", str_filterMode)
         this.setState(() => {
             return ( {filterState:  str_filterMode })
         })
-
-        console.log("filterState", this.state.filterState);
     }
 
     render() {
-        console.log("afe", this.state.filterState);
         let page = this.renderCells(this.state.filterState);
         page.unshift(<GameFilter filterFunc={(str) => this.filterCells(str)}/>);
-
-        console.log("page", page);
         return(page);
     }
 }

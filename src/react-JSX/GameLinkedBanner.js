@@ -3,9 +3,6 @@ import GameBanner from "./GameBanner.js";
 class GameLinkedBanner extends React.Component {
     constructor({bannerData}) {
         super({bannerData});
-        this.state = {
-            data: bannerData
-        }
     }
 
     getLinkTarget(str_target) {
@@ -13,7 +10,7 @@ class GameLinkedBanner extends React.Component {
     }
 
     render() {
-        let myBannerData = this.state.data.cellData;
+        let myBannerData = this.props.bannerData.cellData;
         let cellHref = myBannerData.link;
         let cellTarget = myBannerData.target;
         let cellId = myBannerData.key;

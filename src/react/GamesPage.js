@@ -47,7 +47,6 @@ var GamesPage = function (_React$Component) {
 
             this.state.cellsReceived.forEach(function () {
                 var eachCell = _this2.state.cellsReceived[index];
-                console.log("each Cell", eachCell.data.key);
                 _this2.pageWithCells.push(React.createElement(
                     GameCell,
                     { cell: eachCell },
@@ -76,25 +75,19 @@ var GamesPage = function (_React$Component) {
     }, {
         key: "filterCells",
         value: function filterCells(str_filterMode) {
-            console.log("str_filterMode", str_filterMode);
             this.setState(function () {
                 return { filterState: str_filterMode };
             });
-
-            console.log("filterState", this.state.filterState);
         }
     }, {
         key: "render",
         value: function render() {
             var _this3 = this;
 
-            console.log("afe", this.state.filterState);
             var page = this.renderCells(this.state.filterState);
             page.unshift(React.createElement(GameFilter, { filterFunc: function filterFunc(str) {
                     return _this3.filterCells(str);
                 } }));
-
-            console.log("page", page);
             return page;
         }
     }]);

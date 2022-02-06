@@ -14,10 +14,7 @@ var GameBanner = function (_React$Component) {
 
         _classCallCheck(this, GameBanner);
 
-        var _this = _possibleConstructorReturn(this, (GameBanner.__proto__ || Object.getPrototypeOf(GameBanner)).call(this, { children: children }));
-
-        _this.key = children;
-        return _this;
+        return _possibleConstructorReturn(this, (GameBanner.__proto__ || Object.getPrototypeOf(GameBanner)).call(this, { children: children }));
     }
 
     _createClass(GameBanner, [{
@@ -28,7 +25,8 @@ var GameBanner = function (_React$Component) {
     }, {
         key: "render",
         value: function render() {
-            return React.createElement("div", { "class": "banner", id: this.key, style: this.getStyleImage(this.key) });
+            var key = this.props.children;
+            return React.createElement("div", { "class": "banner", id: key, style: this.getStyleImage(key) });
         }
     }]);
 
