@@ -31,7 +31,7 @@ var GameFilter = function (_React$Component) {
                     { onClick: function onClick() {
                             return _this2.filterFunc("release");
                         } },
-                    " Vamo ver"
+                    "Ordenar por jogos mais novos"
                 )
             );
         }
