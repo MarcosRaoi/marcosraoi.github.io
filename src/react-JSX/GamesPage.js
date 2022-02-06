@@ -57,9 +57,13 @@ class GamesPage extends React.Component {
         })
     }
 
+    appendGameFilter(page) {
+        page.unshift(<GameFilter filterFunc={(str) => this.filterCells(str)}/>);
+    }
+
     render() {
         let page = this.renderCells(this.state.filterState);
-        page.unshift(<GameFilter filterFunc={(str) => this.filterCells(str)}/>);
+        this.appendGameFilter(page);
         return(page);
     }
 }

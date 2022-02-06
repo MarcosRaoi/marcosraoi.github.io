@@ -80,14 +80,19 @@ var GamesPage = function (_React$Component) {
             });
         }
     }, {
-        key: "render",
-        value: function render() {
+        key: "appendGameFilter",
+        value: function appendGameFilter(page) {
             var _this3 = this;
 
-            var page = this.renderCells(this.state.filterState);
             page.unshift(React.createElement(GameFilter, { filterFunc: function filterFunc(str) {
                     return _this3.filterCells(str);
                 } }));
+        }
+    }, {
+        key: "render",
+        value: function render() {
+            var page = this.renderCells(this.state.filterState);
+            this.appendGameFilter(page);
             return page;
         }
     }]);

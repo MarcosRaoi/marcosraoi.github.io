@@ -183,26 +183,16 @@ body
     height: 288px;
 }
 
+.banner:hover
+{
+    filter: saturate(2);
+}
+
 .info
 {
     padding: 10px;
     font-size: 15pt;
     text-align: justify;
-}
-
-#aleatorium, #vitaminator, #projeto_monster, #tolgar_runner, #forca_bl, #cobrinha_bl,
-#pshot, #kuroneko_canvas, #yc_gamebook, #kuroneko_phaser, #protect_arthur, #roma_bingo,
-#perninha_hgj_2016, #go_dodger
-{
-    opacity: 1.0;
-}
-
-#aleatorium:hover, #vitaminator:hover, #projeto_monster:hover, #tolgar_runner:hover, 
-#forca_bl:hover, #cobrinha_bl:hover, #pshot:hover, #kuroneko_canvas:hover, 
-#yc_gamebook:hover, #kuroneko_phaser:hover, #protect_arthur:hover, #roma_bingo:hover, 
-#perninha_hgj_2016:hover, #go_dodger:hover
-{
-    filter: saturate(2);
 }
 
 .redes_sociais, .img_redes_sociais, .txt_redes_sociais
