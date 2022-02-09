@@ -29,8 +29,8 @@ var GamesPage = function (_React$Component) {
         key: "releaseFilterCells",
         value: function releaseFilterCells() {
             this.state.cellsReceived.sort(function (a, b) {
-                var aValue = parseInt(a.data.release.replace("/", ""));
-                var bValue = parseInt(b.data.release.replace("/", ""));
+                var aValue = parseInt(a.data.release.replaceAll("/", ""));
+                var bValue = parseInt(b.data.release.replaceAll("/", ""));
                 return bValue - aValue;
             });
 

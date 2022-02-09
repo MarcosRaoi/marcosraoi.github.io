@@ -13,8 +13,8 @@ class GamesPage extends React.Component {
 
     releaseFilterCells() {
         this.state.cellsReceived.sort((a, b) => {
-            let aValue = parseInt(a.data.release.replace("/", ""))
-            let bValue = parseInt(b.data.release.replace("/", ""))
+            let aValue = parseInt(a.data.release.replaceAll("/", ""))
+            let bValue = parseInt(b.data.release.replaceAll("/", ""))
             return bValue - aValue;
         })
 
