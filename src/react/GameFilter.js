@@ -25,7 +25,7 @@ var GameFilter = function (_React$Component) {
 
             return React.createElement(
                 "div",
-                null,
+                { "class": "" },
                 React.createElement(
                     "div",
                     { onClick: function onClick() {
