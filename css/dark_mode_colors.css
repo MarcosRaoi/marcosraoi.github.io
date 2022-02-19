@@ -1,0 +1,58 @@
+/**** COLORS ****/
+.game_filters
+{
+    background-color: #00000057;
+}
+
+#topper, #topper a, #bottom, .game_filters
+{
+    color: #F6F7EB;
+}
+
+#info_sobre_mim, .redes_sociais, .celula_de_jogo, .celula_de_jogo_ultima, .info
+{
+    background-color: #F6F7EB;
+}
+
+#bem_vindo:hover, .menu:hover, .redes_sociais:hover
+{
+    background-color: #3F88C5;
+}
+
+#bem_vindo
+{
+    background-color: #3f89c5c0;
+}
+
+.page
+{
+    background-color: #ffffff0a;
+}
+
+a
+{
+    color: #000;
+}
+
+#portfolio
+{
+    color: #ff0000;
+}
+
+#portfolio:visited
+{
+    color: #c10000;
+}
+
+body, #bottom
+{
+    background-color: #000;
+}
+
+@media screen and (max-width: 768px)
+{
+    #jogos, #contato
+    {
+        background-color: #00000063;
+    }
+}

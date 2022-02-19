@@ -6,7 +6,7 @@ class GameFilter extends React.Component {
 
     render() {
         return (
-            <div class="">
+            <div class="game_filters">
                 <div onClick={() => this.filterFunc("release")}>Ordenar por jogos mais novos</div>
             </div>
         )

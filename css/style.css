@@ -1,56 +1,3 @@
-/**** COLORS ****/
-#topper, .redes_sociais
-{
-    background-color: #bacff4;
-}
-
-#bem_vindo:hover, .menu:hover, .redes_sociais:hover
-{
-    background-color: #b79ddd;
-    transition: all 0.5s ease;
-}
-
-#bem_vindo
-{
-    background-color: rgba(183,157,221,0.5);
-}
-
-.page
-{
-    background-color: azure;
-}
-
-a
-{
-    color: #000;
-}
-
-#portfolio
-{
-    text-decoration: none;
-    color: #ff0000;
-}
-
-#portfolio:visited
-{
-    color: #c10000;    
-}
-
-body
-{
-    background-color: #000;
-}
-
-#bottom
-{
-    color: #FFF;
-    background-color: #000;
-}
-
-.celula_de_jogo, .celula_de_jogo_ultima, .info
-{
-    background-color: #fff;
-}
 
 /**** FONTS ****/
 @font-face
@@ -65,17 +12,33 @@ body
     src:url(../fonts/Animation101.ttf);
 }
 
+body
+{
+    background-image: url(../img/background_boardgame_273257.png);
+    background-size: cover;
+}
+
+#bem_vindo:hover, .menu:hover, .redes_sociais:hover
+{
+    transition: all 0.5s ease;
+}
+
+#portfolio
+{
+    text-decoration: none;
+}
+
 #topper
 {
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
     height: 8vh;
+    font-weight: bold;
 }
 
 #home
 {
-    background-image: url(../img/bluelightning_logohand.png);
     background-image: url(../img/NewLogo_BL_typo.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -98,19 +61,10 @@ body
     height: 88vh;
 }
 
-#page_index
-{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    background-image: url(../img/NewLogo_BL_page.png);
-}
-
 #page_jogos
 {
     display: table; /* acho que o Display:table resolveu meu problema, mas é uma gambiarra né X_x */
 }
-
 
 #bem_vindo
 {
@@ -119,7 +73,12 @@ body
     position: absolute;
     margin-top: 5vh;
     margin-left: 5vw;
-    border-radius: 3vw;
+    border-radius: 1vw;
+}
+
+#bem_vindo:hover
+{
+    border-radius: 0vw;
 }
 
 #txt_bem_vindo
@@ -141,6 +100,8 @@ body
 
 #bottom
 {
+    position: fixed;
+    bottom: 0px;
     height: 4vh;
     width: 100%;
     margin-left: -8px;
@@ -282,11 +243,6 @@ body
         height: auto;
     }
 
-    #jogos, #contato
-    {
-        background-color: #9db6e0;
-    }
-
     .celula_de_jogo, .celula_de_jogo_ultima
     {
         width: 80vw;
@@ -324,7 +280,6 @@ body
     {
         width: 90%;
         margin: auto;
-        background-color: azure;
     }
 
     .txt_redes_sociais
@@ -340,7 +295,6 @@ body
 
     #bem_vindo
     {
-        background-color: #b79ddd;
         width: 100%;
         margin: 0;
         padding: 0;
