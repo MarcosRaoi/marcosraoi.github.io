@@ -1,0 +1,10 @@
+v-1.0.0 - Added dark_mode_colors css, new background image, footer at React etc
+Big changes! :D Me preparando pra fazer a feature de Light Mode, capaz que volte pras cores antigas se a pessoa clicar numa lampadazinha, mas enfim, deixa asssim por enquanto. Quero terminar a feature de ordenação.
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/0fa45c38f4d90e6b05befc7156c1323df670ec06
+
+v-1.1.0 - contato.html page passed to ContactPage.js
+Por enquanto ainda não criei os components, só tirei do HTML mesmo.
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/2eff1edc7fe64bf5111b4a4e4feffb606a8f8ae6
+
+v-1.1.1 - Added Release Notes .txt, updating version at Footer
+Tinha esqueci, pretendo fazer algumas coisas pegando txt, seja clicar no footer e mostrar o release notes, talvez o texto do sobre_mim vá através de um txt também, não sei dizer, enfim.

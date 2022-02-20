@@ -21,7 +21,7 @@ var Footer = function (_React$Component) {
             return React.createElement(
                 "div",
                 null,
-                "\u03DF Blue Lightning - by Marcos \"Raoi\" Cavalcante - v-1.0.0"
+                "\u03DF Blue Lightning - by Marcos \"Raoi\" Cavalcante - v-1.1.1"
             );
         }
     }]);
