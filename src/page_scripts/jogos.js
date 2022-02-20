@@ -1,4 +1,4 @@
-import GamesPage from "../react/GamesPage.js"
+import GamesPage from "../react/GamesPage.js";
 import { getJson } from "../getJson.js";
 
 const ID_GAMES_PAGE = "page_jogos";

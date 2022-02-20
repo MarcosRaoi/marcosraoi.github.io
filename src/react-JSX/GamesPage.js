@@ -13,8 +13,8 @@ class GamesPage extends React.Component {
 
     releaseFilterCells() {
         this.state.cellsReceived.sort((a, b) => {
-            let aValue = parseInt(a.data.release.replaceAll("/", ""))
-            let bValue = parseInt(b.data.release.replaceAll("/", ""))
+            let aValue = parseInt(a.data.release.replaceAll("/", ""));
+            let bValue = parseInt(b.data.release.replaceAll("/", ""));
             return bValue - aValue;
         })
 
@@ -53,7 +53,7 @@ class GamesPage extends React.Component {
 
     filterCells(str_filterMode) {
         this.setState(() => {
-            return ( {filterState:  str_filterMode })
+            return ( {filterState:  str_filterMode });
         })
     }
 

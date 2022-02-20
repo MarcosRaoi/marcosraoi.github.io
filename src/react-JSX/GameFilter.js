@@ -13,4 +13,4 @@ class GameFilter extends React.Component {
     }
 }
 
-export default GameFilter
+export default GameFilter;

@@ -6,7 +6,7 @@ class GameLinkedBanner extends React.Component {
     }
 
     getLinkTarget(str_target) {
-        return str_target ? str_target : "_self"
+        return str_target ? str_target : "_self";
     }
 
     render() {
