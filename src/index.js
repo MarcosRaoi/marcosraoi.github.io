@@ -1,6 +1,7 @@
 import Footer from "./react/Footer.js";
 import MenuNavigation from "./react/MenuNavigation.js";
 
+const PORTFOLIO_VERSION = "1.1.2";
 const ID_MENU_NAVIGATION = "topper";
 const ID_FOOTER = "bottom";
 
@@ -11,7 +12,7 @@ function renderMenuNavigation() {
 
 function renderFooter() {
     let domContainer = document.getElementById(ID_FOOTER);
-    ReactDOM.render(React.createElement(Footer), domContainer);
+    ReactDOM.render(React.createElement(Footer, {PORTFOLIO_VERSION}), domContainer);
 }
 
 renderMenuNavigation();

@@ -6,13 +6,15 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+import ContactImage from "./ContactImage.js";
+
 var ContactPage = function (_React$Component) {
     _inherits(ContactPage, _React$Component);
 
-    function ContactPage() {
+    function ContactPage(props) {
         _classCallCheck(this, ContactPage);
 
-        return _possibleConstructorReturn(this, (ContactPage.__proto__ || Object.getPrototypeOf(ContactPage)).apply(this, arguments));
+        return _possibleConstructorReturn(this, (ContactPage.__proto__ || Object.getPrototypeOf(ContactPage)).call(this, props));
     }
 
     _createClass(ContactPage, [{
@@ -27,7 +29,7 @@ var ContactPage = function (_React$Component) {
                     React.createElement(
                         "a",
                         { href: "https://www.facebook.com/markinhos.cf", target: "_blank" },
-                        React.createElement("div", { "class": "img_redes_sociais", id: "facebook" }),
+                        React.createElement(ContactImage, { id: "facebook" }),
                         React.createElement(
                             "div",
                             { "class": "txt_redes_sociais" },
@@ -43,7 +45,7 @@ var ContactPage = function (_React$Component) {
                     React.createElement(
                         "a",
                         { href: "https://www.instagram.com/marcosraoi/", target: "_blank" },
-                        React.createElement("div", { "class": "img_redes_sociais", id: "instagram" }),
+                        React.createElement(ContactImage, { id: "instagram" }),
                         React.createElement(
                             "div",
                             { "class": "txt_redes_sociais" },
@@ -57,7 +59,7 @@ var ContactPage = function (_React$Component) {
                     React.createElement(
                         "a",
                         { href: "https://www.linkedin.com/in/marcos-cavalcante-de-freitas-8bb55a120/", target: "_blank" },
-                        React.createElement("div", { "class": "img_redes_sociais", id: "linkedin" }),
+                        React.createElement(ContactImage, { id: "linkedin" }),
                         React.createElement(
                             "div",
                             { "class": "txt_redes_sociais" },

@@ -6,31 +6,29 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Footer = function (_React$Component) {
-    _inherits(Footer, _React$Component);
+var ContactImage = function (_React$Component) {
+    _inherits(ContactImage, _React$Component);
 
-    function Footer(props) {
-        _classCallCheck(this, Footer);
+    function ContactImage(props) {
+        _classCallCheck(this, ContactImage);
 
-        var _this = _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).call(this, props));
-
-        console.log("props", props);
-        return _this;
+        return _possibleConstructorReturn(this, (ContactImage.__proto__ || Object.getPrototypeOf(ContactImage)).call(this, props));
     }
 
-    _createClass(Footer, [{
+    _createClass(ContactImage, [{
+        key: "getStyleImage",
+        value: function getStyleImage(keyId) {
+            return { backgroundImage: "url(../img/redes_sociais/" + keyId + ".png)", backgroundSize: 'cover' };
+        }
+    }, {
         key: "render",
         value: function render() {
-            return React.createElement(
-                "div",
-                null,
-                "\u03DF Blue Lightning - by Marcos \"Raoi\" Cavalcante - v-",
-                this.props.PORTFOLIO_VERSION
-            );
+            var key = this.props.id;
+            return React.createElement("div", { "class": "img_redes_sociais", id: key, style: this.getStyleImage(key) });
         }
     }]);
 
-    return Footer;
+    return ContactImage;
 }(React.Component);
 
-export default Footer;
+export default ContactImage;

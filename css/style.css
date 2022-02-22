@@ -185,24 +185,6 @@ body
     height: 100%;
 }
 
-#facebook
-{
-    background-image: url(../img/facebook.png);
-    background-size: cover;
-}
-
-#instagram
-{
-    background-image: url(../img/instagram.png);
-    background-size: cover;
-}
-
-#linkedin
-{
-    background-image: url(../img/linkedin.png);
-    background-size: cover;
-}
-
 #eu_na_big
 {
     position: relative;

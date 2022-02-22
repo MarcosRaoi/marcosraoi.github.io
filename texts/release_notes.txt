@@ -8,3 +8,9 @@ https://github.com/MarcosRaoi/marcosraoi.github.io/commit/2eff1edc7fe64bf5111b4a
 
 v-1.1.1 - Added Release Notes .txt, updating version at Footer
 Tinha esqueci, pretendo fazer algumas coisas pegando txt, seja clicar no footer e mostrar o release notes, talvez o texto do sobre_mim vá através de um txt também, não sei dizer, enfim.
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/4165f61baf7d766003db7d6b219c01af870ece98
+
+v-1.1.2 - ContactImage class implemented, not using infos at style.css anymore
+Aeeee, mais uma pro React, pegando as background-images e size direto na classe, e procurando as imagens através do ID passado na classe principal ContactPage.js 
+
+Também adicionei a versão numa conts no index.js

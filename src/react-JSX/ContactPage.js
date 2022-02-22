@@ -1,4 +1,9 @@
+import ContactImage from "./ContactImage.js";
+
 class ContactPage extends React.Component {
+    constructor(props) {
+        super(props);
+    }
 
     render() {
         return(
@@ -6,7 +11,7 @@ class ContactPage extends React.Component {
 
                 <div class="redes_sociais">
                     <a href="https://www.facebook.com/markinhos.cf" target="_blank">
-                        <div class="img_redes_sociais" id="facebook"></div>
+                        <ContactImage id="facebook" />
                         <div class="txt_redes_sociais">
                             https://www.facebook.com/markinhos.cf<br/>
                             https://www.facebook.com/BlueLightningStudio
@@ -16,14 +21,14 @@ class ContactPage extends React.Component {
 
                 <div class="redes_sociais">
                     <a href="https://www.instagram.com/marcosraoi/" target="_blank">
-                        <div class="img_redes_sociais" id="instagram"></div>
+                        <ContactImage id="instagram" />
                         <div class="txt_redes_sociais"> https://www.instagram.com/marcosraoi/</div>
                     </a>
                 </div>
 
                 <div class="redes_sociais">
                     <a href="https://www.linkedin.com/in/marcos-cavalcante-de-freitas-8bb55a120/" target="_blank">
-                        <div class="img_redes_sociais" id="linkedin"></div>
+                        <ContactImage id="linkedin" />
                         <div class="txt_redes_sociais">https://www.linkedin.com/in/marcos-cavalcante-de-freitas-8bb55a120/</div>
                     </a>
                 </div>
