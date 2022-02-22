@@ -14,3 +14,7 @@ v-1.1.2 - ContactImage class implemented, not using infos at style.css anymore
 Aeeee, mais uma pro React, pegando as background-images e size direto na classe, e procurando as imagens através do ID passado na classe principal ContactPage.js 
 
 Também adicionei a versão numa conts no index.js
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/7c10602d3befeb72f09d5d56af75259f6b781bd3
+
+v-1.1.3 - ContactTexts implemented, export const SOCIAL_NETWORK
+Mlk é brabo ahsuahsuahu, bom, atualizada versão, criei a conts na ContactPage.js, tou usando agora os textos, tá começando a ficar bonita a ContactPage.js , ahahah, depois vou criar uma pra ContactSocialNetwork, que ja vai tar linkando, vai mandar os id's pros filhos, enfim, vai ficar pica. Eu ia ler esses caras de um json, mas deixa pra lá. Diferente das game_cells, n vai ter tanta adição.

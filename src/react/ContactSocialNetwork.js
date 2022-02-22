@@ -6,28 +6,54 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Footer = function (_React$Component) {
-    _inherits(Footer, _React$Component);
+import { SOCIAL_NETWORKS } from "./ContactPage.js";
+import ContactImage from "./ContactImage.js";
+import ContactText from "./ContactText.js";
 
-    function Footer(props) {
-        _classCallCheck(this, Footer);
+var ContactSocialNetwork = function (_React$Component) {
+    _inherits(ContactSocialNetwork, _React$Component);
 
-        return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).call(this, props));
+    function ContactSocialNetwork(props) {
+        _classCallCheck(this, ContactSocialNetwork);
+
+        return _possibleConstructorReturn(this, (ContactSocialNetwork.__proto__ || Object.getPrototypeOf(ContactSocialNetwork)).call(this, props));
     }
 
-    _createClass(Footer, [{
+    _createClass(ContactSocialNetwork, [{
+        key: "getSocialNetworkLink",
+        value: function getSocialNetworkLink(keyId) {
+            switch (keyId) {
+                case SOCIAL_NETWORKS.Facebook:
+                    return "https://www.facebook.com/markinhos.cf";
+
+                case SOCIAL_NETWORKS.Instagram:
+                    return "https://www.instagram.com/marcosraoi/";
+
+                case SOCIAL_NETWORKS.Linkedin:
+                    return "https://www.linkedin.com/in/marcos-cavalcante-de-freitas-8bb55a120/";
+
+                default:
+                    break;
+            }
+        }
+    }, {
         key: "render",
         value: function render() {
+            var key = this.props.id;
             return React.createElement(
                 "div",
-                null,
-                "\u03DF Blue Lightning - by Marcos \"Raoi\" Cavalcante - v-",
-                this.props.PORTFOLIO_VERSION
+                { "class": "redes_sociais" },
+                React.createElement(
+                    "a",
+                    { href: this.getSocialNetworkLink(key), target: "_blank" },
+                    React.createElement(ContactImage, { id: key }),
+                    React.createElement(ContactText, { id: key })
+                )
             );
         }
     }]);
 
-    return Footer;
+    return ContactSocialNetwork;
 }(React.Component);
 
-export default Footer;
+export default ContactSocialNetwork;

@@ -6,7 +6,13 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-import ContactImage from "./ContactImage.js";
+import ContactSocialNetwork from "./ContactSocialNetwork.js";
+
+export var SOCIAL_NETWORKS = {
+    Instagram: "instagram",
+    Facebook: "facebook",
+    Linkedin: "linkedin"
+};
 
 var ContactPage = function (_React$Component) {
     _inherits(ContactPage, _React$Component);
@@ -23,50 +29,9 @@ var ContactPage = function (_React$Component) {
             return React.createElement(
                 "div",
                 { id: "page_contato", "class": "page" },
-                React.createElement(
-                    "div",
-                    { "class": "redes_sociais" },
-                    React.createElement(
-                        "a",
-                        { href: "https://www.facebook.com/markinhos.cf", target: "_blank" },
-                        React.createElement(ContactImage, { id: "facebook" }),
-                        React.createElement(
-                            "div",
-                            { "class": "txt_redes_sociais" },
-                            "https://www.facebook.com/markinhos.cf",
-                            React.createElement("br", null),
-                            "https://www.facebook.com/BlueLightningStudio"
-                        )
-                    )
-                ),
-                React.createElement(
-                    "div",
-                    { "class": "redes_sociais" },
-                    React.createElement(
-                        "a",
-                        { href: "https://www.instagram.com/marcosraoi/", target: "_blank" },
-                        React.createElement(ContactImage, { id: "instagram" }),
-                        React.createElement(
-                            "div",
-                            { "class": "txt_redes_sociais" },
-                            " https://www.instagram.com/marcosraoi/"
-                        )
-                    )
-                ),
-                React.createElement(
-                    "div",
-                    { "class": "redes_sociais" },
-                    React.createElement(
-                        "a",
-                        { href: "https://www.linkedin.com/in/marcos-cavalcante-de-freitas-8bb55a120/", target: "_blank" },
-                        React.createElement(ContactImage, { id: "linkedin" }),
-                        React.createElement(
-                            "div",
-                            { "class": "txt_redes_sociais" },
-                            "https://www.linkedin.com/in/marcos-cavalcante-de-freitas-8bb55a120/"
-                        )
-                    )
-                )
+                React.createElement(ContactSocialNetwork, { id: SOCIAL_NETWORKS.Facebook }),
+                React.createElement(ContactSocialNetwork, { id: SOCIAL_NETWORKS.Instagram }),
+                React.createElement(ContactSocialNetwork, { id: SOCIAL_NETWORKS.Linkedin })
             );
         }
     }]);
