@@ -18,3 +18,6 @@ https://github.com/MarcosRaoi/marcosraoi.github.io/commit/7c10602d3befeb72f09d5d
 
 v-1.1.3 - ContactTexts implemented, export const SOCIAL_NETWORK
 Mlk é brabo ahsuahsuahu, bom, atualizada versão, criei a conts na ContactPage.js, tou usando agora os textos, tá começando a ficar bonita a ContactPage.js , ahahah, depois vou criar uma pra ContactSocialNetwork, que ja vai tar linkando, vai mandar os id's pros filhos, enfim, vai ficar pica. Eu ia ler esses caras de um json, mas deixa pra lá. Diferente das game_cells, n vai ter tanta adição.
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/4882c3c7564be5f4563ea5881b9600553a69760d
+
+v.1.14 - Parabéns pelos 100 commits, xd
