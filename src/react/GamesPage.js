@@ -7,7 +7,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 import GameCell from "./GameCell.js";
-import GameFilter from "./GameFilter.js";
+import GameMenuFilters from "./GameMenuFilters.js";
 
 var GamesPage = function (_React$Component) {
     _inherits(GamesPage, _React$Component);
@@ -26,27 +26,28 @@ var GamesPage = function (_React$Component) {
     }
 
     _createClass(GamesPage, [{
-        key: "releaseFilterCells",
-        value: function releaseFilterCells() {
-            this.state.cellsReceived.sort(function (a, b) {
-                var aValue = parseInt(a.data.release.replaceAll("/", ""));
-                var bValue = parseInt(b.data.release.replaceAll("/", ""));
-                return bValue - aValue;
-            });
-
-            this.createCells();
+        key: "updateCells",
+        value: function updateCells(cellsOrder) {
+            this.render(cellsOrder);
+        }
+    }, {
+        key: "getCells",
+        value: function getCells() {
+            return this.state.cellsReceived;
         }
     }, {
         key: "createCells",
         value: function createCells() {
             var _this2 = this;
 
+            var cellsOrder = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.state.cellsReceived;
+
             this.pageWithCells = [];
 
             var index = 0;
 
-            this.state.cellsReceived.forEach(function () {
-                var eachCell = _this2.state.cellsReceived[index];
+            cellsOrder.forEach(function () {
+                var eachCell = cellsOrder[index];
                 _this2.pageWithCells.push(React.createElement(
                     GameCell,
                     { cell: eachCell },
@@ -54,44 +55,25 @@ var GamesPage = function (_React$Component) {
                 ));
                 index++;
             });
-        }
-    }, {
-        key: "renderCells",
-        value: function renderCells(str_filterMode) {
-            this.pageWithCells = [];
-
-            switch (str_filterMode) {
-                case "release":
-                    this.releaseFilterCells();
-                    break;
-                case "":
-                default:
-                    this.createCells();
-                    break;
-            }
 
             return this.pageWithCells;
         }
     }, {
-        key: "filterCells",
-        value: function filterCells(str_filterMode) {
+        key: "setCellsReceived",
+        value: function setCellsReceived(cells) {
             this.setState(function () {
-                return { filterState: str_filterMode };
+                return { cellsReceived: cells };
             });
         }
     }, {
         key: "appendGameFilter",
         value: function appendGameFilter(page) {
-            var _this3 = this;
-
-            page.unshift(React.createElement(GameFilter, { filterFunc: function filterFunc(str) {
-                    return _this3.filterCells(str);
-                } }));
+            page.unshift(React.createElement(GameMenuFilters, { gamesPageRef: this }));
         }
     }, {
         key: "render",
-        value: function render() {
-            var page = this.renderCells(this.state.filterState);
+        value: function render(cellsOrder) {
+            var page = this.createCells(cellsOrder);
             this.appendGameFilter(page);
             return page;
         }

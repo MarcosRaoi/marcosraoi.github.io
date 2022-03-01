@@ -205,6 +205,22 @@ body
     text-align: justify;
 }
 
+.game_filters
+{
+    padding: 20px;
+    display: flex;
+}
+
+.game_each_filter:first-child
+{
+    margin-left: 100px;
+}
+
+.game_each_filter
+{
+    margin-left: 30px;
+}
+
 /***** MOBILE *****/
 
 @media screen and (max-width: 768px)

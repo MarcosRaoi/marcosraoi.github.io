@@ -1,5 +1,5 @@
 import GameCell from "./GameCell.js"
-import GameFilter from "./GameFilter.js";
+import GameMenuFilters from "./GameMenuFilters.js";
 
 class GamesPage extends React.Component {
     constructor(props) {
@@ -11,58 +11,42 @@ class GamesPage extends React.Component {
         this.pageWithCells = [];
     }
 
-    releaseFilterCells() {
-        this.state.cellsReceived.sort((a, b) => {
-            let aValue = parseInt(a.data.release.replaceAll("/", ""));
-            let bValue = parseInt(b.data.release.replaceAll("/", ""));
-            return bValue - aValue;
-        })
-
-        this.createCells();
+    updateCells(cellsOrder) {
+        this.render(cellsOrder);
     }
 
-    createCells() {
+    getCells() {
+        return this.state.cellsReceived;
+    }
+
+    createCells(cellsOrder = this.state.cellsReceived) {
         this.pageWithCells = [];
         
         let index = 0;
 
-        this.state.cellsReceived.forEach(
+        cellsOrder.forEach(
             () => {
-                let eachCell = this.state.cellsReceived[index]
+                let eachCell = cellsOrder[index]
                 this.pageWithCells.push(<GameCell cell={eachCell}>{index}</GameCell>);
                 index++;
             }
         );
+
+        return this.pageWithCells
     }
 
-    renderCells(str_filterMode) {
-        this.pageWithCells = [];
-
-        switch (str_filterMode) {
-            case "release":
-                this.releaseFilterCells();
-                break;
-            case "":
-            default:
-                this.createCells();
-                break;
-        }
-
-        return this.pageWithCells;
-    }
-
-    filterCells(str_filterMode) {
+    setCellsReceived(cells) {
         this.setState(() => {
-            return ( {filterState:  str_filterMode });
+            return ( {cellsReceived:  cells });
         })
     }
 
     appendGameFilter(page) {
-        page.unshift(<GameFilter filterFunc={(str) => this.filterCells(str)}/>);
+        page.unshift(<GameMenuFilters gamesPageRef={this}/>);
     }
 
-    render() {
-        let page = this.renderCells(this.state.filterState);
+    render(cellsOrder) {
+        let page = this.createCells(cellsOrder);
         this.appendGameFilter(page);
         return(page);
     }

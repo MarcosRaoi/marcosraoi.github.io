@@ -21,3 +21,8 @@ Mlk é brabo ahsuahsuahu, bom, atualizada versão, criei a conts na ContactPage.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/4882c3c7564be5f4563ea5881b9600553a69760d
 
 v.1.14 - Parabéns pelos 100 commits, xd
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/9e6e9c4c3f27aa97dc745a2d62a8f9f18ae7ef62
+
+v.1.2.0 - Passing filter responsibilities to GameMenuFilter class
+Bom, já tava querendo dar uma melhorada no código a um tempinho, pra poder criar os outros filtros eu preferi primeiro refatorar, pra depois seguir. E bem capaz que o filter method possa só receber a string do que ele quer filtrar "release", etc, ainda vou fazer uns testes, mas beleza, já tá melhor. Ainda vou implementar o crescente / decrescente.
+

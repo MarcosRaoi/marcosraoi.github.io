@@ -9,13 +9,10 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var GameFilter = function (_React$Component) {
     _inherits(GameFilter, _React$Component);
 
-    function GameFilter(props) {
+    function GameFilter() {
         _classCallCheck(this, GameFilter);
 
-        var _this = _possibleConstructorReturn(this, (GameFilter.__proto__ || Object.getPrototypeOf(GameFilter)).call(this, props));
-
-        _this.filterFunc = _this.props.filterFunc;
-        return _this;
+        return _possibleConstructorReturn(this, (GameFilter.__proto__ || Object.getPrototypeOf(GameFilter)).apply(this, arguments));
     }
 
     _createClass(GameFilter, [{
@@ -25,14 +22,10 @@ var GameFilter = function (_React$Component) {
 
             return React.createElement(
                 "div",
-                { "class": "game_filters" },
-                React.createElement(
-                    "div",
-                    { onClick: function onClick() {
-                            return _this2.filterFunc("release");
-                        } },
-                    "Ordenar por jogos mais novos"
-                )
+                { "class": "game_each_filter", onClick: function onClick() {
+                        return _this2.props.func();
+                    } },
+                this.props.children
             );
         }
     }]);
