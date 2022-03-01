@@ -3,7 +3,6 @@ import GameFilter from "./GameFilter.js";
 class GameMenuFilters extends React.Component {
     constructor(props) {
         super(props);
-        this.filterFunc = this.props.filterFunc;
         this.gamesPageRef = this.props.gamesPageRef;
     }
 
@@ -38,6 +37,36 @@ class GameMenuFilters extends React.Component {
             }
             return 0;
         });
+
+        this.updadeGamePage(gamePage, cells);
+    }
+
+    logProps(dataProp = "", cells = []) {
+        console.clear();
+        cells.forEach(element => {
+            console.log(dataProp, " >> " , element.data[dataProp]);
+        });
+    }
+
+    filterData(dataProp = "", isAlphabetical = false) {
+        if (isAlphabetical) {
+            this.filterAlphabetical();
+        }
+
+        let gamePage = this.gamesPageRef;
+        let cells = gamePage.getCells();
+
+        cells.sort((a,b) => {
+            if (a.data[dataProp] > b.data[dataProp]) {
+                return 1;
+            }
+            if (a.data[dataProp] < b.data[dataProp]) {
+                return -1;
+            }
+            return 0;
+        });
+
+        this.logProps(dataProp, cells);
         this.updadeGamePage(gamePage, cells);
     }
 
@@ -46,6 +75,8 @@ class GameMenuFilters extends React.Component {
             <div class="game_filters"> ORDENAR POR:
                 <GameFilter func={() => this.filterRelease()}>LANÇAMENTO</GameFilter>
                 <GameFilter func={() => this.filterAlphabetical()}>A / Z</GameFilter>
+                <GameFilter func={() => this.filterData("language", true)}>LINGUAGEM</GameFilter>
+                <GameFilter func={() => this.filterData("technology", true)}>TECNOLOGIA</GameFilter>
             </div>
         )
     }

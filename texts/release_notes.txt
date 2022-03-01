@@ -29,3 +29,6 @@ https://github.com/MarcosRaoi/marcosraoi.github.io/commit/43e022bda6142927dc3a3c
 
 v.1.2.1 - Implemented Alphabetical Filter
 Bom, dibas e talz,, mas ainda tou pensando, não quero ficar generalizando muito também as funções de filtro, apesar de ser possível... Todas essas de string podiam fazer isso, e malema, todas são string no json, mas beleza... boh implementar o da ordem contrária ON/OFF, fora o .css que não tá ocupando a caxinha inteira.
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/c86498a2eee12bff285e0657805d46b9cd9b4ac7
+
+v.1.2.2 - 

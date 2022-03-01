@@ -21,6 +21,7 @@ body
 #bem_vindo:hover, .menu:hover, .redes_sociais:hover, .game_each_filter:hover
 {
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 
 #portfolio
@@ -227,15 +228,28 @@ body
 
 @media screen and (max-width: 768px)
 {
-    .menu 
+    .menu
     {
         float: none;
         width: 100%;
         align-items: center;
         display: inline-block;
         height: 50px;
-        background-position: center;
-        padding: 15px 0px;
+        padding: 0px 0px 25px;
+    }
+    
+    .game_filters
+    {
+        display: inline-block;
+        width: 100%;
+        padding: 0;
+    }
+
+    .game_each_filter, .game_each_filter:first-child
+    {
+        margin-left: 0px;
+        height: 30px;
+        padding: 15px 0 0 0;
     }
 
     #topper

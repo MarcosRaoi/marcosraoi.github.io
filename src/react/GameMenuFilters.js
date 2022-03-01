@@ -16,7 +16,6 @@ var GameMenuFilters = function (_React$Component) {
 
         var _this = _possibleConstructorReturn(this, (GameMenuFilters.__proto__ || Object.getPrototypeOf(GameMenuFilters)).call(this, props));
 
-        _this.filterFunc = _this.props.filterFunc;
         _this.gamesPageRef = _this.props.gamesPageRef;
         return _this;
     }
@@ -56,6 +55,44 @@ var GameMenuFilters = function (_React$Component) {
                 }
                 return 0;
             });
+
+            this.updadeGamePage(gamePage, cells);
+        }
+    }, {
+        key: "logProps",
+        value: function logProps() {
+            var dataProp = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "";
+            var cells = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];
+
+            console.clear();
+            cells.forEach(function (element) {
+                console.log(dataProp, " >> ", element.data[dataProp]);
+            });
+        }
+    }, {
+        key: "filterData",
+        value: function filterData() {
+            var dataProp = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "";
+            var isAlphabetical = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+
+            if (isAlphabetical) {
+                this.filterAlphabetical();
+            }
+
+            var gamePage = this.gamesPageRef;
+            var cells = gamePage.getCells();
+
+            cells.sort(function (a, b) {
+                if (a.data[dataProp] > b.data[dataProp]) {
+                    return 1;
+                }
+                if (a.data[dataProp] < b.data[dataProp]) {
+                    return -1;
+                }
+                return 0;
+            });
+
+            this.logProps(dataProp, cells);
             this.updadeGamePage(gamePage, cells);
         }
     }, {
@@ -80,6 +117,20 @@ var GameMenuFilters = function (_React$Component) {
                             return _this2.filterAlphabetical();
                         } },
                     "A / Z"
+                ),
+                React.createElement(
+                    GameFilter,
+                    { func: function func() {
+                            return _this2.filterData("language", true);
+                        } },
+                    "LINGUAGEM"
+                ),
+                React.createElement(
+                    GameFilter,
+                    { func: function func() {
+                            return _this2.filterData("technology", true);
+                        } },
+                    "TECNOLOGIA"
                 )
             );
         }
