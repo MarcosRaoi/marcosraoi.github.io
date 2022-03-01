@@ -18,7 +18,7 @@ body
     background-size: cover;
 }
 
-#bem_vindo:hover, .menu:hover, .redes_sociais:hover
+#bem_vindo:hover, .menu:hover, .redes_sociais:hover, .game_each_filter:hover
 {
     transition: all 0.5s ease;
 }
@@ -219,6 +219,8 @@ body
 .game_each_filter
 {
     margin-left: 30px;
+    min-width: 150px;
+    text-align: center;
 }
 
 /***** MOBILE *****/

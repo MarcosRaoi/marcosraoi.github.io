@@ -25,4 +25,7 @@ https://github.com/MarcosRaoi/marcosraoi.github.io/commit/9e6e9c4c3f27aa97dc745a
 
 v.1.2.0 - Passing filter responsibilities to GameMenuFilter class
 Bom, já tava querendo dar uma melhorada no código a um tempinho, pra poder criar os outros filtros eu preferi primeiro refatorar, pra depois seguir. E bem capaz que o filter method possa só receber a string do que ele quer filtrar "release", etc, ainda vou fazer uns testes, mas beleza, já tá melhor. Ainda vou implementar o crescente / decrescente.
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/43e022bda6142927dc3a3c66884f4c58c18ed76c
 
+v.1.2.1 - Implemented Alphabetical Filter
+Bom, dibas e talz,, mas ainda tou pensando, não quero ficar generalizando muito também as funções de filtro, apesar de ser possível... Todas essas de string podiam fazer isso, e malema, todas são string no json, mas beleza... boh implementar o da ordem contrária ON/OFF, fora o .css que não tá ocupando a caxinha inteira.

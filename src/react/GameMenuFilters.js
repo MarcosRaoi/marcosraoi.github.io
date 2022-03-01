@@ -42,6 +42,23 @@ var GameMenuFilters = function (_React$Component) {
             this.updadeGamePage(gamePage, cells);
         }
     }, {
+        key: "filterAlphabetical",
+        value: function filterAlphabetical() {
+            var gamePage = this.gamesPageRef;
+            var cells = gamePage.getCells();
+
+            cells.sort(function (a, b) {
+                if (a.name > b.name) {
+                    return 1;
+                }
+                if (a.name < b.name) {
+                    return -1;
+                }
+                return 0;
+            });
+            this.updadeGamePage(gamePage, cells);
+        }
+    }, {
         key: "render",
         value: function render() {
             var _this2 = this;
@@ -56,6 +73,13 @@ var GameMenuFilters = function (_React$Component) {
                             return _this2.filterRelease();
                         } },
                     "LAN\xC7AMENTO"
+                ),
+                React.createElement(
+                    GameFilter,
+                    { func: function func() {
+                            return _this2.filterAlphabetical();
+                        } },
+                    "A / Z"
                 )
             );
         }
