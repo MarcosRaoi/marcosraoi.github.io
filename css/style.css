@@ -18,7 +18,7 @@ body
     background-size: cover;
 }
 
-#bem_vindo:hover, .menu:hover, .redes_sociais:hover, .game_each_filter:hover
+#bem_vindo:hover, .menu:hover, .redes_sociais:hover, .game_each_filter:hover, .reset_filter
 {
     transition: all 0.5s ease;
     cursor: pointer;
@@ -212,9 +212,9 @@ body
     display: flex;
 }
 
-.game_each_filter:first-child
+.reset_filter
 {
-    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .game_each_filter
@@ -228,10 +228,14 @@ body
 
 @media screen and (max-width: 768px)
 {
+    #bem_vindo, .menu, .game_filters, .game_each_filter, .reset_filter
+    {
+        width: 100%;
+    }
+
     .menu
     {
         float: none;
-        width: 100%;
         align-items: center;
         display: inline-block;
         height: 50px;
@@ -241,11 +245,10 @@ body
     .game_filters
     {
         display: inline-block;
-        width: 100%;
         padding: 0;
     }
 
-    .game_each_filter, .game_each_filter:first-child
+    .game_each_filter, .reset_filter
     {
         margin-left: 0px;
         height: 30px;
@@ -309,7 +312,6 @@ body
 
     #bem_vindo
     {
-        width: 100%;
         margin: 0;
         padding: 0;
         height: auto;

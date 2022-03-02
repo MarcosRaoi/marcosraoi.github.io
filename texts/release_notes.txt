@@ -31,4 +31,9 @@ v.1.2.1 - Implemented Alphabetical Filter
 Bom, dibas e talz,, mas ainda tou pensando, não quero ficar generalizando muito também as funções de filtro, apesar de ser possível... Todas essas de string podiam fazer isso, e malema, todas são string no json, mas beleza... boh implementar o da ordem contrária ON/OFF, fora o .css que não tá ocupando a caxinha inteira.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/c86498a2eee12bff285e0657805d46b9cd9b4ac7
 
-v.1.2.2 - 
+v.1.2.2 - Implemented basic filterData generic method
+Bom, criada pras propriedades que não tem nenhum tratamento específico, e é só organizar String, basicamente... Tem a escolha se você quer ou não colocar na ordem alfabética, porque percebi que dava uma bagunçada dependendo da outra ordem que ele tava anteriormente. Ainda preciso implementar o ON/OFF, feedback melhor no style, etc.
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/d6e248f864be256f1a94d7b14974bcebcc731a78
+
+v.1.2.3 - resetFilter implemented, but... rs
+Ah mano, eu dei meu melhor, mas não rolou muito com o getJson, parece que fica casheado até meu cu, wtf velho, namoral. Enfim, tive que colocar uns index mesmo no json, que ódio cara, juro que tentei de várias formas, com valor default no metodo, pra não passar nada, e pegar os childrens, getJson, tudo, nada funfou. 

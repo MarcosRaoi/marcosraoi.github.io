@@ -96,6 +96,16 @@ var GameMenuFilters = function (_React$Component) {
             this.updadeGamePage(gamePage, cells);
         }
     }, {
+        key: "resetFilter",
+        value: function resetFilter() {
+            var gamePage = this.gamesPageRef;
+            var cells = gamePage.getCells();
+            cells.sort(function (a, b) {
+                return a.index - b.index;
+            });
+            this.updadeGamePage(gamePage, cells);
+        }
+    }, {
         key: "render",
         value: function render() {
             var _this2 = this;
@@ -103,7 +113,13 @@ var GameMenuFilters = function (_React$Component) {
             return React.createElement(
                 "div",
                 { "class": "game_filters" },
-                " ORDENAR POR:",
+                React.createElement(
+                    "div",
+                    { "class": "reset_filter", onClick: function onClick() {
+                            return _this2.resetFilter();
+                        } },
+                    "ORDENAR POR:"
+                ),
                 React.createElement(
                     GameFilter,
                     { func: function func() {

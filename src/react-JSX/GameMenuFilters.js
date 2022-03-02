@@ -70,9 +70,17 @@ class GameMenuFilters extends React.Component {
         this.updadeGamePage(gamePage, cells);
     }
 
+    resetFilter() {
+        let gamePage = this.gamesPageRef;
+        let cells = gamePage.getCells();
+        cells.sort((a, b) => {return a.index - b.index;});
+        this.updadeGamePage(gamePage, cells);
+    }
+
     render() {
         return (
-            <div class="game_filters"> ORDENAR POR:
+            <div class="game_filters">
+                <div class="reset_filter" onClick={() => this.resetFilter()}>ORDENAR POR:</div>
                 <GameFilter func={() => this.filterRelease()}>LANÇAMENTO</GameFilter>
                 <GameFilter func={() => this.filterAlphabetical()}>A / Z</GameFilter>
                 <GameFilter func={() => this.filterData("language", true)}>LINGUAGEM</GameFilter>
