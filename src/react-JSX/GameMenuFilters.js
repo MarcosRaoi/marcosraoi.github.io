@@ -1,4 +1,6 @@
 import GameFilter from "./GameFilter.js";
+import GameResetFilter from "./GameResetFilter.js";
+import GameReverseFilter from "./GameReverseFilter.js";
 
 class GameMenuFilters extends React.Component {
     constructor(props) {
@@ -70,6 +72,7 @@ class GameMenuFilters extends React.Component {
         this.updadeGamePage(gamePage, cells);
     }
 
+    //GameResetFilter.js
     resetFilter() {
         let gamePage = this.gamesPageRef;
         let cells = gamePage.getCells();
@@ -77,14 +80,25 @@ class GameMenuFilters extends React.Component {
         this.updadeGamePage(gamePage, cells);
     }
 
+    //GameReverseFilter.js
+    revertFilter() {
+        let gamePage = this.gamesPageRef;
+        let cells = gamePage.getCells();
+        cells.reverse();
+        this.updadeGamePage(gamePage, cells);
+    }
+
     render() {
         return (
             <div class="game_filters">
-                <div class="reset_filter" onClick={() => this.resetFilter()}>ORDENAR POR:</div>
+                <GameResetFilter eu={this}>ORDENAR POR:</GameResetFilter>
+
                 <GameFilter func={() => this.filterRelease()}>LANÇAMENTO</GameFilter>
                 <GameFilter func={() => this.filterAlphabetical()}>A / Z</GameFilter>
                 <GameFilter func={() => this.filterData("language", true)}>LINGUAGEM</GameFilter>
                 <GameFilter func={() => this.filterData("technology", true)}>TECNOLOGIA</GameFilter>
+
+                <GameReverseFilter eu={this}/>
             </div>
         )
     }

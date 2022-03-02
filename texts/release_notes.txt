@@ -37,3 +37,7 @@ https://github.com/MarcosRaoi/marcosraoi.github.io/commit/d6e248f864be256f1a94d7
 
 v.1.2.3 - resetFilter implemented, but... rs
 Ah mano, eu dei meu melhor, mas não rolou muito com o getJson, parece que fica casheado até meu cu, wtf velho, namoral. Enfim, tive que colocar uns index mesmo no json, que ódio cara, juro que tentei de várias formas, com valor default no metodo, pra não passar nada, e pegar os childrens, getJson, tudo, nada funfou. 
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/a328327e2630a3c7321f6734c08316b123ebf23a
+
+v.1.2.4 - Implemented ReverseFilter, but rsrs
+Tá foda, ASHUSAHUSHAU, tou vendo o comportamento direitinho, pra quando outro filtro apertar, colocar o botão pro Default dele, mas tou apanhando bastante, fica pra amanhã.

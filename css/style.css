@@ -224,6 +224,12 @@ body
     text-align: center;
 }
 
+.revert_filter
+{
+    position: absolute;
+    right: 10px;
+}
+
 /***** MOBILE *****/
 
 @media screen and (max-width: 768px)

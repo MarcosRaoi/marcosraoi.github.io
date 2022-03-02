@@ -7,6 +7,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 import GameFilter from "./GameFilter.js";
+import GameResetFilter from "./GameResetFilter.js";
+import GameReverseFilter from "./GameReverseFilter.js";
 
 var GameMenuFilters = function (_React$Component) {
     _inherits(GameMenuFilters, _React$Component);
@@ -95,6 +97,9 @@ var GameMenuFilters = function (_React$Component) {
             this.logProps(dataProp, cells);
             this.updadeGamePage(gamePage, cells);
         }
+
+        //GameResetFilter.js
+
     }, {
         key: "resetFilter",
         value: function resetFilter() {
@@ -103,6 +108,17 @@ var GameMenuFilters = function (_React$Component) {
             cells.sort(function (a, b) {
                 return a.index - b.index;
             });
+            this.updadeGamePage(gamePage, cells);
+        }
+
+        //GameReverseFilter.js
+
+    }, {
+        key: "revertFilter",
+        value: function revertFilter() {
+            var gamePage = this.gamesPageRef;
+            var cells = gamePage.getCells();
+            cells.reverse();
             this.updadeGamePage(gamePage, cells);
         }
     }, {
@@ -114,10 +130,8 @@ var GameMenuFilters = function (_React$Component) {
                 "div",
                 { "class": "game_filters" },
                 React.createElement(
-                    "div",
-                    { "class": "reset_filter", onClick: function onClick() {
-                            return _this2.resetFilter();
-                        } },
+                    GameResetFilter,
+                    { eu: this },
                     "ORDENAR POR:"
                 ),
                 React.createElement(
@@ -147,7 +161,8 @@ var GameMenuFilters = function (_React$Component) {
                             return _this2.filterData("technology", true);
                         } },
                     "TECNOLOGIA"
-                )
+                ),
+                React.createElement(GameReverseFilter, { eu: this })
             );
         }
     }]);
