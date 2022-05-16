@@ -41,3 +41,7 @@ https://github.com/MarcosRaoi/marcosraoi.github.io/commit/a328327e2630a3c7321f67
 
 v.1.2.4 - Implemented ReverseFilter, but rsrs
 Tá foda, ASHUSAHUSHAU, tou vendo o comportamento direitinho, pra quando outro filtro apertar, colocar o botão pro Default dele, mas tou apanhando bastante, fica pra amanhã.
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/f91245b8ccd4b2cef6bf43358e1c3d9e8928af61
+
+v. 1.2.5 - Tests with og:image meta property
+Vamo ver se eu consigo adicionar essas imagens pra elas aparecerem no linkedinho quando eu postar o portfolio, amém. https://www.linkedin.com/in/marcos-cavalcante-de-freitas-8bb55a120/
