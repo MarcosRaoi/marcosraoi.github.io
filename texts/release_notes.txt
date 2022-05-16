@@ -20,28 +20,32 @@ v-1.1.3 - ContactTexts implemented, export const SOCIAL_NETWORK
 Mlk é brabo ahsuahsuahu, bom, atualizada versão, criei a conts na ContactPage.js, tou usando agora os textos, tá começando a ficar bonita a ContactPage.js , ahahah, depois vou criar uma pra ContactSocialNetwork, que ja vai tar linkando, vai mandar os id's pros filhos, enfim, vai ficar pica. Eu ia ler esses caras de um json, mas deixa pra lá. Diferente das game_cells, n vai ter tanta adição.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/4882c3c7564be5f4563ea5881b9600553a69760d
 
-v.1.14 - Parabéns pelos 100 commits, xd
+v-1.1.4 - Parabéns pelos 100 commits, xd
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/9e6e9c4c3f27aa97dc745a2d62a8f9f18ae7ef62
 
-v.1.2.0 - Passing filter responsibilities to GameMenuFilter class
+v-1.2.0 - Passing filter responsibilities to GameMenuFilter class
 Bom, já tava querendo dar uma melhorada no código a um tempinho, pra poder criar os outros filtros eu preferi primeiro refatorar, pra depois seguir. E bem capaz que o filter method possa só receber a string do que ele quer filtrar "release", etc, ainda vou fazer uns testes, mas beleza, já tá melhor. Ainda vou implementar o crescente / decrescente.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/43e022bda6142927dc3a3c66884f4c58c18ed76c
 
-v.1.2.1 - Implemented Alphabetical Filter
+v-1.2.1 - Implemented Alphabetical Filter
 Bom, dibas e talz,, mas ainda tou pensando, não quero ficar generalizando muito também as funções de filtro, apesar de ser possível... Todas essas de string podiam fazer isso, e malema, todas são string no json, mas beleza... boh implementar o da ordem contrária ON/OFF, fora o .css que não tá ocupando a caxinha inteira.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/c86498a2eee12bff285e0657805d46b9cd9b4ac7
 
-v.1.2.2 - Implemented basic filterData generic method
+v-1.2.2 - Implemented basic filterData generic method
 Bom, criada pras propriedades que não tem nenhum tratamento específico, e é só organizar String, basicamente... Tem a escolha se você quer ou não colocar na ordem alfabética, porque percebi que dava uma bagunçada dependendo da outra ordem que ele tava anteriormente. Ainda preciso implementar o ON/OFF, feedback melhor no style, etc.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/d6e248f864be256f1a94d7b14974bcebcc731a78
 
-v.1.2.3 - resetFilter implemented, but... rs
+v-1.2.3 - resetFilter implemented, but... rs
 Ah mano, eu dei meu melhor, mas não rolou muito com o getJson, parece que fica casheado até meu cu, wtf velho, namoral. Enfim, tive que colocar uns index mesmo no json, que ódio cara, juro que tentei de várias formas, com valor default no metodo, pra não passar nada, e pegar os childrens, getJson, tudo, nada funfou. 
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/a328327e2630a3c7321f6734c08316b123ebf23a
 
-v.1.2.4 - Implemented ReverseFilter, but rsrs
+v-1.2.4 - Implemented ReverseFilter, but rsrs
 Tá foda, ASHUSAHUSHAU, tou vendo o comportamento direitinho, pra quando outro filtro apertar, colocar o botão pro Default dele, mas tou apanhando bastante, fica pra amanhã.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/f91245b8ccd4b2cef6bf43358e1c3d9e8928af61
 
-v. 1.2.5 - Tests with og:image meta property
+v-1.2.5 - Tests with og:image meta property
 Vamo ver se eu consigo adicionar essas imagens pra elas aparecerem no linkedinho quando eu postar o portfolio, amém. https://www.linkedin.com/in/marcos-cavalcante-de-freitas-8bb55a120/
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/f430b921512c7be27e0a1be1ba843117c3904a32
+
+v-1.2.6 - More provided info about og image meta tag
+Vamos ver se agora vai, que sacoooo aaaaa, enfim. Boa sorte.
