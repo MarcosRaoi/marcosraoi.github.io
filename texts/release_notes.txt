@@ -49,3 +49,7 @@ https://github.com/MarcosRaoi/marcosraoi.github.io/commit/f430b921512c7be27e0a1b
 
 v-1.2.6 - More provided info about og image meta tag
 Vamos ver se agora vai, que sacoooo aaaaa, enfim. Boa sorte.
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/fefdf65c2901b5f2c788e346c6fce9ecbb2e4c50
+
+v-1.3.0 - Implemented gameDataRequest with XMLHttpRequest
+pegando as células da página de jogos através de uma XMLHttpRequest, já que o assert {type:"json"} não é reconhecido no Firefox, só nas novas versões do Chrome etc.
