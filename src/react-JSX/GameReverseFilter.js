@@ -1,13 +1,28 @@
+const normalOrderCharacter = "↑";
+const oppositeOrderCharacter = "↓";
+
 class GameReverseFilter extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             boolReverse: false
         }
+        this.setGameReverseFilterReference(this);
+    }
+
+    setGameReverseFilterReference(classRef) {
+        let menu = this.props.gameMenuFilterRef;
+        menu.gameReverseFilterRef = classRef;
+    }
+
+    resetBoolReverse() {
+        let boolValue = false;
+        this.setState(() => {
+            return ( {boolReverse:  boolValue });
+        })
     }
 
     setBoolReverse(boolValue) {
-        console.log("setBoolReverse(boolValue)", boolValue);
         this.setState(() => {
             return ( {boolReverse:  boolValue });
         })
@@ -22,11 +37,11 @@ class GameReverseFilter extends React.Component {
     }
 
     getRevertText() {
-        return this.getBoolReverse()? "↓" : "↑";
+        return this.getBoolReverse()? oppositeOrderCharacter : normalOrderCharacter;
     }
 
     onGameReverseClick() {
-        this.props.eu.revertFilter(); 
+        this.props.gameMenuFilterRef.revertFilter(); 
         this.reverseRevertText();
     }
 

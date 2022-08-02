@@ -2,13 +2,22 @@ import GameFilter from "./GameFilter.js";
 import GameResetFilter from "./GameResetFilter.js";
 import GameReverseFilter from "./GameReverseFilter.js";
 
+const resetFilterText = "ORDENAR POR:";
+const filterTexts = ["LANÇAMENTO", "A / Z", "LINGUAGEM", "TECNOLOGIA"];
+
+const keyFilterRelease = "release";
+const keyFilterLanguage = "language";
+const keyFilterTechnology = "technology";
+
 class GameMenuFilters extends React.Component {
     constructor(props) {
         super(props);
         this.gamesPageRef = this.props.gamesPageRef;
+        this.gameReverseFilterRef = undefined;
     }
 
     updadeGamePage(gamesPage, cellsOrder) {
+        this.gameReverseFilterRef.resetBoolReverse();
         gamesPage.setCellsReceived(cellsOrder);
         gamesPage.updateCells(cellsOrder);
     }
@@ -18,8 +27,8 @@ class GameMenuFilters extends React.Component {
         let cells = gamePage.getCells();
 
         cells.sort((a, b) => {
-            let aParsedReleaseData = parseInt(a.data["release"].replaceAll("/", ""));
-            let bParsedReleaseData = parseInt(b.data["release"].replaceAll("/", ""));
+            let aParsedReleaseData = parseInt(a.data[keyFilterRelease].replaceAll("/", ""));
+            let bParsedReleaseData = parseInt(b.data[keyFilterRelease].replaceAll("/", ""));
             return bParsedReleaseData - aParsedReleaseData;
         });
 
@@ -91,14 +100,14 @@ class GameMenuFilters extends React.Component {
     render() {
         return (
             <div class="game_filters">
-                <GameResetFilter eu={this}>ORDENAR POR:</GameResetFilter>
+                <GameResetFilter gameMenuFilterRef={this}>{resetFilterText}</GameResetFilter>
 
-                <GameFilter func={() => this.filterRelease()}>LANÇAMENTO</GameFilter>
-                <GameFilter func={() => this.filterAlphabetical()}>A / Z</GameFilter>
-                <GameFilter func={() => this.filterData("language", true)}>LINGUAGEM</GameFilter>
-                <GameFilter func={() => this.filterData("technology", true)}>TECNOLOGIA</GameFilter>
+                <GameFilter func={() => this.filterRelease()}>                          {filterTexts[0]}</GameFilter>
+                <GameFilter func={() => this.filterAlphabetical()}>                     {filterTexts[1]}</GameFilter>
+                <GameFilter func={() => this.filterData(keyFilterLanguage, true)}>      {filterTexts[2]}</GameFilter>
+                <GameFilter func={() => this.filterData(keyFilterTechnology, true)}>    {filterTexts[3]}</GameFilter>
 
-                <GameReverseFilter eu={this}/>
+                <GameReverseFilter gameMenuFilterRef={this}/>
             </div>
         )
     }

@@ -6,6 +6,9 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+var normalOrderCharacter = "↑";
+var oppositeOrderCharacter = "↓";
+
 var GameReverseFilter = function (_React$Component) {
     _inherits(GameReverseFilter, _React$Component);
 
@@ -17,13 +20,27 @@ var GameReverseFilter = function (_React$Component) {
         _this.state = {
             boolReverse: false
         };
+        _this.setGameReverseFilterReference(_this);
         return _this;
     }
 
     _createClass(GameReverseFilter, [{
+        key: "setGameReverseFilterReference",
+        value: function setGameReverseFilterReference(classRef) {
+            var menu = this.props.gameMenuFilterRef;
+            menu.gameReverseFilterRef = classRef;
+        }
+    }, {
+        key: "resetBoolReverse",
+        value: function resetBoolReverse() {
+            var boolValue = false;
+            this.setState(function () {
+                return { boolReverse: boolValue };
+            });
+        }
+    }, {
         key: "setBoolReverse",
         value: function setBoolReverse(boolValue) {
-            console.log("setBoolReverse(boolValue)", boolValue);
             this.setState(function () {
                 return { boolReverse: boolValue };
             });
@@ -41,12 +58,12 @@ var GameReverseFilter = function (_React$Component) {
     }, {
         key: "getRevertText",
         value: function getRevertText() {
-            return this.getBoolReverse() ? "↓" : "↑";
+            return this.getBoolReverse() ? oppositeOrderCharacter : normalOrderCharacter;
         }
     }, {
         key: "onGameReverseClick",
         value: function onGameReverseClick() {
-            this.props.eu.revertFilter();
+            this.props.gameMenuFilterRef.revertFilter();
             this.reverseRevertText();
         }
     }, {

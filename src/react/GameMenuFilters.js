@@ -10,6 +10,13 @@ import GameFilter from "./GameFilter.js";
 import GameResetFilter from "./GameResetFilter.js";
 import GameReverseFilter from "./GameReverseFilter.js";
 
+var resetFilterText = "ORDENAR POR:";
+var filterTexts = ["LANÇAMENTO", "A / Z", "LINGUAGEM", "TECNOLOGIA"];
+
+var keyFilterRelease = "release";
+var keyFilterLanguage = "language";
+var keyFilterTechnology = "technology";
+
 var GameMenuFilters = function (_React$Component) {
     _inherits(GameMenuFilters, _React$Component);
 
@@ -19,12 +26,14 @@ var GameMenuFilters = function (_React$Component) {
         var _this = _possibleConstructorReturn(this, (GameMenuFilters.__proto__ || Object.getPrototypeOf(GameMenuFilters)).call(this, props));
 
         _this.gamesPageRef = _this.props.gamesPageRef;
+        _this.gameReverseFilterRef = undefined;
         return _this;
     }
 
     _createClass(GameMenuFilters, [{
         key: "updadeGamePage",
         value: function updadeGamePage(gamesPage, cellsOrder) {
+            this.gameReverseFilterRef.resetBoolReverse();
             gamesPage.setCellsReceived(cellsOrder);
             gamesPage.updateCells(cellsOrder);
         }
@@ -35,8 +44,8 @@ var GameMenuFilters = function (_React$Component) {
             var cells = gamePage.getCells();
 
             cells.sort(function (a, b) {
-                var aParsedReleaseData = parseInt(a.data["release"].replaceAll("/", ""));
-                var bParsedReleaseData = parseInt(b.data["release"].replaceAll("/", ""));
+                var aParsedReleaseData = parseInt(a.data[keyFilterRelease].replaceAll("/", ""));
+                var bParsedReleaseData = parseInt(b.data[keyFilterRelease].replaceAll("/", ""));
                 return bParsedReleaseData - aParsedReleaseData;
             });
 
@@ -131,38 +140,42 @@ var GameMenuFilters = function (_React$Component) {
                 { "class": "game_filters" },
                 React.createElement(
                     GameResetFilter,
-                    { eu: this },
-                    "ORDENAR POR:"
+                    { gameMenuFilterRef: this },
+                    resetFilterText
                 ),
                 React.createElement(
                     GameFilter,
                     { func: function func() {
                             return _this2.filterRelease();
                         } },
-                    "LAN\xC7AMENTO"
+                    "                          ",
+                    filterTexts[0]
                 ),
                 React.createElement(
                     GameFilter,
                     { func: function func() {
                             return _this2.filterAlphabetical();
                         } },
-                    "A / Z"
+                    "                     ",
+                    filterTexts[1]
                 ),
                 React.createElement(
                     GameFilter,
                     { func: function func() {
-                            return _this2.filterData("language", true);
+                            return _this2.filterData(keyFilterLanguage, true);
                         } },
-                    "LINGUAGEM"
+                    "      ",
+                    filterTexts[2]
                 ),
                 React.createElement(
                     GameFilter,
                     { func: function func() {
-                            return _this2.filterData("technology", true);
+                            return _this2.filterData(keyFilterTechnology, true);
                         } },
-                    "TECNOLOGIA"
+                    "    ",
+                    filterTexts[3]
                 ),
-                React.createElement(GameReverseFilter, { eu: this })
+                React.createElement(GameReverseFilter, { gameMenuFilterRef: this })
             );
         }
     }]);

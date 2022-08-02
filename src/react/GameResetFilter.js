@@ -23,7 +23,7 @@ var GameResetFilter = function (_React$Component) {
             return React.createElement(
                 "div",
                 { "class": "reset_filter", onClick: function onClick() {
-                        return _this2.props.eu.resetFilter();
+                        return _this2.props.gameMenuFilterRef.resetFilter();
                     } },
                 this.props.children
             ); //<div class="reset_filter" onClick={() => this.resetFilter()}>ORDENAR POR:</div>

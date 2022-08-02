@@ -6,10 +6,8 @@ const requestURL = "https://raw.githubusercontent.com/MarcosRaoi/marcosraoi.gith
 let request = new XMLHttpRequest();
 let gameData;
 gameDataRequest();
-console.log("gameData\n", gameData)
 
 export function getDataLenght() {
-    console.log("gameData.length ", gameData.length)
     return gameData.length
 }
 
