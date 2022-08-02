@@ -66,3 +66,7 @@ https://github.com/MarcosRaoi/marcosraoi.github.io/commit/62f9d96c61150fff2aab30
 
 v-1.4.0 - Added WMC to Portfolio! :D
 Adicionado o Where is My Coxinha? famosooo, rs, pro portifa, infelizmente não consegui achar a versão mais atualizada, acho, enfim, seja bem vindo mais um de C# rs
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/a503d4ecda9e5bf31b2ab400775aa21b5ab5e7c1
+
+v.1.4.1 - Call for WMC Devlogs at wmc/index.html
+Editei a página lá que quando você exporta pra unity WebGL (creio ser isso, na época não foi eu que exportei, mas enfim), editei a index.html pra colocar uma pequena chamada pros Devlogs que eu fiz nessa época, que ficaram muito legais, o Raphael Dias adorou, etc, meu triunfinho daquela época tbm.
