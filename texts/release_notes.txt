@@ -53,3 +53,16 @@ https://github.com/MarcosRaoi/marcosraoi.github.io/commit/fefdf65c2901b5f2c788e3
 
 v-1.3.0 - Implemented gameDataRequest with XMLHttpRequest
 pegando as células da página de jogos através de uma XMLHttpRequest, já que o assert {type:"json"} não é reconhecido no Firefox, só nas novas versões do Chrome etc.
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/1c11a204ac71ba8bcd21d6add692b4dc4ee07efb
+
+v-1.3.1 - Hotfixed GameReverseFilter and resetBoolReverse
+Implementado o resetBoolReverse, que basicamente quando clicado em qualquer GameFiltro, reseta o estado da setinha
+
+const normalOrderCharacter = "↑";
+const oppositeOrderCharacter = "↓";
+
+Não me orgulho dessas referências do pai e da classe filha, mas estou aberto a aprender a melhor maneira de fazê-lo, entretanto não ficou tão horrível, creio eu.
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/62f9d96c61150fff2aab301733b79ac92cccf511
+
+v-1.4.0 - Added WMC to Portfolio! :D
+Adicionado o Where is My Coxinha? famosooo, rs, pro portifa, infelizmente não consegui achar a versão mais atualizada, acho, enfim, seja bem vindo mais um de C# rs

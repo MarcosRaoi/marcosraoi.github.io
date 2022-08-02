@@ -1,4 +1,4 @@
-//import data from "../json/game_cells.json" assert { type: "json" };
+//import localGameData from "../json/game_cells.json" assert { type: "json" };
 //import("../json/game_cells.json", {assert: {type: "json"} });
 import { renderGamesPage } from "../src/page_scripts/jogos.js";
 
@@ -20,5 +20,6 @@ function gameDataRequest() {
         gameData = request.response;
         console.log("data ", gameData)
         renderGamesPage(gameData);
+        //renderGamesPage(localGameData);
     }
 }

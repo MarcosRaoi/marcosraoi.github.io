@@ -18,7 +18,7 @@
             "technology":
             "Phaser 2"
         },
-        "index": 2
+        "index": 1
     },
     {
         "name":
@@ -27,7 +27,7 @@
             "key":
             "vitaminator",
             "info":
-            "Vitaminator é um jogo da Dasai Studio feito em 10 dias no Unity para uma Jam da APDJ. Um jogo de vitaminas e sucos suculentos!",
+            "Vitaminator é um jogo da Dasai Studio feito em 10 dias no Unity pra 3ª Jam 2016, APDJ. Um jogo de vitaminas e sucos suculentos!",
             "link":
             "https://dasaistudio.github.io/vitaminator", "target":"_blank",
             "platform":
@@ -39,7 +39,7 @@
             "technology":
             "Unity"
         },
-        "index": 1
+        "index": 2
     },
     {
         "name":
@@ -190,6 +190,27 @@
     },
     {
         "name":
+        "Where is My Coxinha?",
+        "data": {
+            "key":
+            "wmc",
+            "info":
+            "Where is My Coxinha? é um jogo da Dasai Studio de 12 semanas para a 4ª Jam 2016 da APDJ. Labirinto delicioso com brocolianos!",
+            "link":
+            "jogos/wmc/index.html",
+            "platform":
+            "PC",
+            "language":
+            "C#",
+            "release":
+            "2016/11/18",
+            "technology":
+            "Unity"
+        },
+        "index": 10
+    },
+    {
+        "name":
         "P-shot, vem rir no zap",
         "data": {
             "key":
@@ -207,7 +228,7 @@
             "technology":
             "GDevelop 5"
         },
-        "index": 10
+        "index": 11
     },
     {
         "name":
@@ -228,7 +249,7 @@
             "technology":
             "Microsoft Word (rs HTML/CSS)"
         },
-        "index": 11
+        "index": 12
     },
     {
         "name":
@@ -249,7 +270,7 @@
             "technology":
             "Canvas JS"
         },
-        "index": 12
+        "index": 13
     },
     {
         "name":
@@ -270,7 +291,7 @@
             "technology":
             "Phaser 2"
         },
-        "index": 13
+        "index": 14
     },
     {
         "name":
@@ -291,6 +312,6 @@
             "technology":
             "Canvas JS"
         },
-        "index": 14
+        "index": 15
     }
 ]
