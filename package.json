@@ -20,6 +20,8 @@
   "homepage": "https://github.com/MarcosRaoi/marcosraoi.github.io#readme",
   "dependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-react-app": "^3.1.2"
+    "babel-preset-react-app": "^3.1.2",
+    "common-js": "^0.3.8",
+    "fs.promises": "^0.1.2"
   }
 }

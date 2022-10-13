@@ -1,6 +1,10 @@
 import Footer from "./react/Footer.js";
 import MenuNavigation from "./react/MenuNavigation.js";
-import packageJson from "../package.json";
+//import packageJson from "../package.json";
+
+import { createRequire } from "node:module";
+const require = createRequire(import.meta.url);
+const packageJson = require("../package.json");
 
 const PORTFOLIO_VERSION = packageJson.version;
 const ID_MENU_NAVIGATION = "topper";
