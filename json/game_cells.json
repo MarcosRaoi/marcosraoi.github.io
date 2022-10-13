@@ -10,7 +10,7 @@
             "link":
             "https://www.playbonds.com/pt/jogos/video-bingo/descricao/3726/Roma_Bingo", "target":"_blank",
             "platform":
-            "PC",
+            "PC / Web",
             "language":
             "Javascript",
             "release":
@@ -31,7 +31,7 @@
             "link":
             "https://dasaistudio.github.io/vitaminator", "target":"_blank",
             "platform":
-            "PC",
+            "PC / Web",
             "language":
             "C#",
             "release":
@@ -52,7 +52,7 @@
             "link":
             "jogos/Aleatorium2/Aleatorium.html",
             "platform":
-            "PC",
+            "PC / Web",
             "language":
             "Javascript",
             "release":
@@ -115,7 +115,7 @@
             "link":
             "jogos/GoDodger/GoDodger.html",
             "platform":
-            "PC",
+            "PC / Web",
             "language":
             "Gdscript",
             "release":
@@ -136,7 +136,7 @@
             "link":
             "jogos/heroinGameJam2016_Perninha/index.html",
             "platform":
-            "PC",
+            "PC / Web",
             "language":
             "Javascript",
             "release":
@@ -157,7 +157,7 @@
             "link":
             "jogos/ForcaBlueLightning_ex6aula6/index.html",
             "platform":
-            "PC",
+            "PC / Web",
             "language":
             "Javascript",
             "release":
@@ -178,7 +178,7 @@
             "link":
             "jogos/snake_bluelightning/snakeBL.html",
             "platform":
-            "PC",
+            "PC / Web",
             "language":
             "Javascript",
             "release":
@@ -199,7 +199,7 @@
             "link":
             "jogos/wmc/index.html",
             "platform":
-            "PC",
+            "PC / Web",
             "language":
             "C#",
             "release":
@@ -241,7 +241,7 @@
             "link":
             "jogos/Gamebook/index.html",
             "platform":
-            "PC",
+            "PC / Web",
             "language":
             "HTML / CSS",
             "release":
@@ -262,7 +262,7 @@
             "link":
             "jogos/hamtaro_guacamole/guacamole.html",
             "platform":
-            "PC",
+            "PC / Web",
             "language":
             "Javascript",
             "release":
@@ -283,7 +283,7 @@
             "link":
             "jogos/hitTheKuroneko_phaser/index.html",
             "platform":
-            "PC",
+            "PC / Web",
             "language":
             "Javascript",
             "release":
@@ -304,7 +304,7 @@
             "link":
             "jogos/ProjetoMonster/antgame.html",
             "platform":
-            "PC",
+            "PC / Web",
             "language":
             "Javascript",
             "release":
@@ -313,5 +313,26 @@
             "Canvas JS"
         },
         "index": 15
+    },
+    {
+        "name":
+        "RollABola",
+        "data": {
+            "key":
+            "roll_a_bola",
+            "info":
+            "RollABolla é um jogo estudo para o FMOD Studio feito na Unity para a matéria de Áudio Digital em Jogos Digitais para UNICSUL",
+            "link":
+            "jogos/RollABolla/index.html",
+            "platform":
+            "PC / Web",
+            "language":
+            "C#",
+            "release":
+            "2019/05/24",
+            "technology":
+            "Unity"
+        },
+        "index": 16
     }
 ]

@@ -18,8 +18,9 @@ function gameDataRequest() {
 
     request.onload = function () {
         gameData = request.response;
-        console.log("data ", gameData)
+        //if (localGameData){gameData = localGameData;}
         renderGamesPage(gameData);
+        //console.log("data ", gameData);
         //renderGamesPage(localGameData);
     }
 }
