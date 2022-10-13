@@ -1,12 +1,7 @@
 import Footer from "./react/Footer.js";
 import MenuNavigation from "./react/MenuNavigation.js";
-//import packageJson from "../package.json";
 
-import { createRequire } from "node:module";
-const require = createRequire(import.meta.url);
-const packageJson = require("../package.json");
-
-const PORTFOLIO_VERSION = packageJson.version;
+const PORTFOLIO_VERSION = "1.5.0";
 const ID_MENU_NAVIGATION = "topper";
 const ID_FOOTER = "bottom";
 
