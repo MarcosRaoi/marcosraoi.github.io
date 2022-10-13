@@ -1,9 +1,10 @@
-v.1.5.0
+v.1.5.0 - Added RollABolla (WebGL) to portfolio
 Bom, que rolê pra buildar WebGL na unity, pqp, tive que até mudar de pasta o projeto, que o tamanho do path da pasta, e no C:// ele n deixa, enfim, que rolê, mas deu tudo certo. Tbm a instância do FMOD dá uns problemas no teste local, mas acho que quando subir vai dar direitinho, espero, se não o jogo estudo de som, fica sem som '-'-'- Ah, e eu também mudei a ordem dos Release Notes
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/7345afbbe8b0390de9c1a7f193e20d01c6fed521
 
 v.1.4.1 - Call for WMC Devlogs at wmc/index.html
 Editei a página lá que quando você exporta pra unity WebGL (creio ser isso, na época não foi eu que exportei, mas enfim), editei a index.html pra colocar uma pequena chamada pros Devlogs que eu fiz nessa época, que ficaram muito legais, o Raphael Dias adorou, etc, meu triunfinho daquela época tbm.
-https://github.com/MarcosRaoi/marcosraoi.github.io/commit/22c32a6ef19a528b911d161d6932ba076208bc59
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/22c32a6ef19a528b911d161d6932ba076208bc59  
 
 v-1.4.0 - Added WMC to Portfolio! :D
 Adicionado o Where is My Coxinha? famosooo, rs, pro portifa, infelizmente não consegui achar a versão mais atualizada, acho, enfim, seja bem vindo mais um de C# rs
