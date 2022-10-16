@@ -9,6 +9,7 @@ class GamesPage extends React.Component {
             filterState: ""
         }
         this.pageWithCells = [];
+        this.orderCellsIndex();
     }
 
     updateCells(cellsOrder) {
@@ -19,20 +20,25 @@ class GamesPage extends React.Component {
         return this.state.cellsReceived;
     }
 
+    // Called only once in the Constructor
+    orderCellsIndex() {
+        let cellsOrder = this.state.cellsReceived.sort(function (a, b) {return a.index - b.index;});
+        this.createCells(cellsOrder);
+    }
+
     createCells(cellsOrder = this.state.cellsReceived) {
         this.pageWithCells = [];
-        
-        let index = 0;
 
+        let cellIndex = 0;
         cellsOrder.forEach(
             () => {
-                let eachCell = cellsOrder[index]
-                this.pageWithCells.push(<GameCell cell={eachCell}>{index}</GameCell>);
-                index++;
+                let eachCell = cellsOrder[cellIndex];
+                this.pageWithCells.push(<GameCell cell={eachCell}>{cellIndex}</GameCell>);
+                cellIndex++;
             }
         );
 
-        return this.pageWithCells
+        return this.pageWithCells;
     }
 
     setCellsReceived(cells) {

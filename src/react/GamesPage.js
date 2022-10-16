@@ -22,6 +22,7 @@ var GamesPage = function (_React$Component) {
             filterState: ""
         };
         _this.pageWithCells = [];
+        _this.orderCellsIndex();
         return _this;
     }
 
@@ -35,6 +36,17 @@ var GamesPage = function (_React$Component) {
         value: function getCells() {
             return this.state.cellsReceived;
         }
+
+        // Called only once in the Constructor
+
+    }, {
+        key: "orderCellsIndex",
+        value: function orderCellsIndex() {
+            var cellsOrder = this.state.cellsReceived.sort(function (a, b) {
+                return a.index - b.index;
+            });
+            this.createCells(cellsOrder);
+        }
     }, {
         key: "createCells",
         value: function createCells() {
@@ -44,16 +56,15 @@ var GamesPage = function (_React$Component) {
 
             this.pageWithCells = [];
 
-            var index = 0;
-
+            var cellIndex = 0;
             cellsOrder.forEach(function () {
-                var eachCell = cellsOrder[index];
+                var eachCell = cellsOrder[cellIndex];
                 _this2.pageWithCells.push(React.createElement(
                     GameCell,
                     { cell: eachCell },
-                    index
+                    cellIndex
                 ));
-                index++;
+                cellIndex++;
             });
 
             return this.pageWithCells;

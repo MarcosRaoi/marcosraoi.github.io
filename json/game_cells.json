@@ -18,7 +18,7 @@
             "technology":
             "Phaser 2"
         },
-        "index": 1
+        "index": 0
     },
     {
         "name":
@@ -39,7 +39,7 @@
             "technology":
             "Unity WebGL"
         },
-        "index": 2
+        "index": 1
     },
     {
         "name":
@@ -60,7 +60,7 @@
             "technology":
             "Javascript / CSS, DOM"
         },
-        "index": 3
+        "index": 2
     },
     {
         "name":
@@ -81,7 +81,7 @@
             "technology":
             "GDevelop 5"
         },
-        "index": 4
+        "index": 3
     },
     {
         "name":
@@ -102,7 +102,7 @@
             "technology":
             "Unity"
         },
-        "index": 5
+        "index": 4
     },
     {
         "name":
@@ -123,7 +123,7 @@
             "technology":
             "Godot Engine"
         },
-        "index": 6
+        "index": 5
     },
     {
         "name":
@@ -144,28 +144,7 @@
             "technology":
             "Construct 2"
         },
-        "index": 7
-    },
-    {
-        "name":
-        "Mega Homem",
-        "data": {
-            "key":
-            "mega_homem",
-            "info":
-            "Mega Homem, ou Mega Hétero, é um fangame Infinite Runner Shooter do Mega Man feito na Unity em parceria com o <a href='https://www.instagram.com/mattoka3d/'>Mattoka3D</a>",
-            "link":
-            "jogos/Mega_Homem/index.html",
-            "platform":
-            "PC / Web",
-            "language":
-            "C#",
-            "release":
-            "2020/05/21",
-            "technology":
-            "Unity WebGL"
-        },
-        "index": 8
+        "index": 6
     },
     {
         "name":
@@ -186,7 +165,7 @@
             "technology":
             "jQuery"
         },
-        "index": 9
+        "index": 7
     },
     {
         "name":
@@ -207,7 +186,7 @@
             "technology":
             "Canvas JS"
         },
-        "index": 10
+        "index": 8
     },
     {
         "name":
@@ -228,7 +207,7 @@
             "technology":
             "Unity WebGL"
         },
-        "index": 11
+        "index": 9
     },
     {
         "name":
@@ -249,7 +228,7 @@
             "technology":
             "GDevelop 5"
         },
-        "index": 12
+        "index": 10
     },
     {
         "name":
@@ -270,7 +249,7 @@
             "technology":
             "Microsoft Word (rs HTML/CSS)"
         },
-        "index": 13
+        "index": 11
     },
     {
         "name":
@@ -291,7 +270,7 @@
             "technology":
             "Canvas JS"
         },
-        "index": 14
+        "index": 12
     },
     {
         "name":
@@ -312,7 +291,7 @@
             "technology":
             "Phaser 2"
         },
-        "index": 15
+        "index": 13
     },
     {
         "name":
@@ -333,7 +312,28 @@
             "technology":
             "Canvas JS"
         },
-        "index": 16
+        "index": 14
+    },
+    {
+        "name":
+        "Mega Homem",
+        "data": {
+            "key":
+            "mega_homem",
+            "info":
+            "Mega Homem, ou Mega Hétero, é um fangame Infinite Runner Shooter do Mega Man feito na Unity em parceria com o <a href='https://www.instagram.com/mattoka3d/'>Mattoka3D</a>",
+            "link":
+            "jogos/Mega_Homem/index.html",
+            "platform":
+            "PC / Web",
+            "language":
+            "C#",
+            "release":
+            "2020/05/21",
+            "technology":
+            "Unity WebGL"
+        },
+        "index": 15
     },
     {
         "name":
@@ -354,7 +354,7 @@
             "technology":
             "Unity WebGL"
         },
-        "index": 17
+        "index": 16
     },
     {
         "name":
@@ -375,6 +375,6 @@
             "technology":
             "Unity WebGL"
         },
-        "index": 18
+        "index": 17
     }
 ]

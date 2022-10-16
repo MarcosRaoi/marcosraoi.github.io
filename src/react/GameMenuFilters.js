@@ -11,11 +11,12 @@ import GameResetFilter from "./GameResetFilter.js";
 import GameReverseFilter from "./GameReverseFilter.js";
 
 var resetFilterText = "ORDENAR POR:";
-var filterTexts = ["LANÇAMENTO", "A / Z", "LINGUAGEM", "TECNOLOGIA"];
+var filterTexts = ["LANÇAMENTO", "A / Z", "LINGUAGEM", "TECNOLOGIA", "PLATAFORMA"];
 
 var keyFilterRelease = "release";
 var keyFilterLanguage = "language";
 var keyFilterTechnology = "technology";
+var keyFilterPlatform = "platform";
 
 var GameMenuFilters = function (_React$Component) {
     _inherits(GameMenuFilters, _React$Component);
@@ -38,6 +39,18 @@ var GameMenuFilters = function (_React$Component) {
             gamesPage.updateCells(cellsOrder);
         }
     }, {
+        key: "logRelease",
+        value: function logRelease(cells) {
+            console.clear();
+            console.log("Release Order");
+            console.log("");
+            var releaseOrderIndex = 1;
+            cells.forEach(function (element) {
+                console.log(releaseOrderIndex + "º - ", element.data.release, "was the release date for", element.name);
+                releaseOrderIndex++;
+            });
+        }
+    }, {
         key: "filterRelease",
         value: function filterRelease() {
             var gamePage = this.gamesPageRef;
@@ -48,8 +61,21 @@ var GameMenuFilters = function (_React$Component) {
                 var bParsedReleaseData = parseInt(b.data[keyFilterRelease].replaceAll("/", ""));
                 return bParsedReleaseData - aParsedReleaseData;
             });
+            this.logRelease(cells);
 
             this.updadeGamePage(gamePage, cells);
+        }
+    }, {
+        key: "logAlphabetical",
+        value: function logAlphabetical(cells) {
+            console.clear();
+            console.log("Alphabetical Order");
+            console.log("");
+            var alphabeticalOrderIndex = 1;
+            cells.forEach(function (element) {
+                console.log(alphabeticalOrderIndex + "º", element.name);
+                alphabeticalOrderIndex++;
+            });
         }
     }, {
         key: "filterAlphabetical",
@@ -66,6 +92,7 @@ var GameMenuFilters = function (_React$Component) {
                 }
                 return 0;
             });
+            this.logAlphabetical(cells);
 
             this.updadeGamePage(gamePage, cells);
         }
@@ -174,6 +201,14 @@ var GameMenuFilters = function (_React$Component) {
                         } },
                     "    ",
                     filterTexts[3]
+                ),
+                React.createElement(
+                    GameFilter,
+                    { func: function func() {
+                            return _this2.filterData(keyFilterPlatform, true);
+                        } },
+                    "      ",
+                    filterTexts[4]
                 ),
                 React.createElement(GameReverseFilter, { gameMenuFilterRef: this })
             );
