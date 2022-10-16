@@ -1,3 +1,11 @@
+v.1.6.0 - Adding Pong for Love gamework for UNICSUL
+Adicionado Pong for Love, um trabalho feito para a disciplina Projeto Interdisciplinar II na UNICSUL, que juntava animação digital I e áudio digital, tem um diário de bordo interessante e umas dublagens de anime rs.
+
+Ah, e falar um pouco do jogo, que acho que faltou, ele é baseado num anime fictício que criamos que leva também seu mesmo nome. É o jogo do anime Pong for Love, um anime / jogo de campeonato de Ping Pong para os maiores Pongers do mundo. Jett, um exímio e hábil ponger agora enfrenta seu antigo rival Bob, nas finais do campeonato amador que daria vaga para o Campeonato Estadual.
+
+Será que você, jogador, na pele de Jett, conseguirá vencer seu desafio e passar dessa alucinante fase?
+
+
 v.1.5.0 - Added RollABolla (WebGL) to portfolio
 Bom, que rolê pra buildar WebGL na unity, pqp, tive que até mudar de pasta o projeto, que o tamanho do path da pasta, e no C:// ele n deixa, enfim, que rolê, mas deu tudo certo. Tbm a instância do FMOD dá uns problemas no teste local, mas acho que quando subir vai dar direitinho, espero, se não o jogo estudo de som, fica sem som '-'-'- Ah, e eu também mudei a ordem dos Release Notes
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/7345afbbe8b0390de9c1a7f193e20d01c6fed521

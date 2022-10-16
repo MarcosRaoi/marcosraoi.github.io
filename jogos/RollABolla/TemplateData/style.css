@@ -16,3 +16,15 @@
 .webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+
+body
+{
+    background-image: url(../../../img/bluelightning.png);
+    background-color: rgb(34, 69, 107);
+}
+
+.webgl-content
+{
+  background-color: rgb(255, 255, 50);
+  padding: 20px;
+}

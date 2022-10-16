@@ -1,4 +1,4 @@
-//import localGameData from "../json/game_cells.json" assert { type: "json" };
+import localGameData from "../json/game_cells.json" assert { type: "json" };
 //import("../json/game_cells.json", {assert: {type: "json"} });
 import { renderGamesPage } from "../src/page_scripts/jogos.js";
 
@@ -18,7 +18,7 @@ function gameDataRequest() {
 
     request.onload = function () {
         gameData = request.response;
-        //if (localGameData){gameData = localGameData;}
+        if (localGameData){gameData = localGameData;}
         renderGamesPage(gameData);
         //console.log("data ", gameData);
         //renderGamesPage(localGameData);

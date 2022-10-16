@@ -28,3 +28,15 @@ body.template { }
 	margin-top: 10px;
 }
 .template .template-wrap canvas { }
+
+body
+{
+    background-image: url(../../../img/DasaiStudio_logo.png);
+    background-size: contain;
+}
+
+.template-wrap
+{
+  background-color: #c0ffa3;
+  padding: 20px;
+}
