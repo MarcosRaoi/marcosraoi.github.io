@@ -1,0 +1,49 @@
+Tema do projeto
+Olá pessoas!
+
+Segue abaixo o tema do Projeto Interdisciplinar II, assim como as especificações dele:
+
+Tema: Fase no Unity Animada e com Áudio de um Jogo Original
+
+O objetivo deste trabalho é ter um cenário animado e com sons dentro do Unity. Para tal, alguns itens devem ser seguidos:
+
+Sobre Animação:
+
+A animação dos itens ou personagens deve ser feita previamente no Blender
+Os assets criados no Blender devem ser importados para o Unity
+Não é necessário que as animações estejam totalmente atreladas à programação do jogo, mas elas devem ser demonstradas de alguma forma funcionando dentro do Unity
+Caso queiram colocar a programação, será considerado como um extra que pode aumentar o conceito
+Animação feita por Keyframes ou Bones
+Ao menos um personagem animado
+Ao menos 3 itens do cenário animados
+A modelagem dos assets não precisa ser original, o foco é nas técnicas utilizadas na animação
+
+===================
+
+Sobre Áudio:
+
+É necessário ter estes três itens: Trilha sonora, Efeitos sonoros e Dublagem
+Áudio deve estar conectado ao jogo via FMOD
+Devem existir no jogo áudios originais ou de bibliotecas abertas, como o OpenGameArt
+Áudios originais devem ser trabalhados no Audacity
+Sobre o jogo e o projeto:
+
+Grupos de até 4 pessoas
+A ideia do jogo deve ser original, não é para utilizar um jogo existente
+Necessário ter um diário de bordo, mostrando como foi o processo de criação
+Apresentação no dia 20/05/2020, às 19h30
+Entregáveis:
+
+Projeto no Unity
+Arquivos do Blender
+Projeto no FMOD
+Áudios alterados no Audacity
+Diário de bordo
+As entregas serão feitas aqui pelo Blackboard, até o dia 13/05/2020.
+
+
+Qualquer dúvida, estou à disposição!
+
+
+Abraços,
+Prof. Raphael Leal

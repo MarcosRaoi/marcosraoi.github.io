@@ -1,0 +1,163 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="dublagem_data" version="1.3.0" audacityversion="2.3.3" sel0="0.0000000000" sel1="25.2048072562" vpos="0" h="9.1138321995" zoom="86.1328125000" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="ARTIST" value="Marcos Raoi Cavalcante"/>
+		<tag name="TITLE" value="Dublagem final"/>
+		<tag name="ALBUM" value="Projeto Interdisciplinar"/>
+	</tags>
+	<wavetrack name="Jett Falas" isSelected="1" height="150" minimized="0" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="169984">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808f97.au" len="169984" min="-1.261424" max="1.118733" rms="0.113152"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="3.85451247" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="216987">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808333.au" len="216987" min="-0.001651" max="0.00237" rms="0.00004"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="8.77485261" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="230427">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808c15.au" len="230427" min="-0.832442" max="0.676774" rms="0.067432"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="13.99995465" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="494134">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808d2d.au" len="169034" min="-0.000894" max="0.001265" rms="0.000022"/>
+				</waveblock>
+				<waveblock start="169034">
+					<simpleblockfile filename="e0808f9e.au" len="262144" min="-0.907255" max="0.998342" rms="0.085604"/>
+				</waveblock>
+				<waveblock start="431178">
+					<simpleblockfile filename="e080807e.au" len="62956" min="-1.016347" max="0.989879" rms="0.178554"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Jett Falas" isSelected="1" height="150" minimized="0" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="169984">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808b80.au" len="169984" min="-0.002218" max="0.002259" rms="0.000469"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="3.85451247" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="216987">
+				<waveblock start="0">
+					<simpleblockfile filename="e080844f.au" len="216987" min="-0.000706" max="0.000788" rms="0.000017"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="8.77485261" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="230427">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808531.au" len="230427" min="-0.002081" max="0.002305" rms="0.000457"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="13.99995465" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="494134">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808a9c.au" len="169034" min="-0.000564" max="0.000306" rms="0.000006"/>
+				</waveblock>
+				<waveblock start="169034">
+					<simpleblockfile filename="e08086c7.au" len="262144" min="-0.001963" max="0.002069" rms="0.000358"/>
+				</waveblock>
+				<waveblock start="431178">
+					<simpleblockfile filename="e0808ad3.au" len="62956" min="-0.002175" max="0.002146" rms="0.00051"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Bob Falas" isSelected="0" height="150" minimized="0" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="169984">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808daf.au" len="169984" min="-0.000338" max="0.000754" rms="0.00001"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="3.85451247" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="216987">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808487.au" len="216987" min="-0.694388" max="0.695993" rms="0.09317"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="8.77485261" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="230427">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808da0.au" len="230427" min="-0.00146" max="0.000758" rms="0.000026"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="13.99995465" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="275227">
+				<waveblock start="0">
+					<simpleblockfile filename="e080843a.au" len="169034" min="-0.69768" max="0.73931" rms="0.083158"/>
+				</waveblock>
+				<waveblock start="169034">
+					<simpleblockfile filename="e0808b7a.au" len="106193" min="-0.659684" max="0.544941" rms="0.073931"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Bob Falas" isSelected="0" height="150" minimized="0" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="169984">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808b35.au" len="169984" min="-0.000554" max="0.000167" rms="0.000009"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="3.85451247" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="216987">
+				<waveblock start="0">
+					<simpleblockfile filename="e080858f.au" len="216987" min="-0.002594" max="0.002486" rms="0.000528"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="8.77485261" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="230427">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808677.au" len="230427" min="-0.000684" max="0.000767" rms="0.00001"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="13.99995465" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="275227">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808592.au" len="169034" min="-0.002235" max="0.002159" rms="0.000526"/>
+				</waveblock>
+				<waveblock start="169034">
+					<simpleblockfile filename="e0808659.au" len="106193" min="-0.002195" max="0.00208" rms="0.00051"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{9ebd9eff-f4cc-4b34-9008-d24dadb3a01d}">
+		<property name="assetPath">
+			<value>raquete2_2.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.44408163265306122</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5267e262-2109-4dc4-b27c-b60c2540ce0e}</destination>
+		</relationship>
+	</object>
+</objects>

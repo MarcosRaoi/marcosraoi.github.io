@@ -1,0 +1,34 @@
+PIII (Projeto Interdisciplinar II rs) é o projeto no Unity, criei com um nome pequeno pois as vezes o unity reclama do diretório longo
+
+Arquivos do Blender estão na pasta Blender, cabei de criar.
+Projeto no FMOD tá na pasta FMOD, já tinha criado antes.
+
+Áudios alterados no Audacity estão em:
+Dublagem (os únicos de fato alterados)
+Os outros são originais, mas não foram necessárias alterações, e eles estão na pasta Assets do Projeto FMOD "PI_fmod".
+
+Diário de Bordo está na pasta principal.
+
+OBS: Eu só não organizei os FBXs em pastas porque fiquei com medo de alterar alguma coisa rsrs. Mas acho que não aconteceria. No unity tá organizado, mas enfim, é isto.
+
+##################
+
+Instruções / teclas:
+
+Tecla R - Reseta a Cena! :D
+Tecla Z - Ativa / Desativa a Dublagem
+
+Tecla Espaço - Ativa e desativa as animações.
+
+Embora não tenha funcionado a gameplay
+Tecla 1 ativa e desativa o Player 1, o Jett
+Tecla 2 ativa e desativa o Player 2, o Bob
+
+tentei fazer uma lógica para eles jogarem, mas não deu, teria que resetar certinho o frame da animação e ainda não manjo muito disso.
+
+WASD movimentam a câmera:
+A e D rotacionam a câmera para Esquerda e Direita respectivamente.
+W e S dão zoom in e zoom out na câmera, respectivamente.
+
+Q e E rotacionam a câmera no eixo X, como olhar pra cima e pra baixo.
+
