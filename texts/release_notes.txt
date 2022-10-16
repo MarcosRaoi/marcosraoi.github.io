@@ -1,3 +1,7 @@
+v.1.7.0 - Added MegaHomem to portfolio
+famooso TrabalhoPOO_v3 em conjunto com o mattokito, finalmente adicionado no portfolio, sua versão buildada WebGL, ficou bem legal no portifa, quanto mais jogos unity no portfolio melhor rsrs
+
+=====
 v.1.6.1 - Reupload Pong for Love for fix FMOD Studio feature
 Adicionado novamente o path do projeto, e adicionada a feature da tecla I para ativar e desativar as instruções das teclas na tela.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/a8f08107d16e9727e6980afa2c0989024cbad202

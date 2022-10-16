@@ -37,7 +37,7 @@
             "release":
             "2016/07/05",
             "technology":
-            "Unity"
+            "Unity WebGL"
         },
         "index": 2
     },
@@ -148,6 +148,27 @@
     },
     {
         "name":
+        "Mega Homem",
+        "data": {
+            "key":
+            "mega_homem",
+            "info":
+            "Mega Homem, ou Mega Hétero, é um fangame Infinite Runner Shooter do Mega Man feito na Unity em parceria com o <a href='https://www.instagram.com/mattoka3d/'>Mattoka3D</a>",
+            "link":
+            "jogos/Mega_Homem/index.html",
+            "platform":
+            "PC / Web",
+            "language":
+            "C#",
+            "release":
+            "2020/05/21",
+            "technology":
+            "Unity WebGL"
+        },
+        "index": 8
+    },
+    {
+        "name":
         "Blue Lightning Ultimate Forca",
         "data": {
             "key":
@@ -165,7 +186,7 @@
             "technology":
             "jQuery"
         },
-        "index": 8
+        "index": 9
     },
     {
         "name":
@@ -186,7 +207,7 @@
             "technology":
             "Canvas JS"
         },
-        "index": 9
+        "index": 10
     },
     {
         "name":
@@ -205,9 +226,9 @@
             "release":
             "2016/11/18",
             "technology":
-            "Unity"
+            "Unity WebGL"
         },
-        "index": 10
+        "index": 11
     },
     {
         "name":
@@ -228,7 +249,7 @@
             "technology":
             "GDevelop 5"
         },
-        "index": 11
+        "index": 12
     },
     {
         "name":
@@ -249,7 +270,7 @@
             "technology":
             "Microsoft Word (rs HTML/CSS)"
         },
-        "index": 12
+        "index": 13
     },
     {
         "name":
@@ -270,7 +291,7 @@
             "technology":
             "Canvas JS"
         },
-        "index": 13
+        "index": 14
     },
     {
         "name":
@@ -291,7 +312,7 @@
             "technology":
             "Phaser 2"
         },
-        "index": 14
+        "index": 15
     },
     {
         "name":
@@ -300,7 +321,7 @@
             "key":
             "projeto_monster",
             "info":
-            "Projeto Monster: js c/ canvas. Jogo de esmagar formigas, neste caso monsters, em parceria com o Mettal como sound designer! s2",
+            "Projeto Monster: js c/ canvas. Jogo de esmagar formigas, neste caso monsters, em parceria com o <a href='https://mettal.art.br/'>Mettal</a> como sound designer! s2",
             "link":
             "jogos/ProjetoMonster/antgame.html",
             "platform":
@@ -312,7 +333,7 @@
             "technology":
             "Canvas JS"
         },
-        "index": 15
+        "index": 16
     },
     {
         "name":
@@ -331,9 +352,9 @@
             "release":
             "2020/05/20",
             "technology":
-            "Unity"
+            "Unity WebGL"
         },
-        "index": 16
+        "index": 17
     },
     {
         "name":
@@ -352,8 +373,8 @@
             "release":
             "2020/05/10",
             "technology":
-            "Unity"
+            "Unity WebGL"
         },
-        "index": 17
+        "index": 18
     }
 ]
