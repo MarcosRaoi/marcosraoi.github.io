@@ -1,6 +1,7 @@
 v.1.6.1 - Reupload Pong for Love for fix FMOD Studio feature
 Adicionado novamente o path do projeto, e adicionada a feature da tecla I para ativar e desativar as instruções das teclas na tela.
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/a8f08107d16e9727e6980afa2c0989024cbad202
+=====
 v.1.6.0 - Adding Pong for Love gamework for UNICSUL
 Adicionado Pong for Love, um trabalho feito para a disciplina Projeto Interdisciplinar II na UNICSUL, que juntava animação digital I e áudio digital, tem um diário de bordo interessante e umas dublagens de anime rs.
 
@@ -8,19 +9,19 @@ Ah, e falar um pouco do jogo, que acho que faltou, ele é baseado num anime fict
 
 Será que você, jogador, na pele de Jett, conseguirá vencer seu desafio e passar dessa alucinante fase?
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/7b8c39480f46b762930648c620be6a1113b7a258
-
+=====
 v.1.5.0 - Added RollABolla (WebGL) to portfolio
 Bom, que rolê pra buildar WebGL na unity, pqp, tive que até mudar de pasta o projeto, que o tamanho do path da pasta, e no C:// ele n deixa, enfim, que rolê, mas deu tudo certo. Tbm a instância do FMOD dá uns problemas no teste local, mas acho que quando subir vai dar direitinho, espero, se não o jogo estudo de som, fica sem som '-'-'- Ah, e eu também mudei a ordem dos Release Notes
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/7345afbbe8b0390de9c1a7f193e20d01c6fed521
-
+=====
 v.1.4.1 - Call for WMC Devlogs at wmc/index.html
 Editei a página lá que quando você exporta pra unity WebGL (creio ser isso, na época não foi eu que exportei, mas enfim), editei a index.html pra colocar uma pequena chamada pros Devlogs que eu fiz nessa época, que ficaram muito legais, o Raphael Dias adorou, etc, meu triunfinho daquela época tbm.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/22c32a6ef19a528b911d161d6932ba076208bc59  
-
+=====
 v-1.4.0 - Added WMC to Portfolio! :D
 Adicionado o Where is My Coxinha? famosooo, rs, pro portifa, infelizmente não consegui achar a versão mais atualizada, acho, enfim, seja bem vindo mais um de C# rs
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/a503d4ecda9e5bf31b2ab400775aa21b5ab5e7c1
-
+=====
 v-1.3.1 - Hotfixed GameReverseFilter and resetBoolReverse
 Implementado o resetBoolReverse, que basicamente quando clicado em qualquer GameFiltro, reseta o estado da setinha
 
@@ -29,60 +30,60 @@ const oppositeOrderCharacter = "↓";
 
 Não me orgulho dessas referências do pai e da classe filha, mas estou aberto a aprender a melhor maneira de fazê-lo, entretanto não ficou tão horrível, creio eu.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/62f9d96c61150fff2aab301733b79ac92cccf511
-
+=====
 v-1.3.0 - Implemented gameDataRequest with XMLHttpRequest
 pegando as células da página de jogos através de uma XMLHttpRequest, já que o assert {type:"json"} não é reconhecido no Firefox, só nas novas versões do Chrome etc.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/1c11a204ac71ba8bcd21d6add692b4dc4ee07efb
-
+=====
 v-1.2.6 - More provided info about og image meta tag
 Vamos ver se agora vai, que sacoooo aaaaa, enfim. Boa sorte.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/fefdf65c2901b5f2c788e346c6fce9ecbb2e4c50
-
+=====
 v-1.2.5 - Tests with og:image meta property
 Vamo ver se eu consigo adicionar essas imagens pra elas aparecerem no linkedinho quando eu postar o portfolio, amém. https://www.linkedin.com/in/marcos-cavalcante-de-freitas-8bb55a120/
-https://github.com/MarcosRaoi/marcosraoi.github.io/commit/f430b921512c7be27e0a1be1ba843117c3904a32
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/f430b921512c7be27e0a1be1ba843117c3904a32=====
+=====
 v-1.2.4 - Implemented ReverseFilter, but rsrs
 Tá foda, ASHUSAHUSHAU, tou vendo o comportamento direitinho, pra quando outro filtro apertar, colocar o botão pro Default dele, mas tou apanhando bastante, fica pra amanhã.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/f91245b8ccd4b2cef6bf43358e1c3d9e8928af61
-
+=====
 v-1.2.3 - resetFilter implemented, but... rs
 Ah mano, eu dei meu melhor, mas não rolou muito com o getJson, parece que fica casheado até meu cu, wtf velho, namoral. Enfim, tive que colocar uns index mesmo no json, que ódio cara, juro que tentei de várias formas, com valor default no metodo, pra não passar nada, e pegar os childrens, getJson, tudo, nada funfou. 
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/a328327e2630a3c7321f6734c08316b123ebf23a
-
+=====
 v-1.2.2 - Implemented basic filterData generic method
 Bom, criada pras propriedades que não tem nenhum tratamento específico, e é só organizar String, basicamente... Tem a escolha se você quer ou não colocar na ordem alfabética, porque percebi que dava uma bagunçada dependendo da outra ordem que ele tava anteriormente. Ainda preciso implementar o ON/OFF, feedback melhor no style, etc.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/d6e248f864be256f1a94d7b14974bcebcc731a78
-
+=====
 v-1.2.1 - Implemented Alphabetical Filter
 Bom, dibas e talz,, mas ainda tou pensando, não quero ficar generalizando muito também as funções de filtro, apesar de ser possível... Todas essas de string podiam fazer isso, e malema, todas são string no json, mas beleza... boh implementar o da ordem contrária ON/OFF, fora o .css que não tá ocupando a caxinha inteira.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/c86498a2eee12bff285e0657805d46b9cd9b4ac7
-
+=====
 v-1.2.0 - Passing filter responsibilities to GameMenuFilter class
 Bom, já tava querendo dar uma melhorada no código a um tempinho, pra poder criar os outros filtros eu preferi primeiro refatorar, pra depois seguir. E bem capaz que o filter method possa só receber a string do que ele quer filtrar "release", etc, ainda vou fazer uns testes, mas beleza, já tá melhor. Ainda vou implementar o crescente / decrescente.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/43e022bda6142927dc3a3c66884f4c58c18ed76c
-
+=====
 v-1.1.4 - Parabéns pelos 100 commits, xd
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/9e6e9c4c3f27aa97dc745a2d62a8f9f18ae7ef62
-
+=====
 v-1.1.3 - ContactTexts implemented, export const SOCIAL_NETWORK
 Mlk é brabo ahsuahsuahu, bom, atualizada versão, criei a conts na ContactPage.js, tou usando agora os textos, tá começando a ficar bonita a ContactPage.js , ahahah, depois vou criar uma pra ContactSocialNetwork, que ja vai tar linkando, vai mandar os id's pros filhos, enfim, vai ficar pica. Eu ia ler esses caras de um json, mas deixa pra lá. Diferente das game_cells, n vai ter tanta adição.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/4882c3c7564be5f4563ea5881b9600553a69760d
-
+=====
 v-1.1.2 - ContactImage class implemented, not using infos at style.css anymore
 Aeeee, mais uma pro React, pegando as background-images e size direto na classe, e procurando as imagens através do ID passado na classe principal ContactPage.js 
 
 Também adicionei a versão numa conts no index.js
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/7c10602d3befeb72f09d5d56af75259f6b781bd3
-
+=====
 v-1.1.1 - Added Release Notes .txt, updating version at Footer
 Tinha esqueci, pretendo fazer algumas coisas pegando txt, seja clicar no footer e mostrar o release notes, talvez o texto do sobre_mim vá através de um txt também, não sei dizer, enfim.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/4165f61baf7d766003db7d6b219c01af870ece98
-
+=====
 v-1.1.0 - contato.html page passed to ContactPage.js
 Por enquanto ainda não criei os components, só tirei do HTML mesmo.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/2eff1edc7fe64bf5111b4a4e4feffb606a8f8ae6
-
+=====
 v-1.0.0 - Added dark_mode_colors css, new background image, footer at React etc
 Big changes! :D Me preparando pra fazer a feature de Light Mode, capaz que volte pras cores antigas se a pessoa clicar numa lampadazinha, mas enfim, deixa asssim por enquanto. Quero terminar a feature de ordenação.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/0fa45c38f4d90e6b05befc7156c1323df670ec06
