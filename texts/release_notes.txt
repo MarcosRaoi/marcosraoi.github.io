@@ -1,3 +1,6 @@
+v.1.6.1 - Reupload Pong for Love for fix FMOD Studio feature
+Adicionado novamente o path do projeto, e adicionada a feature da tecla I para ativar e desativar as instruções das teclas na tela.
+
 v.1.6.0 - Adding Pong for Love gamework for UNICSUL
 Adicionado Pong for Love, um trabalho feito para a disciplina Projeto Interdisciplinar II na UNICSUL, que juntava animação digital I e áudio digital, tem um diário de bordo interessante e umas dublagens de anime rs.
 
