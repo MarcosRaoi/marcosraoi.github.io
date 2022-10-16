@@ -1,6 +1,7 @@
 v.1.8.0 - Platform filter added and fixed JSON indexes
 Eu não queria, mas coloquei o índice começando em 0, pra não sofrer bulen da comunidade rs, mas agora ele finalmente tá respeitando os índices no JSON, diminuí o índice do MegaHomem também, apesar de tar bem polidinho / gostosinho, descobri que tá com um bug estranho :( 
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/bdac8e10dab0a267d6622a3f182a03bb863f9de6
+=====
 v.1.7.0 - Added MegaHomem to portfolio
 famooso TrabalhoPOO_v3 em conjunto com o mattokito, finalmente adicionado no portfolio, sua versão buildada WebGL, ficou bem legal no portifa, quanto mais jogos unity no portfolio melhor rsrs
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/14d0e6215d9442db828329a76031932b9414589e
