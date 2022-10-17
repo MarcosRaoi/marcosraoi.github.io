@@ -35,6 +35,16 @@ var MenuNavigation = function (_React$Component) {
     }
 
     _createClass(MenuNavigation, [{
+        key: "local",
+        value: function local(slug, justReturn) {
+            var localHosting = window.location.href.startsWith("http://localhost:8000/");
+            if (localHosting && !justReturn) {
+                return slug + ".html";
+            } else {
+                return slug;
+            }
+        }
+    }, {
         key: "render",
         value: function render() {
             return React.createElement(
@@ -42,12 +52,12 @@ var MenuNavigation = function (_React$Component) {
                 null,
                 React.createElement(
                     "a",
-                    { href: PAGE_INDEX },
+                    { href: this.local(PAGE_INDEX, true) },
                     React.createElement("div", { id: PAGE_ID_INDEX, "class": CLASS_MENU })
                 ),
                 React.createElement(
                     "a",
-                    { href: PAGE_GAMES },
+                    { href: this.local(PAGE_GAMES, false) },
                     React.createElement(
                         "div",
                         { id: PAGE_ID_GAMES, "class": CLASS_MENU },
@@ -56,7 +66,7 @@ var MenuNavigation = function (_React$Component) {
                 ),
                 React.createElement(
                     "a",
-                    { href: PAGE_BLOG, target: "_blank" },
+                    { href: this.local(PAGE_BLOG, true), target: "_blank" },
                     React.createElement(
                         "div",
                         { id: PAGE_ID_BLOG, "class": CLASS_MENU },
@@ -65,7 +75,7 @@ var MenuNavigation = function (_React$Component) {
                 ),
                 React.createElement(
                     "a",
-                    { href: PAGE_CONTACT },
+                    { href: this.local(PAGE_CONTACT, false) },
                     React.createElement(
                         "div",
                         { id: PAGE_ID_CONTACT, "class": CLASS_MENU },
@@ -74,7 +84,7 @@ var MenuNavigation = function (_React$Component) {
                 ),
                 React.createElement(
                     "a",
-                    { href: PAGE_ABOUT },
+                    { href: this.local(PAGE_ABOUT, false) },
                     React.createElement(
                         "div",
                         { id: PAGE_ID_ABOUT, "class": CLASS_MENU },

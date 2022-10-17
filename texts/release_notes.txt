@@ -1,3 +1,6 @@
+v.1.10.1 - Workaround to help local development
+Pequena gambiarrinha pra ele não quebrar as url's e talz, enfim, e pra quando subir ficar bonitinho mostrando /jogos, e não /jogos.html e talz, enfim ^-^
+
 v.1.10.0 - Added GitHub link at ContactPage
 Adicionei o GitHub e também deixei os ícones mais harmônicos :D
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/cb34ffe67bd4da0f0481cc27fe4d3346cb33704c
