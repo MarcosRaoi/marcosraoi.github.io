@@ -11,7 +11,7 @@ var TITLE_BLOG_PAGE = "BLOG (DEVLOGS)"; // BLOG (devlogs)
 var TITLE_CONTACT_PAGE = "CONTATO / REDES SOCIAIS"; // Contato / Redes Sociais
 var TITLE_ABOUT_ME_PAGE = "SOBRE MIM"; // Sobre mim
 
-var PAGE_INDEX = ""; // index.html
+var PAGE_INDEX = "/"; // index.html
 var PAGE_GAMES = "jogos"; // jogos.html
 var PAGE_CONTACT = "contato"; // contato.html
 var PAGE_ABOUT = "sobre_mim"; // sobre_mim.html

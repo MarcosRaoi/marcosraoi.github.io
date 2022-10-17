@@ -3,7 +3,7 @@ const TITLE_BLOG_PAGE = "BLOG (DEVLOGS)";               // BLOG (devlogs)
 const TITLE_CONTACT_PAGE = "CONTATO / REDES SOCIAIS";   // Contato / Redes Sociais
 const TITLE_ABOUT_ME_PAGE = "SOBRE MIM";                // Sobre mim
 
-const PAGE_INDEX = ""                                   // index.html
+const PAGE_INDEX = "/"                                   // index.html
 const PAGE_GAMES = "jogos"                              // jogos.html
 const PAGE_CONTACT = "contato"                          // contato.html
 const PAGE_ABOUT = "sobre_mim"                          // sobre_mim.html
