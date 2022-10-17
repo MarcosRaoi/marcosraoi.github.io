@@ -295,6 +295,27 @@
     },
     {
         "name":
+        "Economiquiz",
+        "data": {
+            "key":
+            "economiquiz",
+            "info":
+            "Economiquiz foi um jogo feito na Unity para alunos de Ciências Contábeis da Universidade São Judas Tadeu. Tem uma <a href='https://drive.google.com/file/d/1EZrIXwG8c7oBa0KsX3DeIV0KchKu9DHG/view?usp=sharing'>versão APK</a>.",
+            "link":
+            "jogos/Economiquiz/index.html",
+            "platform":
+            "Mobile / PC / Web",
+            "language":
+            "C#",
+            "release":
+            "2020/05/27",
+            "technology":
+            "Unity WebGL"
+        },
+        "index": 14
+    },
+    {
+        "name":
         "Projeto Monster",
         "data": {
             "key":
@@ -312,7 +333,7 @@
             "technology":
             "Canvas JS"
         },
-        "index": 14
+        "index": 15
     },
     {
         "name":
@@ -333,7 +354,7 @@
             "technology":
             "Unity WebGL"
         },
-        "index": 15
+        "index": 16
     },
     {
         "name":
@@ -354,7 +375,7 @@
             "technology":
             "Unity WebGL"
         },
-        "index": 16
+        "index": 17
     },
     {
         "name":
@@ -375,6 +396,6 @@
             "technology":
             "Unity WebGL"
         },
-        "index": 17
+        "index": 18
     }
 ]

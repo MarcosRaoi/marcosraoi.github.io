@@ -1,4 +1,5 @@
-import localGameData from "../json/game_cells.json" assert { type: "json" };
+//import localGameData from "../json/game_cells.json" assert { type: "json" };
+import { localGameData } from "./getLocalJson.js";
 //import("../json/game_cells.json", {assert: {type: "json"} });
 import { renderGamesPage } from "../src/page_scripts/jogos.js";
 
@@ -11,6 +12,14 @@ export function getDataLenght() {
     return gameData.length
 }
 
+function checkLocalData()
+{
+    let localData = localGameData();
+    if (localData){
+        gameData = localData;
+    }
+}
+
 function gameDataRequest() {
     request.open("GET", requestURL);
     request.responseType = "json";
@@ -18,7 +27,7 @@ function gameDataRequest() {
 
     request.onload = function () {
         gameData = request.response;
-        if (localGameData){gameData = localGameData;}
+        checkLocalData();
         renderGamesPage(gameData);
         //console.log("data ", gameData);
         //renderGamesPage(localGameData);

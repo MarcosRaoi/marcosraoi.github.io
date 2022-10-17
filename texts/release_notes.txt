@@ -1,3 +1,7 @@
+v.1.9.0 - Added Economiquiz to portfolio
+Demorou pra caramba porque eu tava arrumando uma penca de bug que tinha nele... Eu tinha me comprometido a não ficar mexendo muito em jogo antigo, mas enfim... -'-'-, agora ele sorteia certinho as perguntas, antes a pergunta certa estava sempre na primeira alternativa, tava tudo bem chumbado, fiz meu      int[] RandomIntArray(int minimum, int maximum) e     bool CheckIfExists(int[] randomIntArray, int randomPick, int maxIndex) no C#, enfim.. TODO: Pra melhor ele, só pegando as perguntas de um backend legalzinho, tendo um looping certinho do jogo, sistema de pontuação, achievements etc rsrsrs, serve bastante pra estudo esse projeto / qualquer projeto Quiz que use essa engininha. Fora que bateu umas depresso enquanto eu desenvolvia, já que achei uns nomes de código bem... enfim...
+
+=====
 v.1.8.0 - Platform filter added and fixed JSON indexes
 Eu não queria, mas coloquei o índice começando em 0, pra não sofrer bulen da comunidade rs, mas agora ele finalmente tá respeitando os índices no JSON, diminuí o índice do MegaHomem também, apesar de tar bem polidinho / gostosinho, descobri que tá com um bug estranho :( 
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/bdac8e10dab0a267d6622a3f182a03bb863f9de6
