@@ -1,6 +1,7 @@
 //import localGameData from "../json/game_cells.json" assert { type: "json" };
-import { localGameData } from "./getLocalJson.js";
 //import("../json/game_cells.json", {assert: {type: "json"} });
+
+import { localGameData } from "./getLocalJson.js";
 import { renderGamesPage } from "../src/page_scripts/jogos.js";
 
 const requestURL = "https://raw.githubusercontent.com/MarcosRaoi/marcosraoi.github.io/master/json/game_cells.json";

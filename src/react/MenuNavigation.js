@@ -11,6 +11,11 @@ var TITLE_BLOG_PAGE = "BLOG (DEVLOGS)"; // BLOG (devlogs)
 var TITLE_CONTACT_PAGE = "CONTATO / REDES SOCIAIS"; // Contato / Redes Sociais
 var TITLE_ABOUT_ME_PAGE = "SOBRE MIM"; // Sobre mim
 
+var PAGE_INDEX = "index"; // index.html
+var PAGE_GAMES = "jogos"; // jogos.html
+var PAGE_CONTACT = "contato"; // contato.html
+var PAGE_ABOUT = "sobre_mim"; // sobre_mim.html
+
 var MenuNavigation = function (_React$Component) {
     _inherits(MenuNavigation, _React$Component);
 
@@ -28,12 +33,12 @@ var MenuNavigation = function (_React$Component) {
                 null,
                 React.createElement(
                     "a",
-                    { href: "index.html" },
+                    { href: PAGE_INDEX },
                     React.createElement("div", { id: "home", "class": "menu" })
                 ),
                 React.createElement(
                     "a",
-                    { href: "jogos.html" },
+                    { href: PAGE_GAMES },
                     React.createElement(
                         "div",
                         { id: "jogos", "class": "menu" },
@@ -51,7 +56,7 @@ var MenuNavigation = function (_React$Component) {
                 ),
                 React.createElement(
                     "a",
-                    { href: "contato.html" },
+                    { href: PAGE_CONTACT },
                     React.createElement(
                         "div",
                         { id: "contato", "class": "menu" },
@@ -60,7 +65,7 @@ var MenuNavigation = function (_React$Component) {
                 ),
                 React.createElement(
                     "a",
-                    { href: "sobre_mim.html" },
+                    { href: PAGE_ABOUT },
                     React.createElement(
                         "div",
                         { id: "sobre_mim", "class": "menu" },
