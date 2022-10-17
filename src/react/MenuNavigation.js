@@ -11,10 +11,19 @@ var TITLE_BLOG_PAGE = "BLOG (DEVLOGS)"; // BLOG (devlogs)
 var TITLE_CONTACT_PAGE = "CONTATO / REDES SOCIAIS"; // Contato / Redes Sociais
 var TITLE_ABOUT_ME_PAGE = "SOBRE MIM"; // Sobre mim
 
-var PAGE_INDEX = "index"; // index.html
+var PAGE_INDEX = ""; // index.html
 var PAGE_GAMES = "jogos"; // jogos.html
 var PAGE_CONTACT = "contato"; // contato.html
 var PAGE_ABOUT = "sobre_mim"; // sobre_mim.html
+var PAGE_BLOG = "https://marcosraoi.blogspot.com/"; // https://marcosraoi.blogspot.com/
+
+var CLASS_MENU = "menu";
+
+var PAGE_ID_INDEX = "home"; // index.html
+var PAGE_ID_GAMES = "jogos"; // jogos.html
+var PAGE_ID_CONTACT = "contato"; // contato.html
+var PAGE_ID_ABOUT = "sobre_mim"; // sobre_mim.html
+var PAGE_ID_BLOG = "blog"; // https://marcosraoi.blogspot.com/
 
 var MenuNavigation = function (_React$Component) {
     _inherits(MenuNavigation, _React$Component);
@@ -34,23 +43,23 @@ var MenuNavigation = function (_React$Component) {
                 React.createElement(
                     "a",
                     { href: PAGE_INDEX },
-                    React.createElement("div", { id: "home", "class": "menu" })
+                    React.createElement("div", { id: PAGE_ID_INDEX, "class": CLASS_MENU })
                 ),
                 React.createElement(
                     "a",
                     { href: PAGE_GAMES },
                     React.createElement(
                         "div",
-                        { id: "jogos", "class": "menu" },
+                        { id: PAGE_ID_GAMES, "class": CLASS_MENU },
                         TITLE_MY_GAMES_PAGE
                     )
                 ),
                 React.createElement(
                     "a",
-                    { href: "https://marcosraoi.blogspot.com/", target: "_blank" },
+                    { href: PAGE_BLOG, target: "_blank" },
                     React.createElement(
                         "div",
-                        { id: "blog", "class": "menu" },
+                        { id: PAGE_ID_BLOG, "class": CLASS_MENU },
                         TITLE_BLOG_PAGE
                     )
                 ),
@@ -59,7 +68,7 @@ var MenuNavigation = function (_React$Component) {
                     { href: PAGE_CONTACT },
                     React.createElement(
                         "div",
-                        { id: "contato", "class": "menu" },
+                        { id: PAGE_ID_CONTACT, "class": CLASS_MENU },
                         TITLE_CONTACT_PAGE
                     )
                 ),
@@ -68,7 +77,7 @@ var MenuNavigation = function (_React$Component) {
                     { href: PAGE_ABOUT },
                     React.createElement(
                         "div",
-                        { id: "sobre_mim", "class": "menu" },
+                        { id: PAGE_ID_ABOUT, "class": CLASS_MENU },
                         TITLE_ABOUT_ME_PAGE
                     )
                 )

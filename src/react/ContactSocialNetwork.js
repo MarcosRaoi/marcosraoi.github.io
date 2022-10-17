@@ -32,6 +32,9 @@ var ContactSocialNetwork = function (_React$Component) {
                 case SOCIAL_NETWORKS.Linkedin:
                     return "https://www.linkedin.com/in/marcos-cavalcante-de-freitas-8bb55a120/";
 
+                case SOCIAL_NETWORKS.GitHub:
+                    return "https://www.github.com/MarcosRaoi/";
+
                 default:
                     break;
             }

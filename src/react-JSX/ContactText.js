@@ -18,6 +18,9 @@ class ContactText extends React.Component {
 
             case SOCIAL_NETWORKS.Linkedin:
                 return(<div>https://www.linkedin.com/in/marcos-cavalcante-de-freitas-8bb55a120/</div>)
+            
+            case SOCIAL_NETWORKS.GitHub:
+                return(<div>https://www.github.com/MarcosRaoi/</div>)
         
             default:
                 break;

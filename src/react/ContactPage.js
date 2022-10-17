@@ -11,7 +11,8 @@ import ContactSocialNetwork from "./ContactSocialNetwork.js";
 export var SOCIAL_NETWORKS = {
     Instagram: "instagram",
     Facebook: "facebook",
-    Linkedin: "linkedin"
+    Linkedin: "linkedin",
+    GitHub: "github"
 };
 
 var ContactPage = function (_React$Component) {
@@ -31,7 +32,8 @@ var ContactPage = function (_React$Component) {
                 { id: "page_contato", "class": "page" },
                 React.createElement(ContactSocialNetwork, { id: SOCIAL_NETWORKS.Facebook }),
                 React.createElement(ContactSocialNetwork, { id: SOCIAL_NETWORKS.Instagram }),
-                React.createElement(ContactSocialNetwork, { id: SOCIAL_NETWORKS.Linkedin })
+                React.createElement(ContactSocialNetwork, { id: SOCIAL_NETWORKS.Linkedin }),
+                React.createElement(ContactSocialNetwork, { id: SOCIAL_NETWORKS.GitHub })
             );
         }
     }]);

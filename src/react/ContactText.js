@@ -44,6 +44,13 @@ var ContactText = function (_React$Component) {
                         "https://www.linkedin.com/in/marcos-cavalcante-de-freitas-8bb55a120/"
                     );
 
+                case SOCIAL_NETWORKS.GitHub:
+                    return React.createElement(
+                        "div",
+                        null,
+                        "https://www.github.com/MarcosRaoi/"
+                    );
+
                 default:
                     break;
             }

@@ -3,7 +3,8 @@ import ContactSocialNetwork from "./ContactSocialNetwork.js";
 export const SOCIAL_NETWORKS = {
     Instagram: "instagram",
     Facebook: "facebook",
-    Linkedin: "linkedin"
+    Linkedin: "linkedin",
+    GitHub: "github"
 }
 
 class ContactPage extends React.Component {
@@ -17,6 +18,7 @@ class ContactPage extends React.Component {
                 <ContactSocialNetwork id={SOCIAL_NETWORKS.Facebook} />
                 <ContactSocialNetwork id={SOCIAL_NETWORKS.Instagram} />
                 <ContactSocialNetwork id={SOCIAL_NETWORKS.Linkedin} />
+                <ContactSocialNetwork id={SOCIAL_NETWORKS.GitHub} />
             </div>
         )
     }
