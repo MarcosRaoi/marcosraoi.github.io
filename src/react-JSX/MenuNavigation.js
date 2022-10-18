@@ -22,6 +22,11 @@ class MenuNavigation extends React.Component {
         super(props);
     }
 
+    /** This method helps local development.
+     * 
+     * @param slug - the given URL that will be redirected
+     * @param justReturn - stands for just return the same url without append '.html' on it
+     */
     local(slug, justReturn)
     {
         let localHosting = window.location.href.startsWith("http://localhost:8000/");

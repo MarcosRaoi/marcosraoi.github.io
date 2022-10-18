@@ -34,6 +34,13 @@ var MenuNavigation = function (_React$Component) {
         return _possibleConstructorReturn(this, (MenuNavigation.__proto__ || Object.getPrototypeOf(MenuNavigation)).call(this, props));
     }
 
+    /** This method helps local development.
+     * 
+     * @param slug - the given URL that will be redirected
+     * @param justReturn - stands for just return the same url without append '.html' on it
+     */
+
+
     _createClass(MenuNavigation, [{
         key: "local",
         value: function local(slug, justReturn) {

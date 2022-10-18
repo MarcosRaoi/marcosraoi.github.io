@@ -1,9 +1,13 @@
+
+=====
 v.1.10.1 - Workaround to help local development
 Pequena gambiarrinha pra ele não quebrar as url's e talz, enfim, e pra quando subir ficar bonitinho mostrando /jogos, e não /jogos.html e talz, enfim ^-^
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/5c2a05215f66a20bc735c2f6f5642ffd16761fd3
+=====
 v.1.10.0 - Added GitHub link at ContactPage
 Adicionei o GitHub e também deixei os ícones mais harmônicos :D
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/cb34ffe67bd4da0f0481cc27fe4d3346cb33704c
+=====
 v.1.9.0 - Added Economiquiz to portfolio
 Demorou pra caramba porque eu tava arrumando uma penca de bug que tinha nele... Eu tinha me comprometido a não ficar mexendo muito em jogo antigo, mas enfim... -'-'-, agora ele sorteia certinho as perguntas, antes a pergunta certa estava sempre na primeira alternativa, tava tudo bem chumbado, fiz meu      int[] RandomIntArray(int minimum, int maximum) e     bool CheckIfExists(int[] randomIntArray, int randomPick, int maxIndex) no C#, enfim.. TODO: Pra melhor ele, só pegando as perguntas de um backend legalzinho, tendo um looping certinho do jogo, sistema de pontuação, achievements etc rsrsrs, serve bastante pra estudo esse projeto / qualquer projeto Quiz que use essa engininha. Fora que bateu umas depresso enquanto eu desenvolvia, já que achei uns nomes de código bem... enfim...
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/08455ed3fbe5c2dbb4ed0e919cb0ae3a9d12950e
