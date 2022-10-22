@@ -1,27 +1,6 @@
 [
     {
         "name":
-        "Roma Bingo",
-        "data": {
-            "key":
-            "roma_bingo",
-            "info":
-            "Clássico do Ortiz Gaming, aventura extraordinária que recorda o gostinho da culinária italiana. Trabalhei no Front-End, js / Phaser 2.",
-            "link":
-            "https://www.playbonds.com/pt/jogos/video-bingo/descricao/3726/Roma_Bingo", "target":"_blank",
-            "platform":
-            "PC / Web",
-            "language":
-            "Javascript",
-            "release":
-            "2020/12/09",
-            "technology":
-            "Phaser 2"
-        },
-        "index": 0
-    },
-    {
-        "name":
         "Vitaminator",
         "data": {
             "key":
@@ -85,66 +64,24 @@
     },
     {
         "name":
-        "Protect Arthur!",
+        "P-shot, vem rir no zap",
         "data": {
             "key":
-            "protect_arthur",
+            "pshot",
             "info":
-            "Protect Arthur! é um shelter defense feito para a WGJ 152 no Unity, com um grupo da UNICSUL em homenagem ao nosso professor.",
+            "P-shot foi feito em 1 dia no GDevelop 5. Um shooter sugestivo com temática humor. Aclamado pelos efeitos sonoros. rs. <a href='https://drive.google.com/open?id=1FaZpyK1FjQDglYAxeMQHYECJJ1Sx5sWt'>Baixe o APK.</a>",
             "link":
-            "https://u-games-studio.itch.io/protect-arthur", "target":"_blank",
+            "https://drive.google.com/open?id=1FaZpyK1FjQDglYAxeMQHYECJJ1Sx5sWt", "target":"_blank",
             "platform":
-            "PC",
-            "language":
-            "C#",
-            "release":
-            "2020/06/11",
-            "technology":
-            "Unity"
-        },
-        "index": 4
-    },
-    {
-        "name":
-        "GoDodger! VaiPonto!",
-        "data": {
-            "key":
-            "go_dodger",
-            "info":
-            "<a href='https://docs.godotengine.org/en/stable/getting_started/step_by_step/your_first_game.html'>Primeiro jogo</a> na Godot Engine! :) Treinando para novos desafios no trabalho de gamedev jr, usei gdscript. Jogue GoDodger! VaiPonto!",
-            "link":
-            "jogos/GoDodger/GoDodger.html",
-            "platform":
-            "PC / Web",
-            "language":
-            "Gdscript",
-            "release":
-            "2021/09/19",
-            "technology":
-            "Godot Engine"
-        },
-        "index": 5
-    },
-    {
-        "name":
-        "Hero- Perninha",
-        "data": {
-            "key":
-            "perninha_hgj_2016",
-            "info":
-            "QUE NOSTALGIA &lt;3 - &lt;3 Um dos meus primeiros jogos, foi feito no Construct 2, para a Heroin Game Jam de 2016, feat Pearninha :3",
-            "link":
-            "jogos/heroinGameJam2016_Perninha/index.html",
-            "platform":
-            "PC / Web",
+            "Mobile",
             "language":
             "Javascript",
             "release":
-            "2016/05/22",
+            "2020/01/06",
             "technology":
-            "Construct 2"
+            "GDevelop 5"
         },
-        "index": 6
+        "index": 10
     },
     {
         "name":
@@ -190,69 +127,6 @@
     },
     {
         "name":
-        "Where is My Coxinha?",
-        "data": {
-            "key":
-            "wmc",
-            "info":
-            "Where is My Coxinha? é um jogo da Dasai Studio de 12 semanas para a 4ª Jam 2016 da APDJ. Labirinto delicioso com brocolianos!",
-            "link":
-            "jogos/wmc/index.html",
-            "platform":
-            "PC / Web",
-            "language":
-            "C#",
-            "release":
-            "2016/11/18",
-            "technology":
-            "Unity WebGL"
-        },
-        "index": 9
-    },
-    {
-        "name":
-        "P-shot, vem rir no zap",
-        "data": {
-            "key":
-            "pshot",
-            "info":
-            "P-shot foi feito em 1 dia no GDevelop 5. Um shooter sugestivo com temática humor. Aclamado pelos efeitos sonoros. rs. <a href='https://drive.google.com/open?id=1FaZpyK1FjQDglYAxeMQHYECJJ1Sx5sWt'>Baixe o APK.</a>",
-            "link":
-            "https://drive.google.com/open?id=1FaZpyK1FjQDglYAxeMQHYECJJ1Sx5sWt", "target":"_blank",
-            "platform":
-            "Mobile",
-            "language":
-            "Javascript",
-            "release":
-            "2020/01/06",
-            "technology":
-            "GDevelop 5"
-        },
-        "index": 10
-    },
-    {
-        "name":
-        "Your Creature: Gamebook Version",
-        "data": {
-            "key":
-            "yc_gamebook",
-            "info":
-            "Your Creature: gamebook version, HTML e CSS tranquilo. Um livro de atualmente 25 páginas com a história da sidequest de Alfre.",
-            "link":
-            "jogos/Gamebook/index.html",
-            "platform":
-            "PC / Web",
-            "language":
-            "HTML / CSS",
-            "release":
-            "2019/09/13",
-            "technology":
-            "Microsoft Word (rs HTML/CSS)"
-        },
-        "index": 11
-    },
-    {
-        "name":
         "Kuroneko Out! - Whac-A-Mole canvas",
         "data": {
             "key":
@@ -271,48 +145,6 @@
             "Canvas JS"
         },
         "index": 12
-    },
-    {
-        "name":
-        "Kuroneko Out! - Phaser version",
-        "data": {
-            "key":
-            "kuroneko_phaser",
-            "info":
-            "Kuroneko Out! só que agora feito com o Phaser 2 para treinar para o estágio. Obrigado Bianca Capasso novamente pelo 'Yay' sound. :D",
-            "link":
-            "jogos/hitTheKuroneko_phaser/index.html",
-            "platform":
-            "PC / Web",
-            "language":
-            "Javascript",
-            "release":
-            "2020/09/23",
-            "technology":
-            "Phaser 2"
-        },
-        "index": 13
-    },
-    {
-        "name":
-        "Economiquiz",
-        "data": {
-            "key":
-            "economiquiz",
-            "info":
-            "Economiquiz foi um jogo feito na Unity para alunos de Ciências Contábeis da Universidade São Judas Tadeu. Tem uma <a href='https://drive.google.com/file/d/1EZrIXwG8c7oBa0KsX3DeIV0KchKu9DHG/view?usp=sharing'>versão APK</a>.",
-            "link":
-            "jogos/Economiquiz/index.html",
-            "platform":
-            "Mobile / PC / Web",
-            "language":
-            "C#",
-            "release":
-            "2020/05/27",
-            "technology":
-            "Unity WebGL"
-        },
-        "index": 14
     },
     {
         "name":
@@ -337,24 +169,150 @@
     },
     {
         "name":
-        "Mega Homem",
+        "Your Creature: Gamebook Version",
         "data": {
             "key":
-            "mega_homem",
+            "yc_gamebook",
             "info":
-            "Mega Homem, ou Mega Hétero, é um fangame Infinite Runner Shooter do Mega Man feito na Unity em parceria com o <a href='https://www.instagram.com/mattoka3d/'>Mattoka3D</a>",
+            "Your Creature: gamebook version, HTML e CSS tranquilo. Um livro de atualmente 25 páginas com a história da sidequest de Alfre.",
             "link":
-            "jogos/Mega_Homem/index.html",
+            "jogos/Gamebook/index.html",
+            "platform":
+            "PC / Web",
+            "language":
+            "HTML / CSS",
+            "release":
+            "2019/09/13",
+            "technology":
+            "Microsoft Word (rs HTML/CSS)"
+        },
+        "index": 11
+    },
+    {
+        "name":
+        "Kuroneko Out! - Phaser version",
+        "data": {
+            "key":
+            "kuroneko_phaser",
+            "info":
+            "Kuroneko Out! só que agora feito com o Phaser 2 para treinar para o estágio. Obrigado Bianca Capasso novamente pelo 'Yay' sound. :D",
+            "link":
+            "jogos/hitTheKuroneko_phaser/index.html",
+            "platform":
+            "PC / Web",
+            "language":
+            "Javascript",
+            "release":
+            "2020/09/23",
+            "technology":
+            "Phaser 2"
+        },
+        "index": 13
+    },
+    {
+        "name":
+        "Protect Arthur!",
+        "data": {
+            "key":
+            "protect_arthur",
+            "info":
+            "Protect Arthur! é um shelter defense feito para a WGJ 152 no Unity, com um grupo da UNICSUL em homenagem ao nosso professor.",
+            "link":
+            "https://u-games-studio.itch.io/protect-arthur", "target":"_blank",
+            "platform":
+            "PC",
+            "language":
+            "C#",
+            "release":
+            "2020/06/11",
+            "technology":
+            "Unity"
+        },
+        "index": 4
+    },
+    {
+        "name":
+        "Roma Bingo",
+        "data": {
+            "key":
+            "roma_bingo",
+            "info":
+            "Clássico do Ortiz Gaming, aventura extraordinária que recorda o gostinho da culinária italiana. Trabalhei no Front-End, js / Phaser 2.",
+            "link":
+            "https://www.playbonds.com/pt/jogos/video-bingo/descricao/3726/Roma_Bingo", "target":"_blank",
+            "platform":
+            "PC / Web",
+            "language":
+            "Javascript",
+            "release":
+            "2020/12/09",
+            "technology":
+            "Phaser 2"
+        },
+        "index": 0
+    },
+    {
+        "name":
+        "Perninha Hero in Adventure!",
+        "data": {
+            "key":
+            "perninha_hgj_2016",
+            "info":
+            "QUE NOSTALGIA &lt;3 - &lt;3 Um dos meus primeiros jogos, foi feito no Construct 2, para a Heroin Game Jam de 2016, feat Pearninha :3",
+            "link":
+            "jogos/heroinGameJam2016_Perninha/index.html",
+            "platform":
+            "PC / Web",
+            "language":
+            "Javascript",
+            "release":
+            "2016/05/22",
+            "technology":
+            "Construct 2"
+        },
+        "index": 6
+    },
+    {
+        "name":
+        "GoDodger! VaiPonto!",
+        "data": {
+            "key":
+            "go_dodger",
+            "info":
+            "<a href='https://docs.godotengine.org/en/stable/getting_started/step_by_step/your_first_game.html'>Primeiro jogo</a> na Godot Engine! :) Treinando para novos desafios no trabalho de gamedev jr, usei gdscript. Jogue GoDodger! VaiPonto!",
+            "link":
+            "jogos/GoDodger/GoDodger.html",
+            "platform":
+            "PC / Web",
+            "language":
+            "Gdscript",
+            "release":
+            "2021/09/19",
+            "technology":
+            "Godot Engine"
+        },
+        "index": 5
+    },
+    {
+        "name":
+        "Where is My Coxinha?",
+        "data": {
+            "key":
+            "wmc",
+            "info":
+            "Where is My Coxinha? é um jogo da Dasai Studio de 12 semanas para a 4ª Jam 2016 da APDJ. Labirinto delicioso com brocolianos!",
+            "link":
+            "jogos/wmc/index.html",
             "platform":
             "PC / Web",
             "language":
             "C#",
             "release":
-            "2020/05/21",
+            "2016/11/18",
             "technology":
             "Unity WebGL"
         },
-        "index": 16
+        "index": 9
     },
     {
         "name":
@@ -397,5 +355,47 @@
             "Unity WebGL"
         },
         "index": 18
+    },
+    {
+        "name":
+        "Mega Homem",
+        "data": {
+            "key":
+            "mega_homem",
+            "info":
+            "Mega Homem, ou Mega Hétero, é um fangame Infinite Runner Shooter do Mega Man feito na Unity em parceria com o <a href='https://www.instagram.com/mattoka3d/'>Mattoka3D</a>",
+            "link":
+            "jogos/Mega_Homem/index.html",
+            "platform":
+            "PC / Web",
+            "language":
+            "C#",
+            "release":
+            "2020/05/21",
+            "technology":
+            "Unity WebGL"
+        },
+        "index": 16
+    },
+    {
+        "name":
+        "Economiquiz",
+        "data": {
+            "key":
+            "economiquiz",
+            "info":
+            "Economiquiz foi um jogo feito na Unity para alunos de Ciências Contábeis da Universidade São Judas Tadeu. Tem uma <a href='https://drive.google.com/file/d/1EZrIXwG8c7oBa0KsX3DeIV0KchKu9DHG/view?usp=sharing'>versão APK</a>.",
+            "link":
+            "jogos/Economiquiz/index.html",
+            "platform":
+            "Mobile / PC / Web",
+            "language":
+            "C#",
+            "release":
+            "2020/05/27",
+            "technology":
+            "Unity WebGL"
+        },
+        "index": 14
     }
 ]

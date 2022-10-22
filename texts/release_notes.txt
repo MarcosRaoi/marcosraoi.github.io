@@ -1,4 +1,7 @@
-
+v.1.11.0 - Added Waka Waka Racing in Unity WebGL
+=====
+v.1.10.2 - Reorder game_cells.json for portfolio release
+Reordenadas as células de jogos para mais ou menos uma data da ordem que foram liberdos os jogos, liberados* no portfolio. Já que agora o index order funciona, coloquei eles na ordem que foram entrando no portfolio, entretanto no começo tinha já alguns ups, fui seguindo a ordem dos commits e talz (mas ainda não tinha a pasta jogos rs): Vitaminator, Aleatorium, Tolgar Runner, Blue Lightning Ultimate Forca e Snake, P-Shot,, Gamebook version do YCR,  e o o Hit the Kuroneko out! Lembrando que o vitaminator, o tolgar runner e o P-Shot não são hospedados... Depois fui seguindo a ordem dos que foram entrando nos commits ^-^
 =====
 v.1.10.1 - Workaround to help local development
 Pequena gambiarrinha pra ele não quebrar as url's e talz, enfim, e pra quando subir ficar bonitinho mostrando /jogos, e não /jogos.html e talz, enfim ^-^
