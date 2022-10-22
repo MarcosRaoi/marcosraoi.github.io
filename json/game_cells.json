@@ -81,7 +81,7 @@
             "technology":
             "GDevelop 5"
         },
-        "index": 10
+        "index": 12
     },
     {
         "name":
@@ -102,7 +102,7 @@
             "technology":
             "jQuery"
         },
-        "index": 7
+        "index": 9
     },
     {
         "name":
@@ -123,7 +123,7 @@
             "technology":
             "Canvas JS"
         },
-        "index": 8
+        "index": 10
     },
     {
         "name":
@@ -144,7 +144,7 @@
             "technology":
             "Canvas JS"
         },
-        "index": 12
+        "index": 14
     },
     {
         "name":
@@ -165,7 +165,7 @@
             "technology":
             "Canvas JS"
         },
-        "index": 15
+        "index": 17
     },
     {
         "name":
@@ -186,7 +186,7 @@
             "technology":
             "Microsoft Word (rs HTML/CSS)"
         },
-        "index": 11
+        "index": 13
     },
     {
         "name":
@@ -207,7 +207,7 @@
             "technology":
             "Phaser 2"
         },
-        "index": 13
+        "index": 15
     },
     {
         "name":
@@ -312,7 +312,7 @@
             "technology":
             "Unity WebGL"
         },
-        "index": 9
+        "index": 11
     },
     {
         "name":
@@ -333,7 +333,7 @@
             "technology":
             "Unity WebGL"
         },
-        "index": 17
+        "index": 18
     },
     {
         "name":
@@ -354,7 +354,7 @@
             "technology":
             "Unity WebGL"
         },
-        "index": 18
+        "index": 19
     },
     {
         "name":
@@ -396,6 +396,27 @@
             "technology":
             "Unity WebGL"
         },
-        "index": 14
+        "index": 7
+    },
+    {
+        "name":
+        "Waka Waka Racing",
+        "data": {
+            "key":
+            "waka_waka_racing",
+            "info":
+            "Waka Waka Racing é um jogo que junta Akira Toriyama e Pac-Man, é meu 1º Unity feito pra Lab Proj Jogos I, UNICSUL. Veja o <a href='https://drive.google.com/file/d/1EDFBmMtQlQW0ctKKuhLklEvAs3FRPSjj/view?usp=sharing'>GDD</a>.",
+            "link":
+            "jogos/Waka_Waka_Racing/index.html",
+            "platform":
+            "PC / Web",
+            "language":
+            "C#",
+            "release":
+            "2019/12/09",
+            "technology":
+            "Unity WebGL"
+        },
+        "index": 8
     }
 ]
