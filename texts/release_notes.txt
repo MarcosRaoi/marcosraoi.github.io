@@ -1,6 +1,10 @@
+v.1.13.0 - PongMO added, it's very bugged
+Eu já odeio pouco o Photon né, KKKK, além de eu ter que comentar uma penca de coisa na classe WebSocket.cs pra conseguir buildar essa porcaria pra WebGL, famoso else do #if UNITY_WEBGL && !UNITY_EDITOR, enfim, ela tá bem estranha, o player 2 não consegue ver os movimentos do 1, enfim, paciência... Eu se fosse fazer um projetinho online não cogitaria mais usar o Photon, até que me provassem o contrário que ele é bom. Ou talvez aprenderia as paradas de WebSocket "do zero" sei lá, enfim. Já vi um pouco na empresa / estúdio que eu trabalho hoje. Não pra unity claro.
+
+=====
 v.1.12.2 - Favicon's added to some games, title etc
 YC Gamebook, snake e ultimate forca, kuroneko outs, aleatorium, enfim, alguns jogos tiveram um favicon adicionado para eles! :D Também houve adição dos title's da pagina, enfim
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/d7f78ccefdbb9aa0f5b3846f2cbddc581d2926cc
 =====
 v.1.12.1 - Updated Game links, added Nudle Mini Games and Labyrhythm
 E aqui vou adicionar de fato os jogos nas células, no mais, preciso começar a organizar os jogos pra eles abrirem no index.html, e o link no portfolio ficar mais legal. Aliás, já fiz isso tudo nesse commit, arrumei os nomes das pastas, troquei pra index.html os jogos que não tinham, enfim
