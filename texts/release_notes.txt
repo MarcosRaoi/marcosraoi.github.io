@@ -1,6 +1,10 @@
+v.1.12.2 - Favicon's added to some games, title etc
+YC Gamebook, snake e ultimate forca, kuroneko outs, aleatorium, enfim, alguns jogos tiveram um favicon adicionado para eles! :D Também houve adição dos title's da pagina, enfim
+
+=====
 v.1.12.1 - Updated Game links, added Nudle Mini Games and Labyrhythm
 E aqui vou adicionar de fato os jogos nas células, no mais, preciso começar a organizar os jogos pra eles abrirem no index.html, e o link no portfolio ficar mais legal. Aliás, já fiz isso tudo nesse commit, arrumei os nomes das pastas, troquei pra index.html os jogos que não tinham, enfim
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/4d808a87ce7544b4271b461d2fa734ce54dbb914
 =====
 v.1.12.0 - Added LabyRhythm assets folder
 Por enquanto vou só adicionar a pasta jogos/LabyRhythm, nela é pra ter todos os assets do projeto, as builds, PC e APK, enfim
