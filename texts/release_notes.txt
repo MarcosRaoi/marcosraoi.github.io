@@ -1,6 +1,14 @@
+v.1.12.1 - Updated Game links, added Nudle Mini Games and Labyrhythm
+E aqui vou adicionar de fato os jogos nas células, no mais, preciso começar a organizar os jogos pra eles abrirem no index.html, e o link no portfolio ficar mais legal. Aliás, já fiz isso tudo nesse commit, arrumei os nomes das pastas, troquei pra index.html os jogos que não tinham, enfim
+
+=====
+v.1.12.0 - Added LabyRhythm assets folder
+Por enquanto vou só adicionar a pasta jogos/LabyRhythm, nela é pra ter todos os assets do projeto, as builds, PC e APK, enfim
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/60d5503622e53d18c9fa4bb21160b2bd3c4b80d3
+=====
 v.1.11.0 - Added Waka Waka Racing in Unity WebGL
 Também reordenei melhor os jogos, enfim, saudades WWR, época boa ahsuhusahu, primeiro jogo feito na UNITY, creio eu, devo ter feito coisinhas antes, claro, até porque o jogo é de 2019, "2019/12/09", sei que tenho instalada ela faz bem mais anos, mas fica ai registrado "como o primeiro". pra matéria de Laboratório de Projeto de Jogos I, saudades Daniel Calife rs, vlw UNICSUL.
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/8adf9b9525accb2d8304a00f60cfc3f4ece8b683
 =====
 v.1.10.2 - Reorder game_cells.json for portfolio release
 Reordenadas as células de jogos para mais ou menos uma data da ordem que foram liberdos os jogos, liberados* no portfolio. Já que agora o index order funciona, coloquei eles na ordem que foram entrando no portfolio, entretanto no começo tinha já alguns ups, fui seguindo a ordem dos commits e talz (mas ainda não tinha a pasta jogos rs): Vitaminator, Aleatorium, Tolgar Runner, Blue Lightning Ultimate Forca e Snake, P-Shot,, Gamebook version do YCR,  e o o Hit the Kuroneko out! Lembrando que o vitaminator, o tolgar runner e o P-Shot não são hospedados... Depois fui seguindo a ordem dos que foram entrando nos commits ^-^

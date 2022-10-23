@@ -29,7 +29,7 @@
             "info":
             "Aleatorium é um jogo feito em Javascript e CSS puro. Um jogo de adivinhar o número com as dicas na tela. Forte inspiração no GBA.",
             "link":
-            "jogos/Aleatorium2/Aleatorium.html",
+            "jogos/Aleatorium",
             "platform":
             "PC / Web",
             "language":
@@ -92,7 +92,7 @@
             "info":
             "Blue Lightning Ultimate Forca foi um dos primeiros em js e jquery. Dica: São nomes dos meus jogos favoritos! rs. Boa sorte :).",
             "link":
-            "jogos/ForcaBlueLightning_ex6aula6/index.html",
+            "jogos/Blue_Lightning_Ultimate_Forca",
             "platform":
             "PC / Web",
             "language":
@@ -113,7 +113,7 @@
             "info":
             "Blue Lightning Snake foi um dos primeiros em Canvas/js. Esse está super divertido, até pelos efeitos sonoros, recomendo! rs :D",
             "link":
-            "jogos/snake_bluelightning/snakeBL.html",
+            "jogos/Blue_Lightning_Snake",
             "platform":
             "PC / Web",
             "language":
@@ -134,7 +134,7 @@
             "info":
             "Kuroneko Out! feito em javascript (canvas). Clique no gatinho :3! Não clique no hamster rs. Obrigado Bibi Capasso pelo 'Yay' sound.",
             "link":
-            "jogos/hamtaro_guacamole/guacamole.html",
+            "jogos/Kuroneko_Out",
             "platform":
             "PC / Web",
             "language":
@@ -155,7 +155,7 @@
             "info":
             "Projeto Monster: js c/ canvas. Jogo de esmagar formigas, neste caso monsters, em parceria com o <a href='https://mettal.art.br/'>Mettal</a> como sound designer! s2",
             "link":
-            "jogos/ProjetoMonster/antgame.html",
+            "jogos/Projeto_Monster",
             "platform":
             "PC / Web",
             "language":
@@ -176,7 +176,7 @@
             "info":
             "Your Creature: gamebook version, HTML e CSS tranquilo. Um livro de atualmente 25 páginas com a história da sidequest de Alfre.",
             "link":
-            "jogos/Gamebook/index.html",
+            "jogos/Your_Creature_Gamebook",
             "platform":
             "PC / Web",
             "language":
@@ -197,7 +197,7 @@
             "info":
             "Kuroneko Out! só que agora feito com o Phaser 2 para treinar para o estágio. Obrigado Bianca Capasso novamente pelo 'Yay' sound. :D",
             "link":
-            "jogos/hitTheKuroneko_phaser/index.html",
+            "jogos/Kuroneko_Out_Phaser",
             "platform":
             "PC / Web",
             "language":
@@ -260,7 +260,7 @@
             "info":
             "QUE NOSTALGIA &lt;3 - &lt;3 Um dos meus primeiros jogos, foi feito no Construct 2, para a Heroin Game Jam de 2016, feat Pearninha :3",
             "link":
-            "jogos/heroinGameJam2016_Perninha/index.html",
+            "jogos/Perninha_Hero_in_Adventure",
             "platform":
             "PC / Web",
             "language":
@@ -281,7 +281,7 @@
             "info":
             "<a href='https://docs.godotengine.org/en/stable/getting_started/step_by_step/your_first_game.html'>Primeiro jogo</a> na Godot Engine! :) Treinando para novos desafios no trabalho de gamedev jr, usei gdscript. Jogue GoDodger! VaiPonto!",
             "link":
-            "jogos/GoDodger/GoDodger.html",
+            "jogos/GoDodger",
             "platform":
             "PC / Web",
             "language":
@@ -302,7 +302,7 @@
             "info":
             "Where is My Coxinha? é um jogo da Dasai Studio de 12 semanas para a 4ª Jam 2016 da APDJ. Labirinto delicioso com brocolianos!",
             "link":
-            "jogos/wmc/index.html",
+            "jogos/Where_is_My_Coxinha",
             "platform":
             "PC / Web",
             "language":
@@ -321,9 +321,9 @@
             "key":
             "rollabolla",
             "info":
-            "RollABolla é um jogo estudo para o FMOD Studio feito na Unity para a matéria de Áudio Digital em Jogos Digitais para UNICSUL",
+            "RollABolla é um jogo estudo para o FMOD Studio feito na Unity para a matéria de Áudio Digital em Jogos Digitais para UNICSUL.",
             "link":
-            "jogos/RollABolla/index.html",
+            "jogos/RollABolla",
             "platform":
             "PC / Web",
             "language":
@@ -333,18 +333,18 @@
             "technology":
             "Unity WebGL"
         },
-        "index": 18
+        "index": 19
     },
     {
         "name":
-        "Pong for Love",
+        "Pong For Love",
         "data": {
             "key":
             "pong_for_love",
             "info":
-            "Pong for Love é um jogo trabalho do Projeto Interdisciplinar (Audio + Animação) pra UNICSUL feito na Unity e com o FMOD Studio.",
+            "Pong For Love: um jogo trabalho do Projeto Interdisciplinar (Audio + Animação) pra UNICSUL feito na Unity e com o FMOD Studio.",
             "link":
-            "jogos/Pong_For_Love/index.html",
+            "jogos/Pong_For_Love",
             "platform":
             "PC / Web",
             "language":
@@ -354,7 +354,7 @@
             "technology":
             "Unity WebGL"
         },
-        "index": 19
+        "index": 21
     },
     {
         "name":
@@ -363,9 +363,9 @@
             "key":
             "mega_homem",
             "info":
-            "Mega Homem, ou Mega Hétero, é um fangame Infinite Runner Shooter do Mega Man feito na Unity em parceria com o <a href='https://www.instagram.com/mattoka3d/'>Mattoka3D</a>",
+            "Mega Homem, ou Mega Hétero, é um fangame Infinite Runner Shooter do Mega Man feito na Unity em parceria com o <a href='https://www.instagram.com/mattoka3d/'>Mattoka3D</a>.",
             "link":
-            "jogos/Mega_Homem/index.html",
+            "jogos/Mega_Homem",
             "platform":
             "PC / Web",
             "language":
@@ -386,7 +386,7 @@
             "info":
             "Economiquiz foi um jogo feito na Unity para alunos de Ciências Contábeis da Universidade São Judas Tadeu. Tem uma <a href='https://drive.google.com/file/d/1EZrIXwG8c7oBa0KsX3DeIV0KchKu9DHG/view?usp=sharing'>versão APK</a>.",
             "link":
-            "jogos/Economiquiz/index.html",
+            "jogos/Economiquiz",
             "platform":
             "Mobile / PC / Web",
             "language":
@@ -407,7 +407,7 @@
             "info":
             "Waka Waka Racing é um jogo que junta Akira Toriyama e Pac-Man, é meu 1º Unity feito pra Lab Proj Jogos I, UNICSUL. Veja o <a href='https://drive.google.com/file/d/1EDFBmMtQlQW0ctKKuhLklEvAs3FRPSjj/view?usp=sharing'>GDD</a>.",
             "link":
-            "jogos/Waka_Waka_Racing/index.html",
+            "jogos/Waka_Waka_Racing",
             "platform":
             "PC / Web",
             "language":
@@ -418,5 +418,47 @@
             "Unity WebGL"
         },
         "index": 8
+    },
+    {
+        "name":
+        "Nudle Mini Games",
+        "data": {
+            "key":
+            "nudle",
+            "info":
+            "Nudle é um jogo feito para a WGJ 156 no Unity, com um grupo da UNICSUL, o U Games Studio. Dois minigames e o tema macarrão!",
+            "link":
+            "https://u-games-studio.itch.io/nudle", "target":"_blank",
+            "platform":
+            "PC",
+            "language":
+            "C#",
+            "release":
+            "2020/07/09",
+            "technology":
+            "Unity"
+        },
+        "index": 18
+    },
+    {
+        "name":
+        "Labyrhythm",
+        "data": {
+            "key":
+            "labyrhythm",
+            "info":
+            "Labyrhythm é um jogo estudo na Unity, tem <a href='https://drive.google.com/file/d/1TC8oNbry9ckPvTR9OCAMEKdkhDcFE2TR/view?usp=sharing'>versão APK</a>, <a href='https://drive.google.com/file/d/1Lgeh5TaQRAYQalXoqxhPTzi31dpVGcBv/view?usp=sharing'>versão PC</a>, estudo das funções do Unity Ads e Acelerômetro no celular.",
+            "link":
+            "https://drive.google.com/file/d/1TC8oNbry9ckPvTR9OCAMEKdkhDcFE2TR/view?usp=sharing", "target":"_blank",
+            "platform":
+            "Mobile / PC / Web",
+            "language":
+            "C#",
+            "release":
+            "2020/09/22",
+            "technology":
+            "Unity"
+        },
+        "index": 20
     }
 ]

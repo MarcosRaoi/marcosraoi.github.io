@@ -1,0 +1,143 @@
+/*.page_even, .page_odd, .page_previous, .page_next, .page_center {border: 1px solid #000;}*/
+
+#page_index
+{
+    background-color: #f66;
+    background-image:url(imgs/Your%20Creature%20logo.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+        
+}
+#index
+{
+    background-image: url(imgs/Left-1.png);
+    width: 16px;
+    height: 16px;
+}
+
+#prerelease
+{
+    /*border: 1px solid #000;*/
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin-left:-80px; 
+    margin-top:-70px;    
+}
+
+/*#start
+{
+    width: 500px;
+    position: absolute;
+    left: 65%;
+    top: 55%;
+    margin-left:-80px; 
+    margin-top:-70px;
+    
+}*/
+
+#gamebook_start
+{
+    /*border: 1px solid #000;*/
+    width: 488px;
+    height: 709px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left:-244px; 
+    margin-top:-354px;
+    background-image: url(imgs/gamebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gamebook
+{
+    background-image: url(imgs/Open-Book-Mockup.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.page_even, .page_odd
+{
+    width: 27%;
+    height: 85%;
+    position: absolute;
+    top: 8%;
+    left: 19%;
+    
+    text-align: justify;
+    font-size: 19px; /*2.01vh*/
+}
+
+.page_odd
+{
+    left: 53.5%;
+}
+
+.page_previous, .page_next, .page_center
+{ 
+    width: 7%;
+    height: 98%;
+    position: absolute;
+    left: 12%;
+    text-align: center;
+    line-height: 5700%;
+}.page_next {left:80.5%;}.page_center {left: 46%; width: 7.5%;}
+
+a:visited,a:link {
+  color: black;
+}
+
+#dedication
+{
+    font-size: 16px;
+    position: relative;
+    top: 20%;
+    left: 5%;
+    font-style: italic;
+}
+
+.title,.summary
+{
+    font-size: 27px; /*2.9vh */
+    text-align: right;
+    font-weight: bold;
+} .summary {margin-left: 40%;}
+
+.justify
+{
+    visibility: hidden;
+}
+
+.brazillianized
+{
+    font-style: italic;
+}
+
+.explanation
+{
+    
+    font-size: 12px;
+}
+
+.decision
+{
+    font-weight: bold;
+}
+
+#tolgar512
+{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    float: right;
+    margin-top: 285px; /* em tese 26.3 vh */
+    
+}
+
+.marinha{color: aqua;}
+.aerea{color: #ffffff;}
+.terrestre{color: #006000;}

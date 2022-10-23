@@ -1,0 +1,161 @@
+body::before
+{
+    background-image: url("../imagens/bluelightning.png");
+
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;  
+    opacity: .4; 
+    z-index: -1;
+}
+
+
+#home{
+    width: 253px;
+    height: 210px;
+    margin: auto;
+    background-image: url("../imagens/jogoForca.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#home h1{
+    color: #fff;
+    text-shadow: 1px 1px 2px #b79ddd, 0 0 10px #fff, 0 0 15px #b79ddd;
+}
+
+#home button{
+    border: none;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    width: 120px;
+    height: 30px;
+    background-color: rgba(183, 157, 221, 0.5);
+    font-size: 18pt;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+#home button:hover{
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
+}
+
+#telajogo{
+    width: 500px;
+    height: 600px;
+    border: 1px solid #000;
+    margin: auto;
+    background-image: url("../imagens/forca.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    
+    background-color: #b79ddd;
+    
+    border-radius: 0px 50px 0px 50px;
+    
+ 
+    
+}
+
+#personagem{
+    position: relative;
+    top: 50px;
+    left: 200px;
+}
+
+#telajogo button{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    background-color: #fff;
+    margin: 5px;
+    
+    outline: none;
+}
+
+#telajogo button:active
+{
+    background-color: #ccc;
+}
+
+#letras_palavra{
+    margin: auto;
+    margin-top: 140px;
+    width: 400px;    
+    text-align: center;
+}
+
+#letras_palavra div{
+    display: inline-block;
+    background: #bacff4;
+    margin: 1px;
+    width: 20px;
+    height: 20px;
+    font-size: 14pt;
+}
+
+#letras{
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    text-align: center;
+}
+
+#telajogo .botao_errado{
+    background-color: #f00;
+    color: #dedede;    
+}
+
+#telajogo .botao_certo{
+    background-color: #0f0;
+    color: #000;    
+}
+
+#fim{
+    position: absolute;
+    z-index: 2;
+    width: 500px;
+    height: 100px;
+    display: none;
+    top: 200px;
+    text-align: center;
+    font-size: 24pt;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+/* Gambiarra da Div parecendo um botão */
+
+#butaoreset
+{
+    width: 70px;
+    height: 20px;
+    background-color: #ff0;
+    text-align: center;
+    border: 1px solid #000;
+    float: right;
+    margin-right: 5px;
+    
+    border-radius: 5px;
+    
+}
+
+#butaoreset:hover
+{
+    background-color: #fff;
+    text-decoration: underline;
+    
+}
+
+a:visited
+{
+    color: #000;
+}
