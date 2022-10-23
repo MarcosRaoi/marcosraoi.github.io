@@ -1,6 +1,6 @@
 v.1.13.0 - PongMO added, it's very bugged
 Eu já odeio pouco o Photon né, KKKK, além de eu ter que comentar uma penca de coisa na classe WebSocket.cs pra conseguir buildar essa porcaria pra WebGL, famoso else do #if UNITY_WEBGL && !UNITY_EDITOR, enfim, ela tá bem estranha, o player 2 não consegue ver os movimentos do 1, enfim, paciência... Eu se fosse fazer um projetinho online não cogitaria mais usar o Photon, até que me provassem o contrário que ele é bom. Ou talvez aprenderia as paradas de WebSocket "do zero" sei lá, enfim. Já vi um pouco na empresa / estúdio que eu trabalho hoje. Não pra unity claro.
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/b9d56a170195840f302054ac4a4813a443b67b84
 =====
 v.1.12.2 - Favicon's added to some games, title etc
 YC Gamebook, snake e ultimate forca, kuroneko outs, aleatorium, enfim, alguns jogos tiveram um favicon adicionado para eles! :D Também houve adição dos title's da pagina, enfim
