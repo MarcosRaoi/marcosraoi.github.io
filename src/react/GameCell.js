@@ -12,6 +12,7 @@ import GameLinkedBanner from "./GameLinkedBanner.js";
 
 var LAST_CELL_CLASS_NAME = "celula_de_jogo_ultima";
 var NORMAL_CELL_CLASS_NAME = "celula_de_jogo";
+var INVISIBLE_GAME_CELL_CLASS_NAME = "game_cell_invisible";
 
 var GameCell = function (_React$Component) {
     _inherits(GameCell, _React$Component);
@@ -23,6 +24,14 @@ var GameCell = function (_React$Component) {
     }
 
     _createClass(GameCell, [{
+        key: "getClassName",
+        value: function getClassName(cellIndexPosition, cellObject) {
+            if (cellObject.hidden) {
+                return INVISIBLE_GAME_CELL_CLASS_NAME;
+            }
+            return cellIndexPosition == getDataLenght() - 1 ? LAST_CELL_CLASS_NAME : NORMAL_CELL_CLASS_NAME;
+        }
+    }, {
         key: "positionCell",
         value: function positionCell(positionClass, cellData) {
             var cellInfo = cellData.info;
@@ -42,7 +51,7 @@ var GameCell = function (_React$Component) {
         key: "render",
         value: function render() {
             var cellIndex = this.props.children;
-            var className = cellIndex == getDataLenght() - 1 ? LAST_CELL_CLASS_NAME : NORMAL_CELL_CLASS_NAME;
+            var className = this.getClassName(cellIndex, this.props.cell);
 
             return this.positionCell(className, this.props.cell.data);
         }

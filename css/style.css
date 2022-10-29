@@ -112,6 +112,11 @@ body
     overflow: auto;
 }
 
+.game_cell_invisible
+{
+    display: none;
+}
+
 .celula_de_jogo, .celula_de_jogo_ultima
 {
     border: 1px solid #000;
@@ -126,7 +131,7 @@ body
     
     border-radius: 50px;
     overflow: hidden;
-    /* tou achando que é melhor eu colocar 570x360 as caixas, porque aí elas podem cair pra baixo de acordo com o tamanho da janela né? hmm */  
+    /* tou achando que é melhor eu colocar 570x360 as caixas, porque aí elas podem cair pra baixo de acordo com o tamanho da janela né? hmm */
 }
 
 .celula_de_jogo:hover, .celula_de_jogo_ultima:hover
