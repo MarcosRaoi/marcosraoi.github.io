@@ -1,508 +1,336 @@
 [
     {
-        "name":
-        "Vitaminator",
+        "name": "Vitaminator",
         "data": {
-            "key":
-            "vitaminator",
-            "info":
-            "Vitaminator é um jogo da Dasai Studio feito em 10 dias no Unity pra 3ª Jam 2016, APDJ. Um jogo de vitaminas e sucos suculentos!",
-            "link":
-            "https://dasaistudio.github.io/vitaminator", "target":"_blank",
-            "platform":
-            "PC / Web",
-            "language":
-            "C#",
-            "release":
-            "2016/07/05",
-            "technology":
-            "Unity WebGL"
+            "key": "vitaminator",
+            "info": "Vitaminator é um jogo da Dasai Studio feito em 10 dias no Unity pra 3ª Jam 2016, APDJ. Um jogo de vitaminas e sucos suculentos!",
+            "link": "https://dasaistudio.github.io/vitaminator",
+            "target": "_blank",
+            "platform": "PC / Web",
+            "language": "C#",
+            "release": "2016/07/05",
+            "technology": "Unity WebGL"
         },
         "index": 1
     },
     {
-        "name":
-        "Aleatorium",
+        "name": "Aleatorium",
         "data": {
-            "key":
-            "aleatorium",
-            "info":
-            "Aleatorium é um jogo feito em Javascript e CSS puro. Um jogo de adivinhar o número com as dicas na tela. Forte inspiração no GBA.",
-            "link":
-            "jogos/Aleatorium",
-            "platform":
-            "PC / Web",
-            "language":
-            "Javascript",
-            "release":
-            "2019/04/25",
-            "technology":
-            "Javascript / CSS, DOM"
+            "key": "aleatorium",
+            "info": "Aleatorium é um jogo feito em Javascript e CSS puro. Um jogo de adivinhar o número com as dicas na tela. Forte inspiração no GBA.",
+            "link": "jogos/Aleatorium",
+            "platform": "PC / Web",
+            "language": "Javascript",
+            "release": "2019/04/25",
+            "technology": "Javascript / CSS, DOM"
         },
         "index": 2
     },
     {
-        "name":
-        "Tolgar Runner",
+        "name": "Tolgar Runner",
         "data": {
-            "key":
-            "tolgar_runner",
-            "info":
-            "Tolgar Runner foi feito no Gdevelop 5. Faz parte da série de jogos Your Creature. É um Infinite Runner mobile, <a href='https://drive.google.com/open?id=1se6A0aYLbv2XRd6XOfitAZeW8aEIcPa1'>baixe o APK.</a>",
-            "link":
-            "https://drive.google.com/open?id=1se6A0aYLbv2XRd6XOfitAZeW8aEIcPa1", "target":"_blank",
-            "platform":
-            "Mobile",
-            "language":
-            "Javascript",
-            "release":
-            "2019/11/17",
-            "technology":
-            "GDevelop 5"
+            "key": "tolgar_runner",
+            "info": "Tolgar Runner foi feito no Gdevelop 5. Faz parte da série de jogos Your Creature. É um Infinite Runner mobile, <a href='https://drive.google.com/open?id=1se6A0aYLbv2XRd6XOfitAZeW8aEIcPa1'>baixe o APK.</a>",
+            "link": "https://drive.google.com/open?id=1se6A0aYLbv2XRd6XOfitAZeW8aEIcPa1",
+            "target": "_blank",
+            "platform": "Mobile",
+            "language": "Javascript",
+            "release": "2019/11/17",
+            "technology": "GDevelop 5"
         },
         "index": 3
     },
     {
-        "name":
-        "P-shot, vem rir no zap",
+        "name": "P-shot, vem rir no zap",
         "data": {
-            "key":
-            "pshot",
-            "info":
-            "P-shot foi feito em 1 dia no GDevelop 5. Um shooter sugestivo com temática humor. Aclamado pelos efeitos sonoros. rs. <a href='https://drive.google.com/open?id=1FaZpyK1FjQDglYAxeMQHYECJJ1Sx5sWt'>Baixe o APK.</a>",
-            "link":
-            "https://drive.google.com/open?id=1FaZpyK1FjQDglYAxeMQHYECJJ1Sx5sWt", "target":"_blank",
-            "platform":
-            "Mobile",
-            "language":
-            "Javascript",
-            "release":
-            "2020/01/06",
-            "technology":
-            "GDevelop 5"
+            "key": "pshot",
+            "info": "P-shot foi feito em 1 dia no GDevelop 5. Um shooter sugestivo com temática humor. Aclamado pelos efeitos sonoros. rs. <a href='https://drive.google.com/open?id=1FaZpyK1FjQDglYAxeMQHYECJJ1Sx5sWt'>Baixe o APK.</a>",
+            "link": "https://drive.google.com/open?id=1FaZpyK1FjQDglYAxeMQHYECJJ1Sx5sWt",
+            "target": "_blank",
+            "platform": "Mobile",
+            "language": "Javascript",
+            "release": "2020/01/06",
+            "technology": "GDevelop 5"
         },
         "index": 12
     },
     {
-        "name":
-        "Blue Lightning Ultimate Forca",
+        "name": "Blue Lightning Ultimate Forca",
         "data": {
-            "key":
-            "forca_bl",
-            "info":
-            "Blue Lightning Ultimate Forca foi um dos primeiros em js e jquery. Dica: São nomes dos meus jogos favoritos! rs. Boa sorte :).",
-            "link":
-            "jogos/Blue_Lightning_Ultimate_Forca",
-            "platform":
-            "PC / Web",
-            "language":
-            "Javascript",
-            "release":
-            "2019/04/15",
-            "technology":
-            "jQuery"
+            "key": "forca_bl",
+            "info": "Blue Lightning Ultimate Forca foi um dos primeiros em js e jquery. Dica: São nomes dos meus jogos favoritos! rs. Boa sorte :).",
+            "link": "jogos/Blue_Lightning_Ultimate_Forca",
+            "platform": "PC / Web",
+            "language": "Javascript",
+            "release": "2019/04/15",
+            "technology": "jQuery"
         },
         "index": 9
     },
     {
-        "name":
-        "Blue Lightning Snake",
+        "name": "Blue Lightning Snake",
         "data": {
-            "key":
-            "cobrinha_bl",
-            "info":
-            "Blue Lightning Snake foi um dos primeiros em Canvas/js. Esse está super divertido, até pelos efeitos sonoros, recomendo! rs :D",
-            "link":
-            "jogos/Blue_Lightning_Snake",
-            "platform":
-            "PC / Web",
-            "language":
-            "Javascript",
-            "release":
-            "2019/04/28",
-            "technology":
-            "Canvas JS"
+            "key": "cobrinha_bl",
+            "info": "Blue Lightning Snake foi um dos primeiros em Canvas/js. Esse está super divertido, até pelos efeitos sonoros, recomendo! rs :D",
+            "link": "jogos/Blue_Lightning_Snake",
+            "platform": "PC / Web",
+            "language": "Javascript",
+            "release": "2019/04/28",
+            "technology": "Canvas JS"
         },
         "index": 10
     },
     {
-        "name":
-        "Kuroneko Out! - Whac-A-Mole canvas",
+        "name": "Kuroneko Out! - Whac-A-Mole canvas",
         "data": {
-            "key":
-            "kuroneko_canvas",
-            "info":
-            "Kuroneko Out! feito em javascript (canvas). Clique no gatinho :3! Não clique no hamster rs. Obrigado Bibi Capasso pelo 'Yay' sound.",
-            "link":
-            "jogos/Kuroneko_Out",
-            "platform":
-            "PC / Web",
-            "language":
-            "Javascript",
-            "release":
-            "2019/05/13",
-            "technology":
-            "Canvas JS"
+            "key": "kuroneko_canvas",
+            "info": "Kuroneko Out! feito em javascript (canvas). Clique no gatinho :3! Não clique no hamster rs. Obrigado Bibi Capasso pelo 'Yay' sound.",
+            "link": "jogos/Kuroneko_Out",
+            "platform": "PC / Web",
+            "language": "Javascript",
+            "release": "2019/05/13",
+            "technology": "Canvas JS"
         },
         "index": 14
     },
     {
-        "name":
-        "Projeto Monster",
+        "name": "Projeto Monster",
         "data": {
-            "key":
-            "projeto_monster",
-            "info":
-            "Projeto Monster: js c/ canvas. Jogo de esmagar formigas, neste caso monsters, em parceria com o <a href='https://mettal.art.br/'>Mettal</a> como sound designer! s2",
-            "link":
-            "jogos/Projeto_Monster",
-            "platform":
-            "PC / Web",
-            "language":
-            "Javascript",
-            "release":
-            "2019/05/24",
-            "technology":
-            "Canvas JS"
+            "key": "projeto_monster",
+            "info": "Projeto Monster: js c/ canvas. Jogo de esmagar formigas, neste caso monsters, em parceria com o <a href='https://mettal.art.br/'>Mettal</a> como sound designer! s2",
+            "link": "jogos/Projeto_Monster",
+            "platform": "PC / Web",
+            "language": "Javascript",
+            "release": "2019/05/24",
+            "technology": "Canvas JS"
         },
         "index": 17
     },
     {
-        "name":
-        "Your Creature: Gamebook Version",
+        "name": "Your Creature: Gamebook Version",
         "data": {
-            "key":
-            "yc_gamebook",
-            "info":
-            "Your Creature: gamebook version, HTML e CSS tranquilo. Um livro de atualmente 25 páginas com a história da sidequest de Alfre.",
-            "link":
-            "jogos/Your_Creature_Gamebook",
-            "platform":
-            "PC / Web",
-            "language":
-            "HTML / CSS",
-            "release":
-            "2019/09/13",
-            "technology":
-            "Microsoft Word (rs HTML/CSS)"
+            "key": "yc_gamebook",
+            "info": "Your Creature: gamebook version, HTML e CSS tranquilo. Um livro de atualmente 25 páginas com a história da sidequest de Alfre.",
+            "link": "jogos/Your_Creature_Gamebook",
+            "platform": "PC / Web",
+            "language": "HTML / CSS",
+            "release": "2019/09/13",
+            "technology": "Microsoft Word (rs HTML/CSS)"
         },
         "index": 13
     },
     {
-        "name":
-        "Kuroneko Out! - Phaser version",
+        "name": "Kuroneko Out! - Phaser version",
         "data": {
-            "key":
-            "kuroneko_phaser",
-            "info":
-            "Kuroneko Out! só que agora feito com o Phaser 2 para treinar para o estágio. Obrigado Bianca Capasso novamente pelo 'Yay' sound. :D",
-            "link":
-            "jogos/Kuroneko_Out_Phaser",
-            "platform":
-            "PC / Web",
-            "language":
-            "Javascript",
-            "release":
-            "2020/09/23",
-            "technology":
-            "Phaser 2"
+            "key": "kuroneko_phaser",
+            "info": "Kuroneko Out! só que agora feito com o Phaser 2 para treinar para o estágio. Obrigado Bianca Capasso novamente pelo 'Yay' sound. :D",
+            "link": "jogos/Kuroneko_Out_Phaser",
+            "platform": "PC / Web",
+            "language": "Javascript",
+            "release": "2020/09/23",
+            "technology": "Phaser 2"
         },
         "index": 15
     },
     {
-        "name":
-        "Protect Arthur!",
+        "name": "Protect Arthur!",
         "data": {
-            "key":
-            "protect_arthur",
-            "info":
-            "Protect Arthur! é um shelter defense feito para a WGJ 152 no Unity, com um grupo da UNICSUL em homenagem ao nosso professor.",
-            "link":
-            "https://u-games-studio.itch.io/protect-arthur", "target":"_blank",
-            "platform":
-            "PC",
-            "language":
-            "C#",
-            "release":
-            "2020/06/11",
-            "technology":
-            "Unity"
+            "key": "protect_arthur",
+            "info": "Protect Arthur! é um shelter defense feito para a WGJ 152 no Unity, com um grupo da UNICSUL em homenagem ao nosso professor.",
+            "link": "https://u-games-studio.itch.io/protect-arthur",
+            "target": "_blank",
+            "platform": "PC",
+            "language": "C#",
+            "release": "2020/06/11",
+            "technology": "Unity"
         },
         "index": 4
     },
     {
-        "name":
-        "Roma Bingo",
+        "name": "Roma Bingo",
         "data": {
-            "key":
-            "roma_bingo",
-            "info":
-            "Clássico do Ortiz Gaming, aventura extraordinária que recorda o gostinho da culinária italiana. Trabalhei no Front-End, js / Phaser 2.",
-            "link":
-            "https://www.playbonds.com/pt/jogos/video-bingo/descricao/3726/Roma_Bingo", "target":"_blank",
-            "platform":
-            "PC / Web",
-            "language":
-            "Javascript",
-            "release":
-            "2020/12/09",
-            "technology":
-            "Phaser 2"
+            "key": "roma_bingo",
+            "info": "Clássico do Ortiz Gaming, aventura extraordinária que recorda o gostinho da culinária italiana. Trabalhei no Front-End, js / Phaser 2.",
+            "link": "https://www.playbonds.com/pt/jogos/video-bingo/descricao/3726/Roma_Bingo",
+            "target": "_blank",
+            "platform": "PC / Web",
+            "language": "Javascript",
+            "release": "2020/12/09",
+            "technology": "Phaser 2"
         },
         "index": 0
     },
     {
-        "name":
-        "Perninha Hero in Adventure!",
+        "name": "Perninha Hero in Adventure!",
         "data": {
-            "key":
-            "perninha_hgj_2016",
-            "info":
-            "QUE NOSTALGIA &lt;3 - &lt;3 Um dos meus primeiros jogos, foi feito no Construct 2, para a Heroin Game Jam de 2016, feat Pearninha :3",
-            "link":
-            "jogos/Perninha_Hero_in_Adventure",
-            "platform":
-            "PC / Web",
-            "language":
-            "Javascript",
-            "release":
-            "2016/05/22",
-            "technology":
-            "Construct 2"
+            "key": "perninha_hgj_2016",
+            "info": "QUE NOSTALGIA &lt;3 - &lt;3 Um dos meus primeiros jogos, foi feito no Construct 2, para a Heroin Game Jam de 2016, feat Pearninha :3",
+            "link": "jogos/Perninha_Hero_in_Adventure",
+            "platform": "PC / Web",
+            "language": "Javascript",
+            "release": "2016/05/22",
+            "technology": "Construct 2"
         },
         "index": 6
     },
     {
-        "name":
-        "GoDodger! VaiPonto!",
+        "name": "GoDodger! VaiPonto!",
         "data": {
-            "key":
-            "go_dodger",
-            "info":
-            "<a href='https://docs.godotengine.org/en/stable/getting_started/step_by_step/your_first_game.html'>Primeiro jogo</a> na Godot Engine! :) Treinando para novos desafios no trabalho de gamedev jr, usei gdscript. Jogue GoDodger! VaiPonto!",
-            "link":
-            "jogos/GoDodger",
-            "platform":
-            "PC / Web",
-            "language":
-            "Gdscript",
-            "release":
-            "2021/09/19",
-            "technology":
-            "Godot Engine"
+            "key": "go_dodger",
+            "info": "<a href='https://docs.godotengine.org/en/stable/getting_started/step_by_step/your_first_game.html'>Primeiro jogo</a> na Godot Engine! :) Treinando para novos desafios no trabalho de gamedev jr, usei gdscript. Jogue GoDodger! VaiPonto!",
+            "link": "jogos/GoDodger",
+            "platform": "PC / Web",
+            "language": "Gdscript",
+            "release": "2021/09/19",
+            "technology": "Godot Engine"
         },
         "index": 5
     },
     {
-        "name":
-        "Where is My Coxinha?",
+        "name": "Where is My Coxinha?",
         "data": {
-            "key":
-            "wmc",
-            "info":
-            "Where is My Coxinha? é um jogo da Dasai Studio de 12 semanas para a 4ª Jam 2016 da APDJ. Labirinto delicioso com brocolianos!",
-            "link":
-            "jogos/Where_is_My_Coxinha",
-            "platform":
-            "PC / Web",
-            "language":
-            "C#",
-            "release":
-            "2016/11/18",
-            "technology":
-            "Unity WebGL"
+            "key": "wmc",
+            "info": "Where is My Coxinha? é um jogo da Dasai Studio de 12 semanas para a 4ª Jam 2016 da APDJ. Labirinto delicioso com brocolianos!",
+            "link": "jogos/Where_is_My_Coxinha",
+            "platform": "PC / Web",
+            "language": "C#",
+            "release": "2016/11/18",
+            "technology": "Unity WebGL"
         },
         "index": 11
     },
     {
-        "name":
-        "RollABola",
+        "name": "RollABola",
         "data": {
-            "key":
-            "rollabolla",
-            "info":
-            "RollABolla é um jogo estudo para o FMOD Studio feito na Unity para a matéria de Áudio Digital em Jogos Digitais para UNICSUL.",
-            "link":
-            "jogos/RollABolla",
-            "platform":
-            "PC / Web",
-            "language":
-            "C#",
-            "release":
-            "2020/05/20",
-            "technology":
-            "Unity WebGL"
+            "key": "rollabolla",
+            "info": "RollABolla é um jogo estudo para o FMOD Studio feito na Unity para a matéria de Áudio Digital em Jogos Digitais para UNICSUL.",
+            "link": "jogos/RollABolla",
+            "platform": "PC / Web",
+            "language": "C#",
+            "release": "2020/05/20",
+            "technology": "Unity WebGL"
         },
         "index": 19
     },
     {
-        "name":
-        "Pong For Love",
+        "name": "Pong For Love",
         "data": {
-            "key":
-            "pong_for_love",
-            "info":
-            "Pong For Love: um jogo trabalho do Projeto Interdisciplinar (Audio + Animação) pra UNICSUL feito na Unity e com o FMOD Studio.",
-            "link":
-            "jogos/Pong_For_Love",
-            "platform":
-            "PC / Web",
-            "language":
-            "C#",
-            "release":
-            "2020/05/10",
-            "technology":
-            "Unity WebGL"
-        },
-        "index": 21
-    },
-    {
-        "name":
-        "Mega Homem",
-        "data": {
-            "key":
-            "mega_homem",
-            "info":
-            "Mega Homem, ou Mega Hétero, é um fangame Infinite Runner Shooter do Mega Man feito na Unity em parceria com o <a href='https://www.instagram.com/mattoka3d/'>Mattoka3D</a>.",
-            "link":
-            "jogos/Mega_Homem",
-            "platform":
-            "PC / Web",
-            "language":
-            "C#",
-            "release":
-            "2020/05/21",
-            "technology":
-            "Unity WebGL"
-        },
-        "index": 16
-    },
-    {
-        "name":
-        "Economiquiz",
-        "data": {
-            "key":
-            "economiquiz",
-            "info":
-            "Economiquiz foi um jogo feito na Unity para alunos de Ciências Contábeis da Universidade São Judas Tadeu. Tem uma <a href='https://drive.google.com/file/d/1EZrIXwG8c7oBa0KsX3DeIV0KchKu9DHG/view?usp=sharing'>versão APK</a>.",
-            "link":
-            "jogos/Economiquiz",
-            "platform":
-            "Mobile / PC / Web",
-            "language":
-            "C#",
-            "release":
-            "2020/05/27",
-            "technology":
-            "Unity WebGL"
-        },
-        "index": 7
-    },
-    {
-        "name":
-        "Waka Waka Racing",
-        "data": {
-            "key":
-            "waka_waka_racing",
-            "info":
-            "Waka Waka Racing é um jogo que junta Akira Toriyama e Pac-Man, é meu 1º Unity feito pra Lab Proj Jogos I, UNICSUL. Veja o <a href='https://drive.google.com/file/d/1EDFBmMtQlQW0ctKKuhLklEvAs3FRPSjj/view?usp=sharing'>GDD</a>.",
-            "link":
-            "jogos/Waka_Waka_Racing",
-            "platform":
-            "PC / Web",
-            "language":
-            "C#",
-            "release":
-            "2019/12/09",
-            "technology":
-            "Unity WebGL"
-        },
-        "index": 8
-    },
-    {
-        "name":
-        "Nudle Mini Games",
-        "data": {
-            "key":
-            "nudle",
-            "info":
-            "Nudle é um jogo feito para a WGJ 156 no Unity, com um grupo da UNICSUL, o U Games Studio. Dois minigames e o tema macarrão!",
-            "link":
-            "https://u-games-studio.itch.io/nudle", "target":"_blank",
-            "platform":
-            "PC",
-            "language":
-            "C#",
-            "release":
-            "2020/07/09",
-            "technology":
-            "Unity"
-        },
-        "index": 18
-    },
-    {
-        "name":
-        "Labyrhythm",
-        "data": {
-            "key":
-            "labyrhythm",
-            "info":
-            "Labyrhythm é um jogo estudo na Unity, tem <a href='https://drive.google.com/file/d/1TC8oNbry9ckPvTR9OCAMEKdkhDcFE2TR/view?usp=sharing'>versão APK</a>, <a href='https://drive.google.com/file/d/1Lgeh5TaQRAYQalXoqxhPTzi31dpVGcBv/view?usp=sharing'>versão PC</a>, estudo das funções do Unity Ads e Acelerômetro no celular.",
-            "link":
-            "https://drive.google.com/file/d/1TC8oNbry9ckPvTR9OCAMEKdkhDcFE2TR/view?usp=sharing", "target":"_blank",
-            "platform":
-            "Mobile / PC / Web",
-            "language":
-            "C#",
-            "release":
-            "2020/09/22",
-            "technology":
-            "Unity"
-        },
-        "index": 20
-    },
-    {
-        "name":
-        "PongMO",
-        "data": {
-            "key":
-            "pongmo",
-            "info":
-            "PongMO é um jogo de pong multiplayer online utilizando o Photon na Unity para estudo. Precisa de melhorias nas funcionalidades.",
-            "link":
-            "jogos/PongMO",
-            "platform":
-            "PC / Web",
-            "language":
-            "C#",
-            "release":
-            "2020/08/24",
-            "technology":
-            "Unity WebGL"
+            "key": "pong_for_love",
+            "info": "Pong For Love: um jogo trabalho do Projeto Interdisciplinar (Audio + Animação) pra UNICSUL feito na Unity e com o FMOD Studio.",
+            "link": "jogos/Pong_For_Love",
+            "platform": "PC / Web",
+            "language": "C#",
+            "release": "2020/05/10",
+            "technology": "Unity WebGL"
         },
         "index": 22
     },
     {
-        "name":
-        "Breno Chaves: the game",
+        "name": "Mega Homem",
         "data": {
-            "key":
-            "breno_keys",
-            "info":
-            "Breno Keys: the game, ou Breno Chaves: the game, nas terras tupiniquins, foi um jogo feito em 1 dia para o aniversário dele. <a href='https://drive.google.com/file/d/1IeIxo2hn8DqxNDgyECjrHW28atReOxDx/view?usp=share_link'>APK.</a>",
-            "link":
-            "https://drive.google.com/file/d/1IeIxo2hn8DqxNDgyECjrHW28atReOxDx/view?usp=share_link", "target": "_blank",
-            "platform":
-            "Mobile",
-            "language":
-            "C#",
-            "release":
-            "2020/08/19",
-            "technology":
-            "Unity WebGL"
+            "key": "mega_homem",
+            "info": "Mega Homem, ou Mega Hétero, é um fangame Infinite Runner Shooter do Mega Man feito na Unity em parceria com o <a href='https://www.instagram.com/mattoka3d/'>Mattoka3D</a>.",
+            "link": "jogos/Mega_Homem",
+            "platform": "PC / Web",
+            "language": "C#",
+            "release": "2020/05/21",
+            "technology": "Unity WebGL"
+        },
+        "index": 16
+    },
+    {
+        "name": "Economiquiz",
+        "data": {
+            "key": "economiquiz",
+            "info": "Economiquiz foi um jogo feito na Unity para alunos de Ciências Contábeis da Universidade São Judas Tadeu. Tem uma <a href='https://drive.google.com/file/d/1EZrIXwG8c7oBa0KsX3DeIV0KchKu9DHG/view?usp=sharing'>versão APK</a>.",
+            "link": "jogos/Economiquiz",
+            "platform": "Mobile / PC / Web",
+            "language": "C#",
+            "release": "2020/05/27",
+            "technology": "Unity WebGL"
+        },
+        "index": 7
+    },
+    {
+        "name": "Waka Waka Racing",
+        "data": {
+            "key": "waka_waka_racing",
+            "info": "Waka Waka Racing é um jogo que junta Akira Toriyama e Pac-Man, é meu 1º Unity feito pra Lab Proj Jogos I, UNICSUL. Veja o <a href='https://drive.google.com/file/d/1EDFBmMtQlQW0ctKKuhLklEvAs3FRPSjj/view?usp=sharing'>GDD</a>.",
+            "link": "jogos/Waka_Waka_Racing",
+            "platform": "PC / Web",
+            "language": "C#",
+            "release": "2019/12/09",
+            "technology": "Unity WebGL"
+        },
+        "index": 8
+    },
+    {
+        "name": "Nudle Mini Games",
+        "data": {
+            "key": "nudle",
+            "info": "Nudle é um jogo feito para a WGJ 156 no Unity, com um grupo da UNICSUL, o U Games Studio. Dois minigames e o tema macarrão!",
+            "link": "https://u-games-studio.itch.io/nudle",
+            "target": "_blank",
+            "platform": "PC",
+            "language": "C#",
+            "release": "2020/07/09",
+            "technology": "Unity"
+        },
+        "index": 18
+    },
+    {
+        "name": "Labyrhythm",
+        "data": {
+            "key": "labyrhythm",
+            "info": "Labyrhythm é um jogo estudo na Unity, tem <a href='https://drive.google.com/file/d/1TC8oNbry9ckPvTR9OCAMEKdkhDcFE2TR/view?usp=sharing'>versão APK</a>, <a href='https://drive.google.com/file/d/1Lgeh5TaQRAYQalXoqxhPTzi31dpVGcBv/view?usp=sharing'>versão PC</a>, estudo das funções do Unity Ads e Acelerômetro no celular.",
+            "link": "https://drive.google.com/file/d/1TC8oNbry9ckPvTR9OCAMEKdkhDcFE2TR/view?usp=sharing",
+            "target": "_blank",
+            "platform": "Mobile / PC / Web",
+            "language": "C#",
+            "release": "2020/09/22",
+            "technology": "Unity"
+        },
+        "index": 21
+    },
+    {
+        "name": "PongMO",
+        "data": {
+            "key": "pongmo",
+            "info": "PongMO é um jogo de pong multiplayer online utilizando o Photon na Unity para estudo. Precisa de melhorias nas funcionalidades.",
+            "link": "jogos/PongMO",
+            "platform": "PC / Web",
+            "language": "C#",
+            "release": "2020/08/24",
+            "technology": "Unity WebGL"
+        },
+        "index": 23
+    },
+    {
+        "name": "Breno Chaves: the game",
+        "data": {
+            "key": "breno_keys",
+            "info": "Breno Keys: the game, ou Breno Chaves: the game, nas terras tupiniquins, foi um jogo feito em 1 dia para o aniversário dele. <a href='https://drive.google.com/file/d/1IeIxo2hn8DqxNDgyECjrHW28atReOxDx/view?usp=share_link'>APK.</a>",
+            "link": "https://drive.google.com/file/d/1IeIxo2hn8DqxNDgyECjrHW28atReOxDx/view?usp=share_link",
+            "target": "_blank",
+            "platform": "Mobile",
+            "language": "C#",
+            "release": "2020/08/19",
+            "technology": "Unity WebGL"
         },
         "index": 0,
         "hidden": true
+    },
+    {
+        "name": "Aula 8 de Animação Digital II - Customizar",
+        "data": {
+            "key": "aula8_customizar",
+            "info": "Um projeto estudo de SetBlendShapeWeight da Unity, pré estudos para criar Customizações de Personagens! Anim.D.II na UNICSUL.",
+            "link": "jogos/Customizar",
+            "platform": "PC / Web",
+            "language": "C#",
+            "release": "2020/10/04",
+            "technology": "Unity WebGL"
+        },
+        "index": 20
     }
-    
 ]
