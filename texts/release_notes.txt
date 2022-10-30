@@ -1,6 +1,8 @@
+
+=====
 v.1.15.0 - Added Aula8_Customizar and formatted game_cells.json
 Famoso Shift Alt F no game_cells.json e no final adicionado o "Aula 8 de Animação Digital II - Customizar", ele não é bem um jogo né, é um projeto estudo, diferente de um "jogo estudo" rsrsrs, conceitoss....sei lá na verdade, e não consegui pensar num nome pra ele, diferente do RollABola, rs. Mas com certeza será um passo interessante para jogos de customização de criaturas, enfim.
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/7f0c48f8398dae6c971f2203d427573712b7d2c9
 =====
 v.1.14.0 - Implemented INVISIBLE_GAME_CELL + BrenoKeys game
 Bom, vamos lá, agora dá pra subir jogos sem eles ficarem visíveis para o público, vai ser o caso do BrenoKeys: the game! rs, porque vou lançar no aniversário dele, 19/08/2023, sendo que o jogo em si foi lançado em 19/08/2020, KKK, enfim, fiz uns pequenos ajustes e talz e subi uma versão APK, mas o release eu vou deixar naquela época, pq dessa vez eu não fiz praticamente nada, jogo já tava pronto rsrsrs, acho que mexi uma horinha só, enfim.
