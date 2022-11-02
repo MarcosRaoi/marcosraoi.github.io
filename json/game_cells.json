@@ -303,7 +303,7 @@
             "release": "2020/08/24",
             "technology": "Unity WebGL"
         },
-        "index": 24
+        "index": 25
     },
     {
         "name": "Breno Chaves: the game",
@@ -345,5 +345,18 @@
             "technology": "Unity WebGL"
         },
         "index": 2
+    },
+    {
+        "name": "MMOFPS",
+        "data": {
+            "key": "mmofps",
+            "info": "MMOFPS é um jogo de tiro multiplayer online utilizando o Photon na Unity para estudo. Possui poucas funcionalidades p/ ser jogável.",
+            "link": "jogos/MMOFPS",
+            "platform": "PC / Web",
+            "language": "C#",
+            "release": "2020/07/29",
+            "technology": "Unity WebGL"
+        },
+        "index": 24
     }
 ]
