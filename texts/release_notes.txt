@@ -1,6 +1,10 @@
+v.1.18.0 - Added JumpGame mobile to portfolio
+Jogo simples, link externo, nenhum muito segredo, não quis gastar mais esforço do que já tinha que gastar nele, só concertei o parallax, na teoria, apesar das flincadinhas, e coloquei uma pontuaçãozinha na tela pra dar "mais vontade", além duma musiquinha que eu adorei:  https://opengameart.org/content/cyberpunk-moonlight-sonata, Joth brabíssimo, boa. Versão cyberpunk da moonlight sonata de beethoven, amo. A lenda ai: https://opengameart.org/users/joth
+
+=====
 v.1.17.0 - Added MMOFPS to portfolio lol
 MMOFPS de minecraft multiplayer online first person shooter depois que eu fui ver HASUHSAUSa, enfim, tá bem fraquinho, mas tá menos bugado que o PongMO, e se o PongMO entrou, então nada mais justo... asusahusahu, se tivesse implementado mais algumas featureszinhas e talz, ele tinha alguma coisinha ai pra deixar ele divertido / jogável, enfim
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/d9afaf78be46f884558cf3f01a4e4d88b2119fb5
 =====
 v.1.16.0 - Added one of the best polished games: Zen TicTacToe
 Bom, adicionado finalmente o Zen Tic-Tac-Toe ao portifólio, ou Jogo da Veia, Veia do Tic Toc, Ana's TicTocTae, já teve vários nomes, AHSUHSUAH, enfim, fechamos no Zen Tic-Tac-Toe, mais comercial. Ele está num nível bem bom "de mercado", daria pra colocar numa playstore da vida, apesar de ser simples, já que é um jogo da velha clássico. Talvez colocar algo pra aumentar a rejogabilidade, talvez implementar uma IA pra jogar contra a pessoa, enfim, tem várias features que poderiam ser adicionadas, mas por enquanto é issae. Resolvi uns bugs dele, dei umas melhorasdinhas, e tou subindo :D
