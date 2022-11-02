@@ -315,7 +315,7 @@
             "platform": "Mobile",
             "language": "C#",
             "release": "2020/08/19",
-            "technology": "Unity WebGL"
+            "technology": "Unity"
         },
         "index": 0,
         "hidden": true
@@ -369,8 +369,21 @@
             "platform": "Mobile",
             "language": "C#",
             "release": "2020/10/29",
-            "technology": "Unity WebGL"
+            "technology": "Unity"
         },
         "index": 17
+    },
+    {
+        "name": "Witchy",
+        "data": {
+            "key": "witchy",
+            "info": "Witchy é um projeto de mapa 3d feito na Unity para a matéria de Animação Digital II na UNICSUL. Vou <a href='https://drive.google.com/drive/folders/1Zc2qArTHFy7bbGztrVBlZhrn6JlIszng?usp=share_link'>disponibilizar os Assets.</a>",
+            "link": "jogos/Witchy",
+            "platform": "PC / Web",
+            "language": "C#",
+            "release": "2020/11/03",
+            "technology": "Unity WebGL"
+        },
+        "index": 27
     }
 ]

@@ -1,6 +1,10 @@
+v.1.19.0 - Added Witchy Project
+Projetinho simples, disponibilizei os assets aqui https://drive.google.com/drive/folders/1Zc2qArTHFy7bbGztrVBlZhrn6JlIszng?usp=share_link, enfim, vamo lá, correr pra colocar os outros, esse é um dos mais simples, não tem mta coisa, deixei ele por ultimo, apesar de não tar "bugado", já que não tem oq bugar praticamente kkk
+
+=====
 v.1.18.0 - Added JumpGame mobile to portfolio
 Jogo simples, link externo, nenhum muito segredo, não quis gastar mais esforço do que já tinha que gastar nele, só concertei o parallax, na teoria, apesar das flincadinhas, e coloquei uma pontuaçãozinha na tela pra dar "mais vontade", além duma musiquinha que eu adorei:  https://opengameart.org/content/cyberpunk-moonlight-sonata, Joth brabíssimo, boa. Versão cyberpunk da moonlight sonata de beethoven, amo. A lenda ai: https://opengameart.org/users/joth
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/d4987a3d133988287c89a73331c50632033c9085
 =====
 v.1.17.0 - Added MMOFPS to portfolio lol
 MMOFPS de minecraft multiplayer online first person shooter depois que eu fui ver HASUHSAUSa, enfim, tá bem fraquinho, mas tá menos bugado que o PongMO, e se o PongMO entrou, então nada mais justo... asusahusahu, se tivesse implementado mais algumas featureszinhas e talz, ele tinha alguma coisinha ai pra deixar ele divertido / jogável, enfim
