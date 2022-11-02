@@ -3,7 +3,7 @@
         "name": "Vitaminator",
         "data": {
             "key": "vitaminator",
-            "info": "Vitaminator é um jogo da Dasai Studio feito em 10 dias no Unity pra 3ª Jam 2016, APDJ. Um jogo de vitaminas e sucos suculentos!",
+            "info": "Vitaminator é um jogo da Dasai Studio feito em 10 dias no Unity pra 3ª Jam 2016 - APDJ. Um jogo de sucos e vitaminas suculentas!",
             "link": "https://dasaistudio.github.io/vitaminator",
             "target": "_blank",
             "platform": "PC / Web",
@@ -24,7 +24,7 @@
             "release": "2019/04/25",
             "technology": "Javascript / CSS, DOM"
         },
-        "index": 2
+        "index": 3
     },
     {
         "name": "Tolgar Runner",
@@ -38,7 +38,7 @@
             "release": "2019/11/17",
             "technology": "GDevelop 5"
         },
-        "index": 3
+        "index": 6
     },
     {
         "name": "P-shot, vem rir no zap",
@@ -52,7 +52,7 @@
             "release": "2020/01/06",
             "technology": "GDevelop 5"
         },
-        "index": 12
+        "index": 13
     },
     {
         "name": "Blue Lightning Ultimate Forca",
@@ -65,7 +65,7 @@
             "release": "2019/04/15",
             "technology": "jQuery"
         },
-        "index": 9
+        "index": 10
     },
     {
         "name": "Blue Lightning Snake",
@@ -78,7 +78,7 @@
             "release": "2019/04/28",
             "technology": "Canvas JS"
         },
-        "index": 10
+        "index": 11
     },
     {
         "name": "Kuroneko Out! - Whac-A-Mole canvas",
@@ -91,7 +91,7 @@
             "release": "2019/05/13",
             "technology": "Canvas JS"
         },
-        "index": 14
+        "index": 15
     },
     {
         "name": "Projeto Monster",
@@ -104,7 +104,7 @@
             "release": "2019/05/24",
             "technology": "Canvas JS"
         },
-        "index": 17
+        "index": 18
     },
     {
         "name": "Your Creature: Gamebook Version",
@@ -117,7 +117,7 @@
             "release": "2019/09/13",
             "technology": "Microsoft Word (rs HTML/CSS)"
         },
-        "index": 13
+        "index": 14
     },
     {
         "name": "Kuroneko Out! - Phaser version",
@@ -130,7 +130,7 @@
             "release": "2020/09/23",
             "technology": "Phaser 2"
         },
-        "index": 15
+        "index": 16
     },
     {
         "name": "Protect Arthur!",
@@ -171,7 +171,7 @@
             "release": "2016/05/22",
             "technology": "Construct 2"
         },
-        "index": 6
+        "index": 7
     },
     {
         "name": "GoDodger! VaiPonto!",
@@ -197,7 +197,7 @@
             "release": "2016/11/18",
             "technology": "Unity WebGL"
         },
-        "index": 11
+        "index": 12
     },
     {
         "name": "RollABola",
@@ -210,7 +210,7 @@
             "release": "2020/05/20",
             "technology": "Unity WebGL"
         },
-        "index": 19
+        "index": 20
     },
     {
         "name": "Pong For Love",
@@ -223,7 +223,7 @@
             "release": "2020/05/10",
             "technology": "Unity WebGL"
         },
-        "index": 22
+        "index": 23
     },
     {
         "name": "Mega Homem",
@@ -236,7 +236,7 @@
             "release": "2020/05/21",
             "technology": "Unity WebGL"
         },
-        "index": 16
+        "index": 17
     },
     {
         "name": "Economiquiz",
@@ -249,7 +249,7 @@
             "release": "2020/05/27",
             "technology": "Unity WebGL"
         },
-        "index": 7
+        "index": 8
     },
     {
         "name": "Waka Waka Racing",
@@ -262,7 +262,7 @@
             "release": "2019/12/09",
             "technology": "Unity WebGL"
         },
-        "index": 8
+        "index": 9
     },
     {
         "name": "Nudle Mini Games",
@@ -276,7 +276,7 @@
             "release": "2020/07/09",
             "technology": "Unity"
         },
-        "index": 18
+        "index": 19
     },
     {
         "name": "Labyrhythm",
@@ -290,7 +290,7 @@
             "release": "2020/09/22",
             "technology": "Unity"
         },
-        "index": 21
+        "index": 22
     },
     {
         "name": "PongMO",
@@ -303,7 +303,7 @@
             "release": "2020/08/24",
             "technology": "Unity WebGL"
         },
-        "index": 23
+        "index": 24
     },
     {
         "name": "Breno Chaves: the game",
@@ -331,6 +331,19 @@
             "release": "2020/10/04",
             "technology": "Unity WebGL"
         },
-        "index": 20
+        "index": 21
+    },
+    {
+        "name": "Zen Tic-Tac-Toe",
+        "data": {
+            "key": "zen_tic_tac_toe",
+            "info": "Zen Tic-Tac-Toe (jogo da velha) um dos jogos mais polídos que fizemos na UNICSUL, usando Unity. Tem versão <a href='https://drive.google.com/file/d/1cu2UXJvK9_ma0mPFBLm2WlkTl2SGNVG3/view?usp=share_link'>Mobile</a> e Web.",
+            "link": "jogos/Zen_TicTacToe",
+            "platform": "Mobile / PC / Web",
+            "language": "C#",
+            "release": "2020/10/13",
+            "technology": "Unity WebGL"
+        },
+        "index": 2
     }
 ]

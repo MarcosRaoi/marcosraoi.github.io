@@ -1,3 +1,5 @@
+v.1.16.0 - 
+Bom, adicionado finalmente o Zen Tic-Tac-Toe ao portifólio, ou Jogo da Veia, Veia do Tic Toc, Ana's TicTocTae, já teve vários nomes, AHSUHSUAH, enfim, fechamos no Zen Tic-Tac-Toe, mais comercial. Ele está num nível bem bom "de mercado", daria pra colocar numa playstore da vida, apesar de ser simples, já que é um jogo da velha clássico. Talvez colocar algo pra aumentar a rejogabilidade, talvez implementar uma IA pra jogar contra a pessoa, enfim, tem várias features que poderiam ser adicionadas, mas por enquanto é issae. Resolvi uns bugs dele, dei umas melhorasdinhas, e tou subindo :D
 
 =====
 v.1.15.0 - Added Aula8_Customizar and formatted game_cells.json
