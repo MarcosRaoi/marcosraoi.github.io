@@ -1,6 +1,6 @@
-v.1.16.0 - 
+v.1.16.0 - Added one of the best polished games: Zen TicTacToe
 Bom, adicionado finalmente o Zen Tic-Tac-Toe ao portifólio, ou Jogo da Veia, Veia do Tic Toc, Ana's TicTocTae, já teve vários nomes, AHSUHSUAH, enfim, fechamos no Zen Tic-Tac-Toe, mais comercial. Ele está num nível bem bom "de mercado", daria pra colocar numa playstore da vida, apesar de ser simples, já que é um jogo da velha clássico. Talvez colocar algo pra aumentar a rejogabilidade, talvez implementar uma IA pra jogar contra a pessoa, enfim, tem várias features que poderiam ser adicionadas, mas por enquanto é issae. Resolvi uns bugs dele, dei umas melhorasdinhas, e tou subindo :D
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/69f9ba0b93f3a0fa16bbb3c1e3c4b54becbc4ee7
 =====
 v.1.15.0 - Added Aula8_Customizar and formatted game_cells.json
 Famoso Shift Alt F no game_cells.json e no final adicionado o "Aula 8 de Animação Digital II - Customizar", ele não é bem um jogo né, é um projeto estudo, diferente de um "jogo estudo" rsrsrs, conceitoss....sei lá na verdade, e não consegui pensar num nome pra ele, diferente do RollABola, rs. Mas com certeza será um passo interessante para jogos de customização de criaturas, enfim.
