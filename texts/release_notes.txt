@@ -2,7 +2,7 @@ v.1.20.0 - Added Blue Lightning Breakout to portifa
 Bom, adicionado o Breakout, virou BL, rs, falta agora só o Rancher, que ai o buraco é mais embaixo... Falta também o Sapinho da Ana, que talvez seja o próximo, preciso dar uma mexida / arrumada nele pra ele ficar minimamente divertido, uma vez que tá muito fácil de jogar... E bom, sendo que eu não queria mexer nele mais, mas enfim, e bom, falta também o Smartphone the game, esse tbm seria um projetinho que eu gostaria de mexer mais / deixar mais parrudo, então se pah só vai ter mais um projetinho entrando, que é o do sapinho da ana.
 
 Preciso também colocar os jogos lá da empresa / IGS, que o lele colocou no portifa dele, mas esses vamos vendo.. . quem sabe saiam online, ai é mais fácil, do que por só print...
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/f4d674b5cbcf4d28591234fd38f16f974b538535
 =====
 v.1.19.0 - Added Witchy Project
 Projetinho simples, disponibilizei os assets aqui https://drive.google.com/drive/folders/1Zc2qArTHFy7bbGztrVBlZhrn6JlIszng?usp=share_link, enfim, vamo lá, correr pra colocar os outros, esse é um dos mais simples, não tem mta coisa, deixei ele por ultimo, apesar de não tar "bugado", já que não tem oq bugar praticamente kkk
