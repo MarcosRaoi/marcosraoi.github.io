@@ -1,8 +1,8 @@
 import GameBanner from "./GameBanner.js";
 
 class GameLinkedBanner extends React.Component {
-    constructor({bannerData}) {
-        super({bannerData});
+    constructor({ bannerData }) {
+        super({ bannerData });
     }
 
     getLinkTarget(str_target) {
@@ -16,9 +16,11 @@ class GameLinkedBanner extends React.Component {
         let cellId = myBannerData.key;
 
         return (
-            <div><a href={cellHref} target={this.getLinkTarget(cellTarget)}>
-                <GameBanner>{cellId}</GameBanner>
-            </a></div>
+            <div class="linked_banner">
+                <a href={cellHref} target={this.getLinkTarget(cellTarget)}>
+                    <GameBanner>{cellId}</GameBanner>
+                </a>
+            </div>
         );
     }
 }

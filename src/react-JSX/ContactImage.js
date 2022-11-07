@@ -4,7 +4,7 @@ class ContactImage extends React.Component {
     }
 
     getStyleImage(keyId) {
-        return {backgroundImage: `url(../img/redes_sociais/${keyId}.png)`, backgroundSize: 'cover'};
+        return { backgroundImage: `url(../img/redes_sociais/${keyId}.png)`, backgroundSize: 'cover' };
     }
 
     render() {

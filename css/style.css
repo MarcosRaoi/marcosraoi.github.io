@@ -274,11 +274,23 @@ body
     .celula_de_jogo, .celula_de_jogo_ultima
     {
         width: 80vw;
-        background-size:contain;
-        background: center;
         height: 57vh;
-        font-size: larger;
+        border-radius: 0px;
     }
+
+    .banner
+    {
+        background: center;
+        width: auto;
+    }
+
+    /*GameCells*/
+    .info
+    {
+        font-size: 1em;
+        text-align: center;
+    }
+    
 
     #txt_sobre_mim, #eu_na_big
     {

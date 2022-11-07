@@ -13,7 +13,7 @@ class ContactPage extends React.Component {
     }
 
     render() {
-        return(
+        return (
             <div id="page_contato" class="page">
                 <ContactSocialNetwork id={SOCIAL_NETWORKS.Facebook} />
                 <ContactSocialNetwork id={SOCIAL_NETWORKS.Instagram} />

@@ -11,16 +11,16 @@ class ContactSocialNetwork extends React.Component {
         switch (keyId) {
             case SOCIAL_NETWORKS.Facebook:
                 return "https://www.facebook.com/markinhos.cf/"
-            
+
             case SOCIAL_NETWORKS.Instagram:
                 return "https://www.instagram.com/marcosraoi/"
 
             case SOCIAL_NETWORKS.Linkedin:
                 return "https://www.linkedin.com/in/marcos-cavalcante-de-freitas-8bb55a120/"
-            
+
             case SOCIAL_NETWORKS.GitHub:
                 return "https://www.github.com/MarcosRaoi/"
-        
+
             default:
                 break;
         }

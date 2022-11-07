@@ -34,7 +34,7 @@ var GameLinkedBanner = function (_React$Component) {
 
             return React.createElement(
                 "div",
-                null,
+                { "class": "linked_banner" },
                 React.createElement(
                     "a",
                     { href: cellHref, target: this.getLinkTarget(cellTarget) },

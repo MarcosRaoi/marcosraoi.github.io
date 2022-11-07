@@ -12,8 +12,7 @@ class GameCell extends React.Component {
     }
 
     getClassName(cellIndexPosition, cellObject) {
-        if (cellObject.hidden)
-        {
+        if (cellObject.hidden) {
             return INVISIBLE_GAME_CELL_CLASS_NAME;
         }
         return (cellIndexPosition == getDataLenght() - 1) ? LAST_CELL_CLASS_NAME : NORMAL_CELL_CLASS_NAME;
@@ -21,10 +20,10 @@ class GameCell extends React.Component {
 
     positionCell(positionClass, cellData) {
         let cellInfo = cellData.info;
-    
+
         return (
             <div class={positionClass}>
-                <GameLinkedBanner bannerData={{cellData}}/>
+                <GameLinkedBanner bannerData={{ cellData }} />
                 <GameInfo>{cellInfo}</GameInfo>
             </div>
         );

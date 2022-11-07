@@ -1,10 +1,10 @@
 class GameBanner extends React.Component {
-    constructor({children}) {
-        super({children});
+    constructor({ children }) {
+        super({ children });
     }
 
     getStyleImage(keyId) {
-        return {backgroundImage: `url(../img/banners/banner_${keyId}.png)`, backgroundSize: 'cover'}
+        return { backgroundImage: `url(../img/banners/banner_${keyId}.png)`, backgroundSize: 'cover' }
     }
 
     render() {
