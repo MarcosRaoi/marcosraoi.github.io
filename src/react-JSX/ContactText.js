@@ -9,8 +9,8 @@ class ContactText extends React.Component {
         switch (keyId) {
             case SOCIAL_NETWORKS.Facebook:
                 return(<div>
-                    https://www.facebook.com/markinhos.cf<br/>
-                    https://www.facebook.com/BlueLightningStudio
+                    https://www.facebook.com/markinhos.cf/<br/>
+                    https://www.facebook.com/BlueLightningStudio/
                 </div>);
             
             case SOCIAL_NETWORKS.Instagram:

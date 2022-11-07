@@ -24,7 +24,7 @@ var ContactSocialNetwork = function (_React$Component) {
         value: function getSocialNetworkLink(keyId) {
             switch (keyId) {
                 case SOCIAL_NETWORKS.Facebook:
-                    return "https://www.facebook.com/markinhos.cf";
+                    return "https://www.facebook.com/markinhos.cf/";
 
                 case SOCIAL_NETWORKS.Instagram:
                     return "https://www.instagram.com/marcosraoi/";

@@ -25,9 +25,9 @@ var ContactText = function (_React$Component) {
                     return React.createElement(
                         "div",
                         null,
-                        "https://www.facebook.com/markinhos.cf",
+                        "https://www.facebook.com/markinhos.cf/",
                         React.createElement("br", null),
-                        "https://www.facebook.com/BlueLightningStudio"
+                        "https://www.facebook.com/BlueLightningStudio/"
                     );
 
                 case SOCIAL_NETWORKS.Instagram:
