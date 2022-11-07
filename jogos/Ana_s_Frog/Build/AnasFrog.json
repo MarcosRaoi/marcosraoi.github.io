@@ -1,0 +1,16 @@
+{
+"companyName": "BlueLightning",
+"productName": "Ana's Frog",
+"productVersion": "0.8",
+"dataUrl": "AnasFrog.data.unityweb",
+"wasmCodeUrl": "AnasFrog.wasm.code.unityweb",
+"wasmFrameworkUrl": "AnasFrog.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.7f1"
+}

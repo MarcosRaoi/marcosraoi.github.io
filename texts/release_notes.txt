@@ -1,3 +1,11 @@
+v.1.21.0 - Added Ana's Frog to Portfolio! Finally! :+1: :smiley: 
+Finalmente adicionei o Sapinho da Ana, esse manteve o nome Ana no nome do jogo rsrsrs, o Zen Tic-Tac-Toe como tava menos a ver colocar o nome, enfim, é isto. Finalmente. A versão web dá pra jogar fullscreen e ver de onde vem a cobra rsrsrs, ai ai, enfim, to cansado já de mexer no sapin... Dei umas refatoradinha basica, adicionei sons, e talz, mas tá bem confusinho o código, não tá dos melhores, mas blz. :top: :frog: No mais, agora falta o Smartphone! the game, esse é treta, pq taria em desenvolvimento, precisa colocar mais coisas, minigames, economia, pra ficar massa, e o Your Creature Rancher então nem se fala né? rsrsrs... Cabou agora os projetinhos pra colocar... Só tem o SimPlat, que seria um projetinho novo usando dois que não foram utilizados (Unused): o Plataforma 2019 e o Plataforma 2020... De resto, cabou meus projetinhos Unity, tem que desenvolver mais, ou então trabalhar no Rancher ou no Smarty... rs
+
+Ah, também foi legal pq foi o primeiro / e único jogo de 2022... Até dá pra se considerar 2021 que foi a primeira build, mas diz o release notes que a versão 0.3 dele, "estável" / "jogo completo", foi 2022, janeiro, 23, então vamos nessa... vdd, vou subir o release se pah também.
+
+Ah e outa coisa também, parabéns pelos 30 projetos no Portfolio! :D
+
+=====
 v.1.20.0 - Added Blue Lightning Breakout to portifa
 Bom, adicionado o Breakout, virou BL, rs, falta agora só o Rancher, que ai o buraco é mais embaixo... Falta também o Sapinho da Ana, que talvez seja o próximo, preciso dar uma mexida / arrumada nele pra ele ficar minimamente divertido, uma vez que tá muito fácil de jogar... E bom, sendo que eu não queria mexer nele mais, mas enfim, e bom, falta também o Smartphone the game, esse tbm seria um projetinho que eu gostaria de mexer mais / deixar mais parrudo, então se pah só vai ter mais um projetinho entrando, que é o do sapinho da ana.
 

@@ -1,0 +1,19 @@
+[19:35, 06/11/2022]
+0.5
+	- Adicionada Feature de HighScore;
+	- Adicionada maior randomização na Cobrinha;
+	- Delay da cobrinha pra aparecer implementado;
+	- Adicionado sons no jogo, idle, pulo, alerta;
+	- (vish faltou o som da cobrinha né... rsrsrs);
+
+====
+
+Não sei se confere, mas tem três datas aqui:
+
+SapinDaAna.apk - 	21/03/2021 18:22
+SapinDaAna-0.3.apk - 	23/01/2022 21:46
+SapinDaAna-0.4.apk - 	23/01/2022 21:57
+
+0.3 - Versão mais "estável" rs, mandada pra Ana, jogo "completo", resetando, sem telas de menu etc;
+0.4 - Versão testando o Scale com o 1.0 de Height;
+
