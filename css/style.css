@@ -274,8 +274,10 @@ body
     .celula_de_jogo, .celula_de_jogo_ultima
     {
         width: 80vw;
-        background-size: cover;
+        background-size:contain;
+        background: center;
         height: 57vh;
+        font-size: larger;
     }
 
     #txt_sobre_mim, #eu_na_big

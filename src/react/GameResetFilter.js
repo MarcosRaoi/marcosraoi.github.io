@@ -6,6 +6,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+import { getDataLenght } from "../getJson.js";
+
 var GameResetFilter = function (_React$Component) {
     _inherits(GameResetFilter, _React$Component);
 
@@ -16,6 +18,12 @@ var GameResetFilter = function (_React$Component) {
     }
 
     _createClass(GameResetFilter, [{
+        key: "getTotalGames",
+        value: function getTotalGames() {
+            console.log("There are", getDataLenght(), "games in this Portfolio!");
+            return "(" + getDataLenght() + ") ";
+        }
+    }, {
         key: "render",
         value: function render() {
             var _this2 = this;
@@ -25,7 +33,7 @@ var GameResetFilter = function (_React$Component) {
                 { "class": "reset_filter", onClick: function onClick() {
                         return _this2.props.gameMenuFilterRef.resetFilter();
                     } },
-                this.props.children
+                this.getTotalGames() + this.props.children
             ); //<div class="reset_filter" onClick={() => this.resetFilter()}>ORDENAR POR:</div>
         }
     }]);
