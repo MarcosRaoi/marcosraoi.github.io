@@ -384,7 +384,7 @@
             "release": "2020/11/03",
             "technology": "Unity WebGL"
         },
-        "index": 29
+        "index": 30
     },
     {
         "name": "Blue Lightning Breakout",
@@ -411,5 +411,19 @@
             "technology": "Unity WebGL"
         },
         "index": 8
+    }
+    ,
+    {
+        "name": "SimPlat",
+        "data": {
+            "key": "simplat",
+            "info": "SimPlat é um jogo estudo de plataforma feito na UnityEngine usando C# como linguagem de programação. Versão 2019 e 2020.",
+            "link": "jogos/SimPlat",
+            "platform": "PC / Web",
+            "language": "C#",
+            "release": "2019/01/23",
+            "technology": "Unity WebGL"
+        },
+        "index": 29
     }
 ]
