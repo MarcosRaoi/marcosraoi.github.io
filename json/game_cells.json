@@ -104,7 +104,7 @@
             "release": "2019/05/24",
             "technology": "Canvas JS"
         },
-        "index": 21
+        "index": 22
     },
     {
         "name": "Your Creature: Gamebook Version",
@@ -210,7 +210,7 @@
             "release": "2020/05/20",
             "technology": "Unity WebGL"
         },
-        "index": 23
+        "index": 24
     },
     {
         "name": "Pong For Love",
@@ -223,7 +223,7 @@
             "release": "2020/05/10",
             "technology": "Unity WebGL"
         },
-        "index": 27
+        "index": 28
     },
     {
         "name": "Mega Homem",
@@ -236,7 +236,7 @@
             "release": "2020/05/21",
             "technology": "Unity WebGL"
         },
-        "index": 19
+        "index": 18
     },
     {
         "name": "Economiquiz",
@@ -276,7 +276,7 @@
             "release": "2020/07/09",
             "technology": "Unity"
         },
-        "index": 22
+        "index": 23
     },
     {
         "name": "Labyrhythm",
@@ -290,7 +290,7 @@
             "release": "2020/09/22",
             "technology": "Unity"
         },
-        "index": 25
+        "index": 26
     },
     {
         "name": "PongMO",
@@ -303,7 +303,7 @@
             "release": "2020/08/24",
             "technology": "Unity WebGL"
         },
-        "index": 29
+        "index": 30
     },
     {
         "name": "Breno Chaves: the game",
@@ -331,7 +331,7 @@
             "release": "2020/10/04",
             "technology": "Unity WebGL"
         },
-        "index": 24
+        "index": 25
     },
     {
         "name": "Zen Tic-Tac-Toe",
@@ -357,7 +357,7 @@
             "release": "2020/07/29",
             "technology": "Unity WebGL"
         },
-        "index": 28
+        "index": 29
     },
     {
         "name": "JumpGame",
@@ -371,7 +371,7 @@
             "release": "2020/10/29",
             "technology": "Unity"
         },
-        "index": 18
+        "index": 20
     },
     {
         "name": "Witchy",
@@ -384,7 +384,7 @@
             "release": "2020/11/03",
             "technology": "Unity WebGL"
         },
-        "index": 30
+        "index": 31
     },
     {
         "name": "Blue Lightning Breakout",
@@ -397,7 +397,7 @@
             "release": "2019/10/22",
             "technology": "Unity WebGL"
         },
-        "index": 20
+        "index": 21
     },
     {
         "name": "Ana's Frog",
@@ -411,8 +411,7 @@
             "technology": "Unity WebGL"
         },
         "index": 8
-    }
-    ,
+    },
     {
         "name": "SimPlat",
         "data": {
@@ -424,6 +423,19 @@
             "release": "2019/11/10",
             "technology": "Unity WebGL"
         },
-        "index": 26
+        "index": 27
+    },
+    {
+        "name": "Mega Man 2 - Willy Stage 6",
+        "data": {
+            "key": "mm2ws6",
+            "info": "Fiz a Willy Stage 6 do Mega Man 2 no GDevelop 5, fangame, só que um pouquinho mais hardcore rs. Está bem tensinho, tente! :)",
+            "link": "jogos/Mega_Man_2_Willy_Stage_6",
+            "platform": "PC / Web",
+            "language": "Javascript",
+            "release": "2019/09/09",
+            "technology": "GDevelop 5"
+        },
+        "index": 19
     }
 ]

@@ -1,3 +1,7 @@
+v.1.23.0 - Added Mega Man 2 Willy Stage 6, a fangame!
+Adicionado essa parte da Willy Stage, essa fase 6, do Mega Man 2, antes da luta do boss, basicamente um fangame de passar por essas gotículas, a diferença é que você só tem uma vida, e elas atiram bem mais, e com padrão mais difícil. Boa sorte X_x Ganhei uma vez, mas demorei bastante...
+
+=====
 v.1.22.0 - SimPlat added! :D Now my unitys project finally done
 Agora acabou de vez, vou colocar acho que o Rancher primeiro, aquela demo que tem pra jogar... mas tava pensando aqui que o YCR provavelmente vai ser melhor recomeçar do zero... tem muito código ruim lá, infelizmente, já que né... Na época eu não sabia metade do que eu sei hoje, questão de arquitetura e responsabilidades, enfim. Amém, evolução. Mas acho que enquanto eu não coloco uma versão mais estável, vou colocar essa demo, disponibilizar, colocar o pessoal pra jogar, etc.
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/c562dc2178370aeb51d353c601dc6c1f7a12a571
