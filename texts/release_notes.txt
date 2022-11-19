@@ -1,3 +1,7 @@
+v.1.24.0 - Fireman vs Zombies added!
+Foi uma prova de Jogos para Internet na minha graduação de Jogos Digital na UNICSUL, foi feito em duas horas e chorei pela nota máxima rsrs, colocamos dois power ups, e até que tá bem divertidinho, negócio / o lance é combar os dois power ups e ficar pelos cantos <3 Faltou uns somzinhos mas blz.
+
+=====
 v.1.23.0 - Added Mega Man 2 Willy Stage 6, a fangame!
 Adicionado essa parte da Willy Stage, essa fase 6, do Mega Man 2, antes da luta do boss, basicamente um fangame de passar por essas gotículas, a diferença é que você só tem uma vida, e elas atiram bem mais, e com padrão mais difícil. Boa sorte X_x Ganhei uma vez, mas demorei bastante...
 https://github.com/MarcosRaoi/marcosraoi.github.io/commit/02b4b5778680b6c152c59b9d039bef7bd5223571
