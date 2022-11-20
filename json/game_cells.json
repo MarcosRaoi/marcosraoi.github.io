@@ -104,7 +104,7 @@
             "release": "2019/05/24",
             "technology": "Canvas JS"
         },
-        "index": 23
+        "index": 24
     },
     {
         "name": "Your Creature: Gamebook Version",
@@ -210,7 +210,7 @@
             "release": "2020/05/20",
             "technology": "Unity WebGL"
         },
-        "index": 25
+        "index": 26
     },
     {
         "name": "Pong For Love",
@@ -223,7 +223,7 @@
             "release": "2020/05/10",
             "technology": "Unity WebGL"
         },
-        "index": 29
+        "index": 30
     },
     {
         "name": "Mega Homem",
@@ -276,7 +276,7 @@
             "release": "2020/07/09",
             "technology": "Unity"
         },
-        "index": 24
+        "index": 25
     },
     {
         "name": "Labyrhythm",
@@ -290,7 +290,7 @@
             "release": "2020/09/22",
             "technology": "Unity"
         },
-        "index": 27
+        "index": 28
     },
     {
         "name": "PongMO",
@@ -303,7 +303,7 @@
             "release": "2020/08/24",
             "technology": "Unity WebGL"
         },
-        "index": 31
+        "index": 32
     },
     {
         "name": "Breno Chaves: the game",
@@ -331,7 +331,7 @@
             "release": "2020/10/04",
             "technology": "Unity WebGL"
         },
-        "index": 26
+        "index": 27
     },
     {
         "name": "Zen Tic-Tac-Toe",
@@ -357,7 +357,7 @@
             "release": "2020/07/29",
             "technology": "Unity WebGL"
         },
-        "index": 30
+        "index": 31
     },
     {
         "name": "JumpGame",
@@ -371,7 +371,7 @@
             "release": "2020/10/29",
             "technology": "Unity"
         },
-        "index": 21
+        "index": 22
     },
     {
         "name": "Witchy",
@@ -384,7 +384,7 @@
             "release": "2020/11/03",
             "technology": "Unity WebGL"
         },
-        "index": 32
+        "index": 33
     },
     {
         "name": "Blue Lightning Breakout",
@@ -397,7 +397,7 @@
             "release": "2019/10/22",
             "technology": "Unity WebGL"
         },
-        "index": 22
+        "index": 23
     },
     {
         "name": "Ana's Frog",
@@ -423,7 +423,7 @@
             "release": "2019/11/10",
             "technology": "Unity WebGL"
         },
-        "index": 28
+        "index": 29
     },
     {
         "name": "Mega Man 2 - Willy Stage 6",
@@ -450,5 +450,31 @@
             "technology": "GDevelop 5"
         },
         "index": 20
+    },
+    {
+        "name": "Blue Lightning Race Bet",
+        "data": {
+            "key": "corrida_bl",
+            "info": "Blue Lightning Race Bet é um joguinho simples que randomiza uma corrida e você tem que adivinhar o vencedor, o 1º em javascript. :D",
+            "link": "jogos/Blue_Lightning_Race_Bet",
+            "platform": "PC / Web",
+            "language": "Javascript",
+            "release": "2019/03/28",
+            "technology": "Javascript / CSS, DOM"
+        },
+        "index": 21
+    },
+    {
+        "name": "Flappy Pássaro",
+        "data": {
+            "key": "flappypassaro",
+            "info": "Flappy Pássaro é bem autoexplicativo. Foi uma prova, 2 horas, de Programação Web para Jogos na UNICSUL, no Canvas (javascript).",
+            "link": "jogos/Flappy_Passaro",
+            "platform": "PC / Web",
+            "language": "Javascript",
+            "release": "2019/06/06",
+            "technology": "Canvas JS"
+        },
+        "index": -1
     }
 ]

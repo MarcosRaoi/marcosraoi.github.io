@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blue Lightning Race Bet!</title>
+    <!--<title>Corrida Blue Lightning!</title>-->
+    <link rel="shortcut icon" href="images/trofeu.png">
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/exer5.css">
+    <script src="js/exer5.js"></script>    
+</head>
+<body>
+    
+    <div id="jogo">
+        
+        <div id="botoesMenu">
+            <a href="exer5.html">Nova corrida</a>
+            <a href="javascript:void(0)" id="iniciarBotao">Iniciar</a>
+            <a href="index.html">Menu</a>
+        
+        </div>
+        
+        <div id="apostas"> Faça sua aposta: 
+            <div id="competidores">
+                <input id="comp1" type="radio" name="aposta">Competidor R |
+                <input id="comp2" type="radio" name="aposta">Competidor G |
+                <input id="comp3" type="radio" name="aposta">Competidor B |
+                <input id="comp4" type="radio" name="aposta">Competidor Y
+            </div>
+        </div>
+        
+        <div id="pistas">
+            
+            <div class="pista">
+                <div class="largada">R</div>
+                <div class="pistaCorrer">
+                    <img src="images/i_carro1.png" id="carro1">
+                    <div id="vencedor1"></div>
+                </div>
+                <div class="final"></div>
+            </div>
+            
+            <div class="pista">
+                <div class="largada">G</div>
+                <div class="pistaCorrer">
+                    <img src="images/i_carro2.png" id="carro2">
+                    <div id="vencedor2"></div>
+                </div>
+                <div class="final"></div>
+            </div>
+            
+            <div class="pista">
+                <div class="largada">B</div>
+                <div class="pistaCorrer">
+                    <img src="images/i_carro3.png" id="carro3">
+                    <div id="vencedor3"></div>
+                </div>
+                <div class="final"></div>
+            </div>
+            
+            <div class="pista">
+                <div class="largada">Y</div>
+                <div class="pistaCorrer">
+                    <img src="images/i_carro4.png" id="carro4">
+                    <div id="vencedor4"></div>
+                </div>
+                <div class="final"></div>
+            </div>
+        
+        </div>
+        
+        <div id="apostador"></div>
+    
+    </div>
+    
+</body>
+</html>

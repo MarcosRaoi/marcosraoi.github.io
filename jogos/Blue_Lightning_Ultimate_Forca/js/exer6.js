@@ -21,13 +21,12 @@ const mysteriousChar = "=";
 const mysteriousCharDiv = `<div>${mysteriousChar}</div>`;
 
 let palavras = [
-    "VITAMINATOR", "ALEATORIUM", "WHERE IS MY COXINHA",
-    "POKEMON", "TERRARIA", "MINECRAFT", "BRAWL STARS",
-    "LEAGUE OF LEGENDS", "BROTHERS A TALE OF TWO SONS",
-    "ROGUE LEGACY", "NEOPETS", "RAGNAROK", "DONT STARVE",
-    "RUN SACKBOY RUN", "CLASH OF CLANS", "HAY DAY",
-    "CODYCROSS", "STARDEW VALLEY", "HERO FACTORY",
-    "YOUR CREATURE RANCHER", "ROMA BINGO"
+    "VITAMINATOR", "ALEATORIUM", "WHERE IS MY COXINHA", "POKEMON", "TERRARIA",
+    "MINECRAFT", "BRAWL STARS", "LEAGUE OF LEGENDS", "BROTHERS A TALE OF TWO SONS",
+    "ROGUE LEGACY", "NEOPETS", "RAGNAROK", "DONT STARVE", "RUN SACKBOY RUN",
+    "CLASH OF CLANS", "HAY DAY", "CODYCROSS", "STARDEW VALLEY", "HERO FACTORY",
+    "YOUR CREATURE RANCHER", "ROMA BINGO", "POCKET CHAMP", "ZEN TICTACTOE", 
+    "HOLLOW KNIGHT", "ADVENTURE COMMUNIST", "PERNINHA HERO IN ADVENTURE"
 ];
 // Vetor de palavras
 
@@ -108,7 +107,7 @@ function sorteiaPalavra() {
             contador++;
         }
     }
-    
+
     quantLetras -= contador; //console.log("quantidade", quantLetras);
 }
 

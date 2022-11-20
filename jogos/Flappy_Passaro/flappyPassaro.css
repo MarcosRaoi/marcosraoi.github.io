@@ -1,0 +1,65 @@
+canvas
+{
+    border: 1px solid #000;
+    display: block;
+    margin: auto;
+    
+    /*background-color: #b4fff4;*/
+    background-color: #2ed9e1;
+}
+
+body
+{
+    background-image: url(imagens/raioazul.png);
+    /*background-color: #b4e8d9; /* cor random */
+    /*background-color: #b9fe41; /* parte "escura" da letra / logotipo */
+    background-color: #ffffc7; /* parte clara da letra / logotipo */
+    /*background-color: #2ed9e1; /* azul do fundo de flappy bird */
+    /*background-color: #fdd01b; /* amarelo do flappy bird */
+}
+
+#telainicial
+{
+    margin: auto;
+    width: 1000px;
+    height: 563px;
+    border: 1px solid #000;
+    
+    background-color: #fff;
+    background-image: url(imagens/telainicial.png);
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left:-502px; /* esses dois pixels a mais são por causa da borda, enfim. */
+    margin-top:-283px; /* a mais não né, a menos rs */
+    
+    /* isso aí é pra centralizar rsrsrs */
+}
+
+#jogar
+{
+    position: relative;
+    left: 30%;
+    top: 80%;
+    
+    margin-left: -75px;
+    margin-top: -30px;
+    
+    width: 150px;
+    height: 70px;
+    
+    border-radius: 50px;
+    
+    background-color: #b9fe41;
+    
+    font-family: Comic Sans Ms;
+    font-size: 20pt;
+    color: #fff;
+    
+    outline:none;
+    
+    box-shadow: 1px 5px 10px 1px #000;
+    
+    
+}
