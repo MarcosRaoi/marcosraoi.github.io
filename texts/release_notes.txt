@@ -1,8 +1,9 @@
+=====
 v.1.25.0 - Added Flappy Pássaro and BL Race Bet
 Adicionado dois exercicios de Programação Web Para Jogos, se eu não me engano, um era uma prova, e outro era o exercício 5 da Aula 6, um de aposta de corrida e o outro é um Flappy Bird como diz o nome, sem muitos segredos. Também arrumei um bug do Alert de game over do Flappy Pássaro, e é isso ai, coloquei uns favicon neles, title, e subi pro portifa, agora bora colocar o YCR, demo, a "versão 5"... 0.5 só se for, e olhe lá rs. 0.5.1... vou ver como eu vou usar o semver
 
 Show, dois de cada vez, e também adicionei mais uns joguinhos no Blue Lightning Ultimate Forca
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/8c02f1868b85522551612c543f02bed591583ebe
 =====
 v.1.24.0 - Fireman vs Zombies added!
 Foi uma prova de Jogos para Internet na minha graduação de Jogos Digital na UNICSUL, foi feito em duas horas e chorei pela nota máxima rsrs, colocamos dois power ups, e até que tá bem divertidinho, negócio / o lance é combar os dois power ups e ficar pelos cantos <3 Faltou uns somzinhos mas blz.
