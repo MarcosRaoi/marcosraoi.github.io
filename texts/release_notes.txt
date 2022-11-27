@@ -1,3 +1,14 @@
+v.1.26.0 - The biggest release! Your Creature Rancher
+Essa demo é do dia 02 de novembro de 2020, eu ainda preciso tomar boas decisões de como será o desenvolvimento de Your Creature Rancher, mas por enquanto disponibilizei a primeira demo com a ideia do jogo dentro do portfolio exportado com WebGL.
+
+Acontece que o projeto está com estruturas de código não muito boas para manutenção, já que na época eu tinha mal começado na área como desenvolvedor de jogo estagiário. 
+
+Hoje tenho muito mais experiência de como estruturar e arquitetar um projeto com essa magnitude / este escopo. Aliás, talvez até não tenha tanta, mas seja espaço para estudo e aprendizado.
+
+Enfim. Vou publicá-lo, também publiquei um post no blog, vou colher feedbacks, e vamos ver e estruturar a produção deste projeto que se inspira em Stardew Valley, Slime Rancher e até Pokémon, por que não?
+
+Link do post: https://marcosraoi.blogspot.com/2022/11/ycr-Latest-demo-available.html
+
 =====
 v.1.25.0 - Added Flappy Pássaro and BL Race Bet
 Adicionado dois exercicios de Programação Web Para Jogos, se eu não me engano, um era uma prova, e outro era o exercício 5 da Aula 6, um de aposta de corrida e o outro é um Flappy Bird como diz o nome, sem muitos segredos. Também arrumei um bug do Alert de game over do Flappy Pássaro, e é isso ai, coloquei uns favicon neles, title, e subi pro portifa, agora bora colocar o YCR, demo, a "versão 5"... 0.5 só se for, e olhe lá rs. 0.5.1... vou ver como eu vou usar o semver

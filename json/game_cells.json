@@ -11,7 +11,7 @@
             "release": "2016/07/05",
             "technology": "Unity WebGL"
         },
-        "index": 1
+        "index": 2
     },
     {
         "name": "Aleatorium",
@@ -24,13 +24,13 @@
             "release": "2019/04/25",
             "technology": "Javascript / CSS, DOM"
         },
-        "index": 3
+        "index": 6
     },
     {
         "name": "Tolgar Runner",
         "data": {
             "key": "tolgar_runner",
-            "info": "Tolgar Runner foi feito no Gdevelop 5. Faz parte da série de jogos Your Creature. É um Infinite Runner mobile, <a href='https://drive.google.com/open?id=1se6A0aYLbv2XRd6XOfitAZeW8aEIcPa1'>baixe o APK.</a>",
+            "info": "Tolgar Runner foi feito no Gdevelop 5. Faz parte da série de jogos Your Creature. É um Infinite Runner mobile, <a href='https://drive.google.com/open?id=1se6A0aYLbv2XRd6XOfitAZeW8aEIcPa1'>baixe o APK</a> e jogue.",
             "link": "https://drive.google.com/open?id=1se6A0aYLbv2XRd6XOfitAZeW8aEIcPa1",
             "target": "_blank",
             "platform": "Mobile",
@@ -38,7 +38,7 @@
             "release": "2019/11/17",
             "technology": "GDevelop 5"
         },
-        "index": 6
+        "index": 7
     },
     {
         "name": "P-shot, vem rir no zap",
@@ -52,7 +52,7 @@
             "release": "2020/01/06",
             "technology": "GDevelop 5"
         },
-        "index": 14
+        "index": 15
     },
     {
         "name": "Blue Lightning Ultimate Forca",
@@ -65,7 +65,7 @@
             "release": "2019/04/15",
             "technology": "jQuery"
         },
-        "index": 11
+        "index": 12
     },
     {
         "name": "Blue Lightning Snake",
@@ -78,7 +78,7 @@
             "release": "2019/04/28",
             "technology": "Canvas JS"
         },
-        "index": 12
+        "index": 13
     },
     {
         "name": "Kuroneko Out! - Whac-A-Mole canvas",
@@ -104,7 +104,7 @@
             "release": "2019/05/24",
             "technology": "Canvas JS"
         },
-        "index": 25
+        "index": 26
     },
     {
         "name": "Your Creature: Gamebook Version",
@@ -117,7 +117,7 @@
             "release": "2019/09/13",
             "technology": "Microsoft Word (rs HTML/CSS)"
         },
-        "index": 15
+        "index": 18
     },
     {
         "name": "Kuroneko Out! - Phaser version",
@@ -136,7 +136,7 @@
         "name": "Protect Arthur!",
         "data": {
             "key": "protect_arthur",
-            "info": "Protect Arthur! é um shelter defense feito para a WGJ 152 no Unity, com um grupo da UNICSUL em homenagem ao nosso professor.",
+            "info": "Protect Arthur! é um shelter defense pra WGJ 152 no Unity, com um grupo da UNICSUL em homenagem ao nosso professor. Voxel 3D.",
             "link": "https://u-games-studio.itch.io/protect-arthur",
             "target": "_blank",
             "platform": "PC",
@@ -171,7 +171,7 @@
             "release": "2016/05/22",
             "technology": "Construct 2"
         },
-        "index": 7
+        "index": 8
     },
     {
         "name": "GoDodger! VaiPonto!",
@@ -197,7 +197,7 @@
             "release": "2016/11/18",
             "technology": "Unity WebGL"
         },
-        "index": 13
+        "index": 14
     },
     {
         "name": "RollABola",
@@ -210,7 +210,7 @@
             "release": "2020/05/20",
             "technology": "Unity WebGL"
         },
-        "index": 27
+        "index": 28
     },
     {
         "name": "Pong For Love",
@@ -223,7 +223,7 @@
             "release": "2020/05/10",
             "technology": "Unity WebGL"
         },
-        "index": 31
+        "index": 32
     },
     {
         "name": "Mega Homem",
@@ -236,7 +236,7 @@
             "release": "2020/05/21",
             "technology": "Unity WebGL"
         },
-        "index": 18
+        "index": 19
     },
     {
         "name": "Economiquiz",
@@ -249,7 +249,7 @@
             "release": "2020/05/27",
             "technology": "Unity WebGL"
         },
-        "index": 9
+        "index": 10
     },
     {
         "name": "Waka Waka Racing",
@@ -262,7 +262,7 @@
             "release": "2019/12/09",
             "technology": "Unity WebGL"
         },
-        "index": 10
+        "index": 11
     },
     {
         "name": "Nudle Mini Games",
@@ -276,7 +276,7 @@
             "release": "2020/07/09",
             "technology": "Unity"
         },
-        "index": 26
+        "index": 27
     },
     {
         "name": "Labyrhythm",
@@ -290,7 +290,7 @@
             "release": "2020/09/22",
             "technology": "Unity"
         },
-        "index": 29
+        "index": 30
     },
     {
         "name": "PongMO",
@@ -303,7 +303,7 @@
             "release": "2020/08/24",
             "technology": "Unity WebGL"
         },
-        "index": 33
+        "index": 34
     },
     {
         "name": "Breno Chaves: the game",
@@ -331,7 +331,7 @@
             "release": "2020/10/04",
             "technology": "Unity WebGL"
         },
-        "index": 28
+        "index": 29
     },
     {
         "name": "Zen Tic-Tac-Toe",
@@ -344,7 +344,7 @@
             "release": "2020/10/13",
             "technology": "Unity WebGL"
         },
-        "index": 2
+        "index": 3
     },
     {
         "name": "MMOFPS",
@@ -357,7 +357,7 @@
             "release": "2020/07/29",
             "technology": "Unity WebGL"
         },
-        "index": 32
+        "index": 33
     },
     {
         "name": "JumpGame",
@@ -371,7 +371,7 @@
             "release": "2020/10/29",
             "technology": "Unity"
         },
-        "index": 23
+        "index": 24
     },
     {
         "name": "Witchy",
@@ -384,7 +384,7 @@
             "release": "2020/11/03",
             "technology": "Unity WebGL"
         },
-        "index": 34
+        "index": 35
     },
     {
         "name": "Blue Lightning Breakout",
@@ -397,7 +397,7 @@
             "release": "2019/10/22",
             "technology": "Unity WebGL"
         },
-        "index": 24
+        "index": 25
     },
     {
         "name": "Ana's Frog",
@@ -410,7 +410,7 @@
             "release": "2022/01/23",
             "technology": "Unity WebGL"
         },
-        "index": 8
+        "index": 9
     },
     {
         "name": "SimPlat",
@@ -423,7 +423,7 @@
             "release": "2019/11/10",
             "technology": "Unity WebGL"
         },
-        "index": 30
+        "index": 31
     },
     {
         "name": "Mega Man 2 - Willy Stage 6",
@@ -436,7 +436,7 @@
             "release": "2019/09/09",
             "technology": "GDevelop 5"
         },
-        "index": 19
+        "index": 20
     },
     {
         "name": "Fireman vs Zombies",
@@ -449,7 +449,7 @@
             "release": "2019/11/07",
             "technology": "GDevelop 5"
         },
-        "index": 20
+        "index": 21
     },
     {
         "name": "Blue Lightning Race Bet",
@@ -462,7 +462,7 @@
             "release": "2019/03/28",
             "technology": "Javascript / CSS, DOM"
         },
-        "index": 22
+        "index": 23
     },
     {
         "name": "Flappy Pássaro",
@@ -475,6 +475,19 @@
             "release": "2019/06/06",
             "technology": "Canvas JS"
         },
-        "index": 21
+        "index": 22
+    },
+    {
+        "name": "Your Creature Rancher",
+        "data": {
+            "key": "ycr",
+            "info": "Your Creature Rancher é um jogo relaxante de colecionar criaturas exóticas (e até personalizadas) em seu pacífico e simples ranchinho.",
+            "link": "jogos/Your_Creature_Rancher",
+            "platform": "PC / Web",
+            "language": "C#",
+            "release": "2020/11/02",
+            "technology": "Unity WebGL"
+        },
+        "index": 1
     }
 ]

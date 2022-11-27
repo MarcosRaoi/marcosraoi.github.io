@@ -1,0 +1,16 @@
+{
+"companyName": "BlueLigtning",
+"productName": "YCR_v0_6_0",
+"productVersion": "0.6.0",
+"dataUrl": "Your_Creature_Rancher.data.unityweb",
+"wasmCodeUrl": "Your_Creature_Rancher.wasm.code.unityweb",
+"wasmFrameworkUrl": "Your_Creature_Rancher.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#FFACE9",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": true,
+"multithreading": false,
+"unityVersion": "2019.4.2f1"
+}
