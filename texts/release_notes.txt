@@ -1,5 +1,10 @@
+v.1.28.2 - Create submodule pokedex
+Second test with pokedex cloned repo (https://github.com/MarcosRaoi/pokedex), now submodule
+
+=====
 v.1.28.1 - Create pokedex
 First test with pokedex cloned repo (https://github.com/MarcosRaoi/pokedex)
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/2f1b68b64fdb467edb280251f4ca734e3bcc7ca3
 =====
 v.1.28.0 - Update version, need to add pokedex page
 Bom, relacionamentos acabam... kkk, pra vc aprender a não colocar coisa que não é de portifa no portfolio. Deboa. O que me leva ao próximo desafio... Colocar a pokedex aqui, mas apontando para o outro repositorio. Também precisava ver o negócio da ficha do Raoi Chiisai, Chiisaoi, o Tolo, mas enfim.
