@@ -1,6 +1,9 @@
-v.1.28.0 -
+v.1.28.1 - Create pokedex
+First test with pokedex cloned repo (https://github.com/MarcosRaoi/pokedex)
+=====
+v.1.28.0 - Update version, need to add pokedex page
 Bom, relacionamentos acabam... kkk, pra vc aprender a não colocar coisa que não é de portifa no portfolio. Deboa. O que me leva ao próximo desafio... Colocar a pokedex aqui, mas apontando para o outro repositorio. Também precisava ver o negócio da ficha do Raoi Chiisai, Chiisaoi, o Tolo, mas enfim.
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/79cc4d60b4cf1d5c49f886acf8eab6f0181019b2
 =====
 v.1.27.0 - Adicionada a cartinha para a Caroline Jorge
 minha namorada linda maravilhosa que inclusive tem cor lá no joguinho da cobrinha, enfim <3 # TODO: Eu precisava fazer um esquema de route, de rotas, que tipo, colocasse todos esses caras que são extra portfolio, tipo... a cartinha, as funções javascripts que eu ainda vou fazer o marcosraoi.github.io/javascript, etc, todos esses caras estarem em pastas separadas, organizados, mas conseguir acessar só passnado esse link, vou precisar aprender isso.
