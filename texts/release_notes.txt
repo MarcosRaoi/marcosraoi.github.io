@@ -1,6 +1,10 @@
+v.1.29.0 - Add Defold Raoi minigames
+Add the game Defold Raoi 15-Puzzle to my portfolio, it was a project to study the Lua language, and I got excited once I had heard about the Defold game engine in the studio where I work
+
+=====
 v.1.28.2 - Create submodule pokedex
 Second test with pokedex cloned repo (https://github.com/MarcosRaoi/pokedex), now submodule
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/85768b10055b327afcd9e6dfac00782f6c7d54de
 =====
 v.1.28.1 - Create pokedex
 First test with pokedex cloned repo (https://github.com/MarcosRaoi/pokedex)
