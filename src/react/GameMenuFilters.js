@@ -10,6 +10,16 @@ import GameFilter from "./GameFilter.js";
 import GameResetFilter from "./GameResetFilter.js";
 import GameReverseFilter from "./GameReverseFilter.js";
 
+var FILTERS = {
+    "DEFAULT": 0,
+    "RELEASE": 1,
+    "ALPHABETICAL": 2,
+    "LANGUAGE": 3,
+    "TECHNOLOGY": 4,
+    "PLATFORM": 5,
+    "REVERT": -1
+};
+
 var resetFilterText = "ORDENAR POR:";
 var filterTexts = ["LANÇAMENTO", "A / Z", "LINGUAGEM", "TECNOLOGIA", "PLATAFORMA"];
 
@@ -28,6 +38,7 @@ var GameMenuFilters = function (_React$Component) {
 
         _this.gamesPageRef = _this.props.gamesPageRef;
         _this.gameReverseFilterRef = undefined;
+        _this.lastFilter;
         return _this;
     }
 
@@ -39,11 +50,26 @@ var GameMenuFilters = function (_React$Component) {
             gamesPage.updateCells(cellsOrder);
         }
     }, {
+        key: "baseFilter",
+        value: function baseFilter(gamesPage, cellsOrder, lastFilter) {
+            this.updadeGamePage(gamesPage, cellsOrder);
+            this.lastFilter = lastFilter;
+
+            this.gamesPageRef.setLastFilter(this.lastFilter);
+        }
+    }, {
+        key: "baseLog",
+        value: function baseLog() {
+            console.clear();
+        }
+    }, {
         key: "logRelease",
         value: function logRelease(cells) {
-            console.clear();
+            this.baseLog();
+
             console.log("Release Order");
             console.log("");
+
             var releaseOrderIndex = 1;
             cells.forEach(function (element) {
                 console.log(releaseOrderIndex + "º - ", element.data.release, "was the release date for", element.name);
@@ -63,14 +89,16 @@ var GameMenuFilters = function (_React$Component) {
             });
             this.logRelease(cells);
 
-            this.updadeGamePage(gamePage, cells);
+            this.baseFilter(gamePage, cells, FILTERS.RELEASE);
         }
     }, {
         key: "logAlphabetical",
         value: function logAlphabetical(cells) {
-            console.clear();
+            this.baseLog();
+
             console.log("Alphabetical Order");
             console.log("");
+
             var alphabeticalOrderIndex = 1;
             cells.forEach(function (element) {
                 console.log(alphabeticalOrderIndex + "º", element.name);
@@ -94,18 +122,24 @@ var GameMenuFilters = function (_React$Component) {
             });
             this.logAlphabetical(cells);
 
-            this.updadeGamePage(gamePage, cells);
+            this.baseFilter(gamePage, cells, FILTERS.ALPHABETICAL);
         }
     }, {
         key: "logProps",
         value: function logProps() {
-            var dataProp = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "";
-            var cells = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];
+            var cells = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+            var dataProp = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "";
 
-            console.clear();
+            this.baseLog();
+
             cells.forEach(function (element) {
                 console.log(dataProp, " >> ", element.data[dataProp]);
             });
+        }
+    }, {
+        key: "getFilterTypeData",
+        value: function getFilterTypeData(dataProp) {
+            return FILTERS[dataProp.toUpperCase()];
         }
     }, {
         key: "filterData",
@@ -130,8 +164,9 @@ var GameMenuFilters = function (_React$Component) {
                 return 0;
             });
 
-            this.logProps(dataProp, cells);
-            this.updadeGamePage(gamePage, cells);
+            this.logProps(cells, dataProp);
+
+            this.baseFilter(gamePage, cells, this.getFilterTypeData(dataProp));
         }
 
         //GameResetFilter.js
@@ -141,10 +176,14 @@ var GameMenuFilters = function (_React$Component) {
         value: function resetFilter() {
             var gamePage = this.gamesPageRef;
             var cells = gamePage.getCells();
+
+            this.baseLog();
+
             cells.sort(function (a, b) {
                 return a.index - b.index;
             });
-            this.updadeGamePage(gamePage, cells);
+
+            this.baseFilter(gamePage, cells, FILTERS.DEFAULT);
         }
 
         //GameReverseFilter.js
@@ -152,10 +191,13 @@ var GameMenuFilters = function (_React$Component) {
     }, {
         key: "revertFilter",
         value: function revertFilter() {
+            this.baseLog();
+
             var gamePage = this.gamesPageRef;
             var cells = gamePage.getCells();
             cells.reverse();
-            this.updadeGamePage(gamePage, cells);
+
+            this.baseFilter(gamePage, cells, FILTERS.REVERT);
         }
     }, {
         key: "render",

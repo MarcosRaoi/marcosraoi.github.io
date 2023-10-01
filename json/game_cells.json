@@ -321,7 +321,7 @@
         "hidden": true
     },
     {
-        "name": "Aula 8 de Animação Digital II - Customizar",
+        "name": "Aula 8 - Animação Digital II - Customizar",
         "data": {
             "key": "aula8_customizar",
             "info": "Um projeto estudo de SetBlendShapeWeight da Unity, pré estudos para criar Customizações de Personagens! Anim.D.II na UNICSUL.",
@@ -491,7 +491,7 @@
         "index": 1
     },
     {
-        "name": "DR15P",
+        "name": "Defold Raoi 15-Puzzle",
         "data": {
             "key": "DR15P",
             "info": "DR15P, ou Defold Raoi 15-Puzzle rs, é o clássico 15-Puzzle, feito na Defold, uma game engine free, usando a linguagem 🇧🇷 &#127770; Lua.",

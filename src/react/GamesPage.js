@@ -18,17 +18,24 @@ var GamesPage = function (_React$Component) {
         var _this = _possibleConstructorReturn(this, (GamesPage.__proto__ || Object.getPrototypeOf(GamesPage)).call(this, props));
 
         _this.state = {
-            cellsReceived: _this.props.children.cells,
-            filterState: ""
+            cellsReceived: _this.props.children.cells
         };
         _this.pageWithCells = [];
         _this.orderCellsIndex();
+        _this.lastFilter;
         return _this;
     }
 
     _createClass(GamesPage, [{
+        key: "setLastFilter",
+        value: function setLastFilter(lastFilter) {
+            this.lastFilter = lastFilter;
+        }
+    }, {
         key: "updateCells",
-        value: function updateCells(cellsOrder) {
+        value: function updateCells() {
+            var cellsOrder = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.state.cellsReceived;
+
             this.render(cellsOrder);
         }
     }, {
@@ -61,7 +68,7 @@ var GamesPage = function (_React$Component) {
                 var eachCell = cellsOrder[cellIndex];
                 _this2.pageWithCells.push(React.createElement(
                     GameCell,
-                    { cell: eachCell },
+                    { lastFilter: _this2.lastFilter, cell: eachCell },
                     cellIndex
                 ));
                 cellIndex++;

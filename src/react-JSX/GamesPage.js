@@ -6,13 +6,17 @@ class GamesPage extends React.Component {
         super(props);
         this.state = {
             cellsReceived: this.props.children.cells,
-            filterState: ""
         }
         this.pageWithCells = [];
         this.orderCellsIndex();
+        this.lastFilter;
     }
 
-    updateCells(cellsOrder) {
+    setLastFilter(lastFilter) {
+        this.lastFilter = lastFilter;
+    }
+
+    updateCells(cellsOrder = this.state.cellsReceived) {
         this.render(cellsOrder);
     }
 
@@ -33,7 +37,7 @@ class GamesPage extends React.Component {
         cellsOrder.forEach(
             () => {
                 let eachCell = cellsOrder[cellIndex];
-                this.pageWithCells.push(<GameCell cell={eachCell}>{cellIndex}</GameCell>);
+                this.pageWithCells.push(<GameCell lastFilter={this.lastFilter} cell={eachCell}>{cellIndex}</GameCell>);
                 cellIndex++;
             }
         );

@@ -2,6 +2,16 @@ import GameFilter from "./GameFilter.js";
 import GameResetFilter from "./GameResetFilter.js";
 import GameReverseFilter from "./GameReverseFilter.js";
 
+const FILTERS = {
+    "DEFAULT": 0,
+    "RELEASE": 1,
+    "ALPHABETICAL": 2, 
+    "LANGUAGE": 3, 
+    "TECHNOLOGY": 4, 
+    "PLATFORM": 5,
+    "REVERT": -1,
+}
+
 const resetFilterText = "ORDENAR POR:";
 const filterTexts = ["LANÇAMENTO", "A / Z", "LINGUAGEM", "TECNOLOGIA", "PLATAFORMA"];
 
@@ -15,6 +25,7 @@ class GameMenuFilters extends React.Component {
         super(props);
         this.gamesPageRef = this.props.gamesPageRef;
         this.gameReverseFilterRef = undefined;
+        this.lastFilter;
     }
 
     updadeGamePage(gamesPage, cellsOrder) {
@@ -23,10 +34,23 @@ class GameMenuFilters extends React.Component {
         gamesPage.updateCells(cellsOrder);
     }
 
-    logRelease(cells) {
+    baseFilter(gamesPage, cellsOrder, lastFilter) {
+        this.updadeGamePage(gamesPage, cellsOrder);
+        this.lastFilter = lastFilter;
+
+        this.gamesPageRef.setLastFilter(this.lastFilter);
+    }
+
+    baseLog() {
         console.clear();
+    }
+
+    logRelease(cells) {
+        this.baseLog();
+
         console.log("Release Order");
         console.log("");
+
         let releaseOrderIndex = 1;
         cells.forEach(element => {
             console.log(releaseOrderIndex + "º - ", element.data.release,"was the release date for", element.name);
@@ -45,13 +69,15 @@ class GameMenuFilters extends React.Component {
         });
         this.logRelease(cells);
 
-        this.updadeGamePage(gamePage, cells);
+        this.baseFilter(gamePage, cells, FILTERS.RELEASE);
     }
 
     logAlphabetical(cells) {
-        console.clear();
+        this.baseLog();
+
         console.log("Alphabetical Order");
         console.log("");
+
         let alphabeticalOrderIndex = 1;
         cells.forEach(element => {
             console.log(alphabeticalOrderIndex + "º", element.name);
@@ -74,14 +100,19 @@ class GameMenuFilters extends React.Component {
         });
         this.logAlphabetical(cells);
 
-        this.updadeGamePage(gamePage, cells);
+        this.baseFilter(gamePage, cells, FILTERS.ALPHABETICAL);
     }
 
-    logProps(dataProp = "", cells = []) {
-        console.clear();
+    logProps(cells = [], dataProp = "") {
+        this.baseLog();
+
         cells.forEach(element => {
             console.log(dataProp, " >> " , element.data[dataProp]);
         });
+    }
+
+    getFilterTypeData(dataProp) {
+        return FILTERS[dataProp.toUpperCase()]
     }
 
     filterData(dataProp = "", isAlphabetical = false) {
@@ -102,24 +133,32 @@ class GameMenuFilters extends React.Component {
             return 0;
         });
 
-        this.logProps(dataProp, cells);
-        this.updadeGamePage(gamePage, cells);
+        this.logProps(cells, dataProp);
+
+        this.baseFilter(gamePage, cells, this.getFilterTypeData(dataProp));
     }
 
     //GameResetFilter.js
     resetFilter() {
         let gamePage = this.gamesPageRef;
         let cells = gamePage.getCells();
+
+        this.baseLog();
+
         cells.sort((a, b) => {return a.index - b.index;});
-        this.updadeGamePage(gamePage, cells);
+    
+        this.baseFilter(gamePage, cells, FILTERS.DEFAULT);
     }
 
     //GameReverseFilter.js
     revertFilter() {
+        this.baseLog();
+
         let gamePage = this.gamesPageRef;
         let cells = gamePage.getCells();
         cells.reverse();
-        this.updadeGamePage(gamePage, cells);
+
+        this.baseFilter(gamePage, cells, FILTERS.REVERT);
     }
 
     render() {

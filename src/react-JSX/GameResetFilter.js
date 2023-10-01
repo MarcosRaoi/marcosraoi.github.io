@@ -3,7 +3,7 @@ import { getDataLenght } from "../getJson.js";
 class GameResetFilter extends React.Component {
 
     getTotalGames() {
-        console.log("There are", getDataLenght(), "games in this Portfolio!")
+        console.log("There are", getDataLenght(), "games in this Portfolio!");
         return "(" + getDataLenght() + ") ";
     }
 

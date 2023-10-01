@@ -1,6 +1,10 @@
+v.1.30.0 - Add the title of the game cells
+Add the title of the game cells to my portfolio showing the last information selected by the filters. I still plan to add a button to turn the information on and off to appear on top of the game cells.
+
+=====
 v.1.29.0 - Add Defold Raoi minigames
 Add the game Defold Raoi 15-Puzzle to my portfolio, it was a project to study the Lua language, and I got excited once I had heard about the Defold game engine in the studio where I work
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/3b66dc552d7b17de84b36b15cf53397767965a74
 =====
 v.1.28.2 - Create submodule pokedex
 Second test with pokedex cloned repo (https://github.com/MarcosRaoi/pokedex), now submodule

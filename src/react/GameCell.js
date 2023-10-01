@@ -9,6 +9,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 import { getDataLenght } from "../getJson.js";
 import GameInfo from "./GameInfo.js";
 import GameLinkedBanner from "./GameLinkedBanner.js";
+import GameCellTitle from "./GameCellTitle.js";
 
 var LAST_CELL_CLASS_NAME = "celula_de_jogo_ultima";
 var NORMAL_CELL_CLASS_NAME = "celula_de_jogo";
@@ -20,7 +21,11 @@ var GameCell = function (_React$Component) {
     function GameCell(props) {
         _classCallCheck(this, GameCell);
 
-        return _possibleConstructorReturn(this, (GameCell.__proto__ || Object.getPrototypeOf(GameCell)).call(this, props));
+        var _this = _possibleConstructorReturn(this, (GameCell.__proto__ || Object.getPrototypeOf(GameCell)).call(this, props));
+
+        _this.cellObj = {};
+        _this.lastAcceptFilter = 0;
+        return _this;
     }
 
     _createClass(GameCell, [{
@@ -32,6 +37,32 @@ var GameCell = function (_React$Component) {
             return cellIndexPosition == getDataLenght() - 1 ? LAST_CELL_CLASS_NAME : NORMAL_CELL_CLASS_NAME;
         }
     }, {
+        key: "getGameCellTitle",
+        value: function getGameCellTitle() {
+            var lastFilter = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+
+            if (lastFilter < 0) {
+                return this.getGameCellTitle(this.lastAcceptFilter);
+            }
+
+            this.lastAcceptFilter = lastFilter;
+
+            switch (this.lastAcceptFilter) {
+                case 1:
+                    return this.cellObj.data.release;
+                case 2:
+                    return this.cellObj.name;
+                case 3:
+                    return this.cellObj.data.language;
+                case 4:
+                    return this.cellObj.data.technology;
+                case 5:
+                    return this.cellObj.data.platform;
+                default:
+                    return this.cellObj.name;
+            }
+        }
+    }, {
         key: "positionCell",
         value: function positionCell(positionClass, cellData) {
             var cellInfo = cellData.info;
@@ -39,6 +70,11 @@ var GameCell = function (_React$Component) {
             return React.createElement(
                 "div",
                 { "class": positionClass },
+                React.createElement(
+                    GameCellTitle,
+                    null,
+                    this.getGameCellTitle(this.props.lastFilter)
+                ),
                 React.createElement(GameLinkedBanner, { bannerData: { cellData: cellData } }),
                 React.createElement(
                     GameInfo,
@@ -52,6 +88,7 @@ var GameCell = function (_React$Component) {
         value: function render() {
             var cellIndex = this.props.children;
             var className = this.getClassName(cellIndex, this.props.cell);
+            this.cellObj = this.props.cell;
 
             return this.positionCell(className, this.props.cell.data);
         }
