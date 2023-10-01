@@ -1,6 +1,10 @@
+v.1.30.1 - Minor adjust to About me page, and removed css unused
+Atualizei que agora estou pleno, deixei game developer ao invés de game designer, todo game designer é um game developer, agora nem todo game developer é necessariamente um game designer porém depende rs. E enfim, adicionei o link do último commit tbm. O game filtro info, que não vai ser um filtro, ainda vou modificar. / implementar.
+
+=====
 v.1.30.0 - Add the title of the game cells
 Add the title of the game cells to my portfolio showing the last information selected by the filters. I still plan to add a button to turn the information on and off to appear on top of the game cells.
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/73300bec07ca896b7a449c74534e0138a0a11ccb
 =====
 v.1.29.0 - Add Defold Raoi minigames
 Add the game Defold Raoi 15-Puzzle to my portfolio, it was a project to study the Lua language, and I got excited once I had heard about the Defold game engine in the studio where I work

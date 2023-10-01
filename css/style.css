@@ -254,12 +254,6 @@ body
     right: 10px;
 }
 
-.info_filter
-{
-    position: absolute;
-    right: 40px;
-}
-
 /***** MOBILE *****/
 
 @media screen and (max-width: 768px)
