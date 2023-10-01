@@ -493,7 +493,7 @@
     {
         "name": "Defold Raoi 15-Puzzle",
         "data": {
-            "key": "DR15P",
+            "key": "dr15p",
             "info": "DR15P, ou Defold Raoi 15-Puzzle rs, é o clássico 15-Puzzle, feito na Defold, uma game engine free, usando a linguagem 🇧🇷 &#127770; Lua.",
             "link": "jogos/Defold_Raoi_15_Puzzle",
             "platform": "PC / Web",
