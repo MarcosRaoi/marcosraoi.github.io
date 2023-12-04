@@ -1,10 +1,14 @@
+v.1.31.0 - Add Myfiga UE5 and Breno Keys hidden false
+Adicionado Myfiga UE5 ao portfolio, meu primeiro jogo na Unreal Engine 5, seguindo um tutorial e criando minhas próprias mecânicas, como plataforma que cai sozinha depois de um tempo e os alvos que se movem. Este tutorial em questão: https://www.youtube.com/watch?v=1XjgLKrb4_M - Também subi no itch.io: https://marcosraoi.itch.io/myfirstgame-ue5 - Também coloquei a visibilidade do Breno Keys game pra true. 
+
+=====
 v.1.30.2 - Update game_cells.json fix key dr15p
 Fixed key img/banner Defold Raoi 15-Puzzle minigame
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/de9d6e551fda99f19645d18e7888db9df198da8a
 =====
 v.1.30.1 - Minor adjust to About me page, and removed css unused
 Atualizei que agora estou pleno, deixei game developer ao invés de game designer, todo game designer é um game developer, agora nem todo game developer é necessariamente um game designer porém depende rs. E enfim, adicionei o link do último commit tbm. O game filtro info, que não vai ser um filtro, ainda vou modificar. / implementar.
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/ba0c33b31bdddf534ef6d4d5fe07f7e64433af17
 =====
 v.1.30.0 - Add the title of the game cells
 Add the title of the game cells to my portfolio showing the last information selected by the filters. I still plan to add a button to turn the information on and off to appear on top of the game cells.
