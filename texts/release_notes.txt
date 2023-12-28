@@ -1,5 +1,6 @@
-v.1.31.0-1 - Added GameMaker game
-"Spoilers eiiin rsrs"
+v.1.31.1-0 - RSrsrsrs ai ai strings :3 
+Pra não criar uma regra de \", na vdd, é que você tá fazendo milagre també, pq tu le o info como html, mas no programa godot você trata string / json, enfim, mas de boa, por enquanto deixa assim, se você quiser melhorar depois <3
+
 =====
 v.1.31.0-0 - Aplica v.{major}.{minor}.{patch}-{games} e link
 Também agora quando não mudar nada no portfolio, e ser adicionado apenas jogos novos (então adicionar um banner, atualizar o game_cells.json), muda se a version após o patch
@@ -7,6 +8,7 @@ Também agora quando não mudar nada no portfolio, e ser adicionado apenas jogos
 v.{major}.{minor}.{patch}-{games}
 
 Além de abrir corretamente o jogo da Unreal no itch.io numa aba nova.
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/fd2af446ef89298fcc32f38cf9a209340d3608f5
 =====
 v.1.31.0 - Add Myfiga UE5 and Breno Keys hidden false
 Adicionado Myfiga UE5 ao portfolio, meu primeiro jogo na Unreal Engine 5, seguindo um tutorial e criando minhas próprias mecânicas, como plataforma que cai sozinha depois de um tempo e os alvos que se movem. Este tutorial em questão: https://www.youtube.com/watch?v=1XjgLKrb4_M - Também subi no itch.io: https://marcosraoi.itch.io/myfirstgame-ue5 - Também coloquei a visibilidade do Breno Keys game pra true. 
