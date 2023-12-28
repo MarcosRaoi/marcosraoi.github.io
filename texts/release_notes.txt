@@ -1,6 +1,16 @@
+v.1.31.0-1 - Added GameMaker game
+"Spoilers eiiin rsrs"
+=====
+v.1.31.0-0 - Aplica v.{major}.{minor}.{patch}-{games} e link
+Também agora quando não mudar nada no portfolio, e ser adicionado apenas jogos novos (então adicionar um banner, atualizar o game_cells.json), muda se a version após o patch
+
+v.{major}.{minor}.{patch}-{games}
+
+Além de abrir corretamente o jogo da Unreal no itch.io numa aba nova.
+=====
 v.1.31.0 - Add Myfiga UE5 and Breno Keys hidden false
 Adicionado Myfiga UE5 ao portfolio, meu primeiro jogo na Unreal Engine 5, seguindo um tutorial e criando minhas próprias mecânicas, como plataforma que cai sozinha depois de um tempo e os alvos que se movem. Este tutorial em questão: https://www.youtube.com/watch?v=1XjgLKrb4_M - Também subi no itch.io: https://marcosraoi.itch.io/myfirstgame-ue5 - Também coloquei a visibilidade do Breno Keys game pra true. 
-
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/c7a71b2b4e20f1da8eb18d0481877ddb0b283db9
 =====
 v.1.30.2 - Update game_cells.json fix key dr15p
 Fixed key img/banner Defold Raoi 15-Puzzle minigame

@@ -506,8 +506,9 @@
         "name": "Myfiga UE5",
         "data": {
             "key": "myfigaue5",
-            "info": "Myfiga UE5 é o MyFirstGame Unreal Engine 5, com um tutorial de Chaos Physics e criei minhas próprias mecânicas usando Blueprint.",
+            "info": "Myfiga UE5 é o MyFirstGame Unreal Engine 5, usei um tutorial de Chaos Physics e criei minhas próprias mecânicas usando Blueprint.",
             "link": "https://marcosraoi.itch.io/myfirstgame-ue5",
+            "target": "_blank",
             "platform": "PC",
             "language": "C++/Blueprint",
             "release": "2023/12/03",
