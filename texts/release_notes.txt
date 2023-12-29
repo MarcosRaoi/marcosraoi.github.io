@@ -1,3 +1,7 @@
+v_1.32.0-0 - ADICIONA O GODOT GAME CELLS EDITOR! :D
+aEEEEEE, Aeeee!!! Programinha que eu fiz em Godot para me ajudar a editar as GameCells <3
+
+=====
 v_1.31.2-0 - Update game_cells.json
 Legal que esse já foi criado pelo: https://github.com/MarcosRaoi/GameCells :D, ele tem valor default pra "target", então como eu não alterei nada ainda no programinha Godot que eu estou criando, só estou testando ele gerar denovo, adicionou target vazio pra todo mundo, já testei, o React não encrenca com isso / o portfolio, já que ele vê se tem valor na str_target, enfim :D Bacana, agora vou criar as funções de Drag and Drop e adicionar jogos no meu programa Godot, e tá feito! :D
 
