@@ -1,7 +1,7 @@
 =====
 v_1.32.0-2 - Reoordena os jogos
 Vou parar com isso de colocar os jogos de estudo de game engine mais pra cima no portfolio, vou por eles lá no final rs.
- 
+ https://github.com/MarcosRaoi/marcosraoi.github.io/commit/2376c0961e431f47a05a9c91a7122b7df506653f
 =====
 v_1.32.0-1 - Adiciona o Save the poor princess
 Jogo feito no GameMaker Studio 2, a verdade é mais um prototipo, porque não gostei muito da engine, e queria acabar o mais rápido possível. Faltou a mecânica diferente de coletar pedra: Com um clique no momento certo com uma barra em movimento, e a mecânica de coletar tecido: sacudindo o ponteiro do mouse em cima do tecido, com a espada. Faltou toda HUD de ferramentas coletadas e à usar, enfim... Mas se fosse pra eu me estender mais nos assets e no projeto, seria melhor usar a Godot, de boa.
