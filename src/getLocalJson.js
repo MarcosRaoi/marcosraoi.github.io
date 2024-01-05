@@ -1,3 +1,4 @@
+// "LOCAL"
 // import localJsonGameData from "../json/game_cells.json" assert { type: "json" };
 // //import("../json/game_cells.json", {assert: {type: "json"} });
 
@@ -6,6 +7,9 @@
 //     return localJsonGameData;
 // }
 
+// ============================================================================== //
+
+// "PROD"
 export function localGameData() {
     return false
 }
