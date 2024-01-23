@@ -1,3 +1,5 @@
+v_1.32.0-3 - Adiciona a Multibingo no portfolio
+
 =====
 v_1.32.0-2 - Reoordena os jogos
 Vou parar com isso de colocar os jogos de estudo de game engine mais pra cima no portfolio, vou por eles lá no final rs.
