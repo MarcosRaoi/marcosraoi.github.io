@@ -1,7 +1,7 @@
 import Footer from "./react/Footer.js";
 import MenuNavigation from "./react/MenuNavigation.js";
 
-const PORTFOLIO_VERSION = "1.32.0-3";
+const PORTFOLIO_VERSION = "v_1.32.0-4";
 const ID_MENU_NAVIGATION = "topper";
 const ID_FOOTER = "bottom";
 

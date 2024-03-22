@@ -6,7 +6,7 @@ class Footer extends React.Component {
     render() {
         return (
             <div>
-                ϟ Blue Lightning - by Marcos "Raoi" Cavalcante - v_{this.props.PORTFOLIO_VERSION}
+                ϟ Blue Lightning - by Marcos "Raoi" Cavalcante - {this.props.PORTFOLIO_VERSION}
             </div>
         )
     }

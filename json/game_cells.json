@@ -11,7 +11,7 @@
             "release": "2016/07/05",
             "technology": "Unity WebGL"
         },
-        "index": 2
+        "index": 3
     },
     {
         "name": "Aleatorium",
@@ -25,7 +25,7 @@
             "release": "2019/04/25",
             "technology": "Javascript / CSS, DOM"
         },
-        "index": 4
+        "index": 5
     },
     {
         "name": "Tolgar Runner",
@@ -39,7 +39,7 @@
             "release": "2019/11/17",
             "technology": "GDevelop 5"
         },
-        "index": 9
+        "index": 10
     },
     {
         "name": "P-shot, vem rir no zap",
@@ -53,7 +53,7 @@
             "release": "2020/01/06",
             "technology": "GDevelop 5"
         },
-        "index": 16
+        "index": 17
     },
     {
         "name": "Blue Lightning Ultimate Forca",
@@ -67,7 +67,7 @@
             "release": "2019/04/15",
             "technology": "jQuery"
         },
-        "index": 13
+        "index": 14
     },
     {
         "name": "Blue Lightning Snake",
@@ -81,7 +81,7 @@
             "release": "2019/04/28",
             "technology": "Canvas JS"
         },
-        "index": 14
+        "index": 15
     },
     {
         "name": "Kuroneko Out! - Whac-A-Mole canvas",
@@ -95,7 +95,7 @@
             "release": "2019/05/13",
             "technology": "Canvas JS"
         },
-        "index": 17
+        "index": 18
     },
     {
         "name": "Projeto Monster",
@@ -109,7 +109,7 @@
             "release": "2019/05/24",
             "technology": "Canvas JS"
         },
-        "index": 27
+        "index": 28
     },
     {
         "name": "Your Creature: Gamebook Version",
@@ -123,7 +123,7 @@
             "release": "2019/09/13",
             "technology": "Microsoft Word (rs HTML/CSS)"
         },
-        "index": 19
+        "index": 20
     },
     {
         "name": "Kuroneko Out! - Phaser version",
@@ -137,7 +137,7 @@
             "release": "2020/09/23",
             "technology": "Phaser 2"
         },
-        "index": 18
+        "index": 19
     },
     {
         "name": "Protect Arthur!",
@@ -151,7 +151,7 @@
             "release": "2020/06/11",
             "technology": "Unity"
         },
-        "index": 3
+        "index": 4
     },
     {
         "name": "Roma Bingo",
@@ -165,7 +165,7 @@
             "release": "2020/12/09",
             "technology": "Phaser 2"
         },
-        "index": 6
+        "index": 7
     },
     {
         "name": "Perninha Hero in Adventure!",
@@ -179,7 +179,7 @@
             "release": "2016/05/22",
             "technology": "Construct 2"
         },
-        "index": 8
+        "index": 9
     },
     {
         "name": "GoDodger! VaiPonto!",
@@ -189,11 +189,11 @@
             "link": "jogos/GoDodger",
             "target": "",
             "platform": "PC / Web",
-            "language": "Gdscript",
+            "language": "GDScript",
             "release": "2021/09/19",
             "technology": "Godot Engine"
         },
-        "index": 5
+        "index": 6
     },
     {
         "name": "Where is My Coxinha?",
@@ -207,7 +207,7 @@
             "release": "2016/11/18",
             "technology": "Unity WebGL"
         },
-        "index": 15
+        "index": 16
     },
     {
         "name": "RollABola",
@@ -221,7 +221,7 @@
             "release": "2020/05/20",
             "technology": "Unity WebGL"
         },
-        "index": 29
+        "index": 30
     },
     {
         "name": "Pong For Love",
@@ -235,7 +235,7 @@
             "release": "2020/05/10",
             "technology": "Unity WebGL"
         },
-        "index": 33
+        "index": 34
     },
     {
         "name": "Mega Homem",
@@ -249,7 +249,7 @@
             "release": "2020/05/21",
             "technology": "Unity WebGL"
         },
-        "index": 20
+        "index": 21
     },
     {
         "name": "Economiquiz",
@@ -263,7 +263,7 @@
             "release": "2020/05/27",
             "technology": "Unity WebGL"
         },
-        "index": 11
+        "index": 12
     },
     {
         "name": "Waka Waka Racing",
@@ -277,7 +277,7 @@
             "release": "2019/12/09",
             "technology": "Unity WebGL"
         },
-        "index": 12
+        "index": 13
     },
     {
         "name": "Nudle Mini Games",
@@ -291,7 +291,7 @@
             "release": "2020/07/09",
             "technology": "Unity"
         },
-        "index": 28
+        "index": 29
     },
     {
         "name": "Labyrhythm",
@@ -305,7 +305,7 @@
             "release": "2020/09/22",
             "technology": "Unity"
         },
-        "index": 31
+        "index": 32
     },
     {
         "name": "PongMO",
@@ -319,7 +319,7 @@
             "release": "2020/08/24",
             "technology": "Unity WebGL"
         },
-        "index": 35
+        "index": 36
     },
     {
         "name": "Breno Chaves: the game",
@@ -333,7 +333,7 @@
             "release": "2020/08/19",
             "technology": "Unity"
         },
-        "index": 40
+        "index": 41
     },
     {
         "name": "Aula 8 - Animação Digital II - Customizar",
@@ -347,7 +347,7 @@
             "release": "2020/10/04",
             "technology": "Unity WebGL"
         },
-        "index": 30
+        "index": 31
     },
     {
         "name": "Zen Tic-Tac-Toe",
@@ -361,7 +361,7 @@
             "release": "2020/10/13",
             "technology": "Unity WebGL"
         },
-        "index": 7
+        "index": 8
     },
     {
         "name": "MMOFPS",
@@ -375,7 +375,7 @@
             "release": "2020/07/29",
             "technology": "Unity WebGL"
         },
-        "index": 34
+        "index": 35
     },
     {
         "name": "JumpGame",
@@ -389,7 +389,7 @@
             "release": "2020/10/29",
             "technology": "Unity"
         },
-        "index": 25
+        "index": 26
     },
     {
         "name": "Witchy",
@@ -403,7 +403,7 @@
             "release": "2020/11/03",
             "technology": "Unity WebGL"
         },
-        "index": 36
+        "index": 37
     },
     {
         "name": "Blue Lightning Breakout",
@@ -417,7 +417,7 @@
             "release": "2019/10/22",
             "technology": "Unity WebGL"
         },
-        "index": 26
+        "index": 27
     },
     {
         "name": "Ana's Frog",
@@ -431,7 +431,7 @@
             "release": "2022/01/23",
             "technology": "Unity WebGL"
         },
-        "index": 10
+        "index": 11
     },
     {
         "name": "SimPlat",
@@ -445,7 +445,7 @@
             "release": "2019/11/10",
             "technology": "Unity WebGL"
         },
-        "index": 32
+        "index": 33
     },
     {
         "name": "Mega Man 2 - Willy Stage 6",
@@ -459,7 +459,7 @@
             "release": "2019/09/09",
             "technology": "GDevelop 5"
         },
-        "index": 21
+        "index": 22
     },
     {
         "name": "Fireman vs Zombies",
@@ -473,7 +473,7 @@
             "release": "2019/11/07",
             "technology": "GDevelop 5"
         },
-        "index": 22
+        "index": 23
     },
     {
         "name": "Blue Lightning Race Bet",
@@ -487,7 +487,7 @@
             "release": "2019/03/28",
             "technology": "Javascript / CSS, DOM"
         },
-        "index": 24
+        "index": 25
     },
     {
         "name": "Flappy Pássaro",
@@ -501,7 +501,7 @@
             "release": "2019/06/06",
             "technology": "Canvas JS"
         },
-        "index": 23
+        "index": 24
     },
     {
         "name": "Your Creature Rancher",
@@ -515,7 +515,7 @@
             "release": "2020/11/02",
             "technology": "Unity WebGL"
         },
-        "index": 1
+        "index": 2
     },
     {
         "name": "Defold Raoi 15-Puzzle",
@@ -529,7 +529,7 @@
             "release": "2023/09/30",
             "technology": "Defold"
         },
-        "index": 39
+        "index": 40
     },
     {
         "name": "Myfiga UE5",
@@ -543,7 +543,7 @@
             "release": "2023/12/03",
             "technology": "Unreal Engine 5"
         },
-        "index": 37
+        "index": 38
     },
     {
         "name": "Save the poor princess",
@@ -557,18 +557,32 @@
             "release": "2024/01/05",
             "technology": "GameMaker Studio 2"
         },
-        "index": 38
+        "index": 39
     },
     {
         "name": "Multibingo",
         "data": {
             "key": "multibingo",
-            "info": "Desenvolvi um framework de Bingo desse e de outros jogos, utilizando a Godot. Junto com a Roma, teve milhões de jogadores.",
+            "info": "Um framework de Bingo desse e outros jogos, com a Godot, no estúdio que trabalhei. Junto com a Roma, teve milhões de jogadores.",
             "link": "https://pixcartela.com/",
             "target": "_blank",
             "platform": "PC / Web",
-            "language": "gdscript",
+            "language": "GDScript",
             "release": "2023/11/01",
+            "technology": "Godot Engine"
+        },
+        "index": 1
+    },
+    {
+        "name": "Qwepoi",
+        "data": {
+            "key": "qwepoi",
+            "info": "Qwepoi é meu primeiro jogo comercial lançado na loja da Steam em 29/03/2024! Desenvolvido com a Godot Engine. Experimente-o!",
+            "link": "https://store.steampowered.com/app/2885990/Qwepoi/",
+            "target": "_blank",
+            "platform": "PC",
+            "language": "GDScript",
+            "release": "2024/03/29",
             "technology": "Godot Engine"
         },
         "index": 0

@@ -1,5 +1,8 @@
-v_1.32.0-3 - Adiciona a Multibingo no portfolio
+v_1.32.0-4 - Adiciona Qwepoi! 1º jogo comercial
 
+=====
+v_1.32.0-3 - Adiciona a Multibingo no portfolio
+https://github.com/MarcosRaoi/marcosraoi.github.io/commit/352d59ebe9781465037d912ad5704725f08f8609
 =====
 v_1.32.0-2 - Reoordena os jogos
 Vou parar com isso de colocar os jogos de estudo de game engine mais pra cima no portfolio, vou por eles lá no final rs.

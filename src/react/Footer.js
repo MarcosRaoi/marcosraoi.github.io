@@ -21,7 +21,7 @@ var Footer = function (_React$Component) {
             return React.createElement(
                 "div",
                 null,
-                "\u03DF Blue Lightning - by Marcos \"Raoi\" Cavalcante - v_",
+                "\u03DF Blue Lightning - by Marcos \"Raoi\" Cavalcante - ",
                 this.props.PORTFOLIO_VERSION
             );
         }
